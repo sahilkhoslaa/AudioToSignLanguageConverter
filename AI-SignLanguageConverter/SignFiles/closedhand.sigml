@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="closed hand">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamthumboutmod/>
+		<hamthumb/>
+		<hamfingerhookmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamchest/>
+		<hamclose/>
+		<hammoveo/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,18 @@
+<sigml>
+<hns_sign gloss="six">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamthumboutmod/>
+		<hamthumb/>
+		<hamfingerhookmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamchest/>
+		<hamclose/>
+		<hammoveo/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

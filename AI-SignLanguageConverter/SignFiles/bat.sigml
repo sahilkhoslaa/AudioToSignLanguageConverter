@@ -1,0 +1,30 @@
+<sigml>
+<hns_sign gloss="bat">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamparbegin/>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamplus/>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hamplus/>
+		<hamextfingerdr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmu/>
+		<hamplus/>
+		<hampalmd/>
+		<hamparend/>
+		<hamclose/>
+		<hamchest/>
+		<hammovedl/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

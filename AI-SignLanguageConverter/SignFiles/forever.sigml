@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="forever">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingerul/>
+		<hampalmdl/>
+		<hamchest/>
+		<hamclose/>
+		<hamcirclel/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

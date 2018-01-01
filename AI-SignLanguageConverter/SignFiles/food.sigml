@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="food">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinchall/>
+		<hamfingerstraightmod/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamchin/>
+		<hamclose/>
+		<hammovei/>
+		<hamsmallmod/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

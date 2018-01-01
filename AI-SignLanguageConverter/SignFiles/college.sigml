@@ -1,0 +1,14 @@
+<sigml>
+<hns_sign gloss="college">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamcee12/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamcheek/>
+		<hamlrbeside/>
+		<hamnodding/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

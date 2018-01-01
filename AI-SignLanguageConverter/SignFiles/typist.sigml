@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="typist">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamfingerstraightmod/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamchest/>
+		<hamclose/>
+		<hamnodding/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

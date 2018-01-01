@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="video">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamfinger23spread/>
+		<hamthumbacrossmod/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamstomach/>
+		<hamclose/>
+		<hamcircleu/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>
