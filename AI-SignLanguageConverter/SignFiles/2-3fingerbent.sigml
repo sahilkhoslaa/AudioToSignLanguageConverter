@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="2-3 finger bent">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2345/>
+		<hamthumbacrossmod/>
+		<hamindexfinger/>
+		<hamfingerbendmod/>
+		<hammiddlefinger/>
+		<hamfingerbendmod/>
+		<hamringfinger/>
+		<hamdoublebent/>
+		<hampinky/>
+		<hamdoublebent/>
+		<hamextfingeru/>
+		<hampalmdl/>
+		<hamstomach/>
+		<hamclose/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

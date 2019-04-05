@@ -1,0 +1,35 @@
+<sigml>
+<hns_sign gloss="crash">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2345/>
+		<hamfingerbendmod/>
+		<hamthumboutmod/>
+		<hamparbegin/>
+		<hamextfingerl/>
+		<hampalmd/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamfingernail/>
+		<hamindexfinger/>
+		<hammiddlefinger/>
+		<hamringfinger/>
+		<hampinky/>
+		<hamplus/>
+		<hamfingernail/>
+		<hamindexfinger/>
+		<hammiddlefinger/>
+		<hamringfinger/>
+		<hampinky/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hamclose/>
+		<hammoved/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

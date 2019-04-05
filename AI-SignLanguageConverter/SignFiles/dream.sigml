@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="dream">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamindexfinger/>
+		<hamfingerbendmod/>
+		<hamextfingerl/>
+		<hampalmdr/>
+		<hamear/>
+		<hamlrbeside/>
+		<hamtouch/>
+		<hamfingerplay/>
+		<hammover/>
+		<hamfingerplay/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

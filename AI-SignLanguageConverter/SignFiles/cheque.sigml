@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="cheque">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2/>
+		<hamthumboutmod/>
+		<hamfingerbendmod/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamparbegin/>
+		<hamthumbside/>
+		<hamplus/>
+		<hamthumbside/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hammover/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

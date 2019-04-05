@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="roof">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamfingerhookmod/>
+		<hamextfingerul/>
+		<hampalmdl/>
+		<hammovel/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

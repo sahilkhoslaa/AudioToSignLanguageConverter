@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="phone you">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumboutmod/>
+		<hampinky/>
+		<hamextfingerl/>
+		<hampalmdl/>
+		<hamear/>
+		<hamlrat/>
+		<hammovedo/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamextfingerol/>
+		<hampalmul/>
+		<hamchest/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

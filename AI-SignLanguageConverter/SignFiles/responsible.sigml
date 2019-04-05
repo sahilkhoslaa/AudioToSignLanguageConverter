@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="responsible">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamfingerbendmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamfingerhookmod/>
+		<hamparend/>
+		<hamextfingerui/>
+		<hampalmd/>
+		<hamshouldertop/>
+		<hamtouch/>
+		<hammoveui/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,18 @@
+<sigml>
+<hns_sign gloss="kanpur">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinch12/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamearlobe/>
+		<hamtouch/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingerur/>
+		<hampalmu/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

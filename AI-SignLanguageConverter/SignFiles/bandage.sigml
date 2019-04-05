@@ -1,0 +1,32 @@
+<sigml>
+<hns_sign gloss="bandage">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerl/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamwristback/>
+		<hamplus/>
+		<hampalm/>
+		<hamparend/>
+		<hamcircleo/>
+		<hamchest/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,18 @@
+<sigml>
+<hns_sign gloss="wrestling">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamfingerbendmod/>
+		<hamextfingeruo/>
+		<hampalmd/>
+		<hamshoulders/>
+		<hamlrat/>
+		<hammovel/>
+		<hamfast/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

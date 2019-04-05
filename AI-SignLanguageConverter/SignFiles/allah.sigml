@@ -1,0 +1,25 @@
+<sigml>
+<hns_sign gloss="allah">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalmdl/>
+		<hamearlobe/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampalmu/>
+		<hamparbegin/>
+		<hampinkyside/>
+		<hamplus/>
+		<hampinkyside/>
+		<hamparend/>
+		<hamtouch/>
+		<hamshoulders/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

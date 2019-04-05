@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="fill-in">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23spread/>
+		<hamfingerbendmod/>
+		<hamextfingeru/>
+		<hampalmdl/>
+		<hamshoulders/>
+		<hamclose/>
+		<hammoved/>
+		<hamsmallmod/>
+		<hamrepeatcontinueseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

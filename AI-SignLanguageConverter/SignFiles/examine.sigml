@@ -1,0 +1,26 @@
+<sigml>
+<hns_sign gloss="examine">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfist/>
+		<hamthumboutmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamchest/>
+		<hamclose/>
+		<hammoveu/>
+		<hamrepeatfromstart/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalmul/>
+		<hammoveo/>
+		<hamrepeatfromstart/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

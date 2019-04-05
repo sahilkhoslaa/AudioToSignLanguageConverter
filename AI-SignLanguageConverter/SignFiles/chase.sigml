@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="chase">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamfinger2/>
+		<hamextfingerl/>
+		<hampalmdl/>
+		<hamstomach/>
+		<hamclose/>
+		<hammoveol/>
+		<hamwavy/>
+		<hamlargemod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

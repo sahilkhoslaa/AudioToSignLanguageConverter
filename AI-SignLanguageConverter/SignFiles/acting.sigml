@@ -1,0 +1,20 @@
+<sigml>
+<hns_sign gloss="acting">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamshoulders/>
+		<hamparbegin/>
+		<hamcirclei/>
+		<hamplus/>
+		<hamcircleo/>
+		<hamparend/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,41 @@
+<sigml>
+<hns_sign gloss="kerala">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamfinger2/>
+		<hamfingerhookmod/>
+		<hamplus/>
+		<hamfinger2/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerl/>
+		<hamplus/>
+		<hamextfingeru/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmu/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamindexfinger/>
+		<hamfingermidjoint/>
+		<hamplus/>
+		<hamindexfinger/>
+		<hamfingermidjoint/>
+		<hamparend/>
+		<hamtouch/>
+		<hamshouldertop/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

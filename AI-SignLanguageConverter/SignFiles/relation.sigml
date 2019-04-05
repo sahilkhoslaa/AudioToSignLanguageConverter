@@ -1,0 +1,26 @@
+<sigml>
+<hns_sign gloss="relation">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hampinchopen/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamorirelative/>
+		<hamplus/>
+		<hampinchopen/>
+		<hamextfingeror/>
+		<hampalmr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamfingerpad/>
+		<hamthumb/>
+		<hamplus/>
+		<hamfingerpad/>
+		<hamthumb/>
+		<hamparend/>
+		<hamtouch/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

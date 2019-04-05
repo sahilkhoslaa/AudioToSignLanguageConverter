@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="mistake">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamunderchin/>
+		<hammoveo/>
+		<hamsmallmod/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

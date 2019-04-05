@@ -1,0 +1,25 @@
+<sigml>
+<hns_sign gloss="wheat">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingero/>
+		<hampalml/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hampalm/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hamclose/>
+		<hamreplace/>
+		<hampalmr/>
+		<hamreplace/>
+		<hampalml/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

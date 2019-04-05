@@ -1,0 +1,26 @@
+<sigml>
+<hns_sign gloss="heart beat">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamextfingeri/>
+		<hampalmr/>
+		<hamlrat/>
+		<hamchest/>
+		<hamreplace/>
+		<hampinch12/>
+		<hamfingerstraightmod/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamreplace/>
+		<hampinchopen/>
+		<hamreplace/>
+		<hampinch12/>
+		<hamfingerstraightmod/>
+		<hamreplace/>
+		<hampinchopen/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

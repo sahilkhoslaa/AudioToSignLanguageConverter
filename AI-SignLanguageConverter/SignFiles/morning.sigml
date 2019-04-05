@@ -1,0 +1,28 @@
+<sigml>
+
+	<hns_sign gloss="morning">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="mO:nIN"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamflathand/>
+			<hambetween/>
+			<hamflathand/>
+			<hamfingerbendmod/>
+			<hamextfingerl/>
+			<hambetween/>
+			<hamextfingeril/>
+			<hampalmr/>
+			<hamlrat/>
+			<hamchest/>
+			<hamseqbegin/>
+			<hamtouch/>
+			<hammiddlefinger/>
+			<hamfingertip/>
+			<hamseqend/>
+			<hammover/>
+			<hamarcr/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

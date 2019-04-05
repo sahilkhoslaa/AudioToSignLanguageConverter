@@ -1,0 +1,14 @@
+<sigml>
+<hns_sign gloss="taste">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamteeth/>
+		<hamtouch/>
+		<hammoved/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

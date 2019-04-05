@@ -1,0 +1,30 @@
+<sigml>
+
+	<hns_sign gloss="do not like">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="O:rfl"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamflathand/>
+			<hambetween/>
+			<hamceeall/>
+			<hamextfingeri/>
+			<hambetween/>
+			<hamextfingeru/>
+			<hampalmd/>
+			<hamchin/>
+			<hambetween/>
+			<hamunderchin/>
+			<hamclose/>
+			<hamparbegin/>
+			<hammovedo/>
+			<hamsmallmod/>
+			<hamreplace/>
+			<hamextfingeru/>
+			<hampalmu/>
+			<hamparend/>
+			<hamrepeatfromstart/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

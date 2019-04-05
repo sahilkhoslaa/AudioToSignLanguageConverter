@@ -1,0 +1,23 @@
+<sigml>
+<hns_sign gloss="bangali">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingerol/>
+		<hampalmu/>
+		<hamstomach/>
+		<hamseqbegin/>
+		<hammoveo/>
+		<hamfast/>
+		<hammovei/>
+		<hamfast/>
+		<hamseqend/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

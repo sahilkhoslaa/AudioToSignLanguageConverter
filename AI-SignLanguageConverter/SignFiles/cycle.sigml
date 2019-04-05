@@ -1,0 +1,18 @@
+<sigml>
+<hns_sign gloss="cycle">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamfist/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamchest/>
+		<hamcircleo/>
+		<hamsmallmod/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

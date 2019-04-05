@@ -1,0 +1,35 @@
+<sigml>
+<hns_sign gloss="note/money">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamfingerstraightmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingeru/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamindexfinger/>
+		<hamfingernail/>
+		<hamplus/>
+		<hamindexfinger/>
+		<hamfingernail/>
+		<hamparend/>
+		<hamclose/>
+		<hamfingerplay/>
+		<hammover/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

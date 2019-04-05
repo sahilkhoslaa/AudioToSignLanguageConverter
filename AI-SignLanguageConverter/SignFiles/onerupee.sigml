@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="one rupee">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamchest/>
+		<hamclose/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamfingerbendmod/>
+		<hamthumboutmod/>
+		<hamextfingero/>
+		<hamfingerplay/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

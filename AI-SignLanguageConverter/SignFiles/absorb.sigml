@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="absorb">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamextfingerir/>
+		<hampalmd/>
+		<hamchest/>
+		<hammoveol/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2345/>
+		<hamfingerbendmod/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamtouch/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

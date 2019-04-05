@@ -1,0 +1,36 @@
+<sigml>
+<hns_sign gloss="note-book">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfinger2/>
+		<hamfingerhookmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerul/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmu/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hamindexfinger/>
+		<hamfingerbase/>
+		<hamparend/>
+		<hamclose/>
+		<hamshoulders/>
+		<hamclose/>
+		<hammoved/>
+		<hamzigzag/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

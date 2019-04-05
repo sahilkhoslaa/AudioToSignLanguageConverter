@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="hungry">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingeri/>
+		<hampalmu/>
+		<hamstomach/>
+		<hammovei/>
+		<hammovei/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

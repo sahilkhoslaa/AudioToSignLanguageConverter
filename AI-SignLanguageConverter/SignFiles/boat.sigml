@@ -1,0 +1,41 @@
+<sigml>
+<hns_sign gloss="boat">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingero/>
+		<hampalmul/>
+		<hamparbegin/>
+		<hampinkyside/>
+		<hamplus/>
+		<hampinkyside/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hammoveu/>
+		<hamsmallmod/>
+		<hammoveu/>
+		<hamsmallmod/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamextfingero/>
+		<hampalmul/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hampalm/>
+		<hamparend/>
+		<hamclose/>
+		<hammovel/>
+		<hamarcd/>
+		<hamlargemod/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

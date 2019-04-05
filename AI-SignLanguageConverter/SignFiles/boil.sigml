@@ -1,0 +1,28 @@
+<sigml>
+<hns_sign gloss="boil">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamextfingero/>
+		<hampalmul/>
+		<hamclose/>
+		<hamseqbegin/>
+		<hammoveuo/>
+		<hamfast/>
+		<hamreplace/>
+		<hampinchall/>
+		<hammoved/>
+		<hamfast/>
+		<hamreplace/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamseqend/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

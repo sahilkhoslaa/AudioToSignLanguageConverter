@@ -1,0 +1,38 @@
+<sigml>
+<hns_sign gloss="karate">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerul/>
+		<hamplus/>
+		<hamextfingerur/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmd/>
+		<hamparend/>
+		<hamclose/>
+		<hamchest/>
+		<hamclose/>
+		<hamseqbegin/>
+		<hammoveo/>
+		<hamarcr/>
+		<hammovei/>
+		<hamarcl/>
+		<hamseqend/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

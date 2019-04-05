@@ -1,0 +1,36 @@
+<sigml>
+<hns_sign gloss="leak">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfinger2/>
+		<hamplus/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerl/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmu/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamindexfinger/>
+		<hamfingernail/>
+		<hamplus/>
+		<hammiddlefinger/>
+		<hamfingermidjoint/>
+		<hamparend/>
+		<hamtouch/>
+		<hamshouldertop/>
+		<hamclose/>
+		<hammoved/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

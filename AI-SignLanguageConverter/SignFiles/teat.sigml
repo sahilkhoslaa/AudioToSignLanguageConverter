@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="teat">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamextfingero/>
+		<hampalml/>
+		<hamshouldertop/>
+		<hammoved/>
+		<hambelowstomach/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamextfingerd/>
+		<hampalmd/>
+		<hamshoulders/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

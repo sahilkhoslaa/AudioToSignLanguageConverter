@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="almirah">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamextfingerol/>
+		<hampalmdr/>
+		<hamchest/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamextfingero/>
+		<hampalmul/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

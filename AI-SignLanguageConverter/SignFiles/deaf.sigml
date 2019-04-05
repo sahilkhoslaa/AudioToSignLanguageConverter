@@ -1,0 +1,14 @@
+<sigml>
+<hns_sign gloss="deaf">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23/>
+		<hamextfingerui/>
+		<hampalmu/>
+		<hamear/>
+		<hamtouch/>
+		<hammoveu/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

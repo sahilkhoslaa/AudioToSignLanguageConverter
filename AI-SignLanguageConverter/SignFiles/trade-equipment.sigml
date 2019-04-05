@@ -1,0 +1,28 @@
+<sigml>
+<hns_sign gloss="trade-equipment">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfinger23spread/>
+		<hamplus/>
+		<hamfinger23spread/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamchest/>
+		<hamclose/>
+		<hammover/>
+		<hamwavy/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

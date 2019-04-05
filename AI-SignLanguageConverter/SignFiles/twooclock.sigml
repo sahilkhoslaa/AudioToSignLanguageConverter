@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="two o clock">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23spread/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamchest/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampalmu/>
+		<hamrepeatfromstart/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

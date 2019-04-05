@@ -1,0 +1,16 @@
+<sigml>
+
+	<hns_sign gloss="few">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="fuw"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hampinchall/>
+			<hamfingerstraightmod/>
+			<hamextfingerl/>
+			<hampalmu/>
+			<hamfingerplay/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

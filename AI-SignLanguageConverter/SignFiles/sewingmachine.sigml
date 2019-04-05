@@ -1,0 +1,24 @@
+<sigml>
+<hns_sign gloss="sewing machine">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamplus/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamparend/>
+		<hamclose/>
+		<hamcirclel/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

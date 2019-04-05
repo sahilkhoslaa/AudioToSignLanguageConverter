@@ -1,0 +1,41 @@
+<sigml>
+<hns_sign gloss="tv">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfinger23spread/>
+		<hamthumbacrossmod/>
+		<hamplus/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamfingerpad/>
+		<hambetween/>
+		<hamfingermidjoint/>
+		<hamindexfinger/>
+		<hamplus/>
+		<hamfingertip/>
+		<hamindexfinger/>
+		<hamparend/>
+		<hamtouch/>
+		<hamreplace/>
+		<hamfinger23spread/>
+		<hamthumbacrossmod/>
+		<hambetween/>
+		<hamfinger23spread/>
+		<hamthumbacrossmod/>
+		<hammiddlefinger/>
+		<hamfingerstraightmod/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,14 @@
+<sigml>
+<hns_sign gloss="cry">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23spread/>
+		<hamextfingerui/>
+		<hampalmd/>
+		<hameyes/>
+		<hammoved/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

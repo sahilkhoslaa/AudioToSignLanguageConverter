@@ -1,0 +1,47 @@
+<sigml>
+
+	<hns_sign gloss="you">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="j@"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfinger2/>
+			<hamthumbacrossmod/>
+			<hamextfingero/>
+			<hambetween/>
+			<hamextfingerol/>
+			<hampalml/>
+			<hambetween/>
+			<hampalmul/>
+			<hamchest/>
+			<hammoveo/>
+			<hamsmallmod/>
+			<hamrest/>
+		</hamnosys_manual>
+	</hns_sign>
+
+	<hns_sign gloss="age">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="ha_UwUld"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfinger2345/>
+			<hamthumboutmod/>
+			<hambetween/>
+			<hamflathand/>
+			<hamextfingeru/>
+			<hampalmu/>
+			<hamnose/>
+			<hamseqbegin/>
+			<hamtouch/>
+			<hammiddlefinger/>
+			<hamseqend/>
+			<hamparbegin/>
+			<hammoveo/>
+			<hamsmallmod/>
+			<hamfingerplay/>
+			<hamparend/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

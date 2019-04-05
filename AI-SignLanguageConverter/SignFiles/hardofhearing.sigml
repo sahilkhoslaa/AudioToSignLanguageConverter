@@ -1,0 +1,23 @@
+<sigml>
+<hns_sign gloss="hard of hearing">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamparbegin/>
+		<hamextfingerol/>
+		<hampalmd/>
+		<hamplus/>
+		<hamextfingeror/>
+		<hampalmu/>
+		<hambetween/>
+		<hampalmur/>
+		<hamparend/>
+		<hamchest/>
+		<hamclose/>
+		<hammoveor/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

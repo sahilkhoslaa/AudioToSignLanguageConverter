@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="vadodara">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamforehead/>
+		<hamlrat/>
+		<hamtouch/>
+		<hamreplace/>
+		<hampalmul/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,29 @@
+<sigml>
+<hns_sign gloss="laboratory">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamfinger2/>
+		<hamthumbopenmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamshoulders/>
+		<hamlrat/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampinch12/>
+		<hamparbegin/>
+		<hamindexfinger/>
+		<hamfingernail/>
+		<hamplus/>
+		<hamindexfinger/>
+		<hamfingernail/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hamclose/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

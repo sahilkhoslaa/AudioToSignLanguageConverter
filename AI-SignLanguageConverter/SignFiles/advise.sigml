@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="advise">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamalternatingmotion/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingerl/>
+		<hampalmul/>
+		<hamchest/>
+		<hammoveu/>
+		<hamwavy/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

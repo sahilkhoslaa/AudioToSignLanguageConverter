@@ -1,0 +1,22 @@
+<sigml>
+
+	<hns_sign gloss="Greece">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="gri:k"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamsymmlr/>
+			<hamflathand/>
+			<hamthumbacrossmod/>
+			<hambetween/>
+			<hampinchall/>
+			<hamextfingeruo/>
+			<hampalmu/>
+			<hamshoulders/>
+			<hamclose/>
+			<hammoved/>
+			<hamrepeatfromstart/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

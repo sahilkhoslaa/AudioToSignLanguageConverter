@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="electricity">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamneck/>
+		<hamlrat/>
+		<hammoved/>
+		<hamzigzag/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

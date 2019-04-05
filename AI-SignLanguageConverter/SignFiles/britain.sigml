@@ -1,0 +1,23 @@
+<sigml>
+
+	<hns_sign gloss="Britain">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="brItV"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamsymmlr/>
+			<hamflathand/>
+			<hamthumboutmod/>
+			<hambetween/>
+			<hamfinger2345/>
+			<hamthumboutmod/>
+			<hamextfingero/>
+			<hampalmd/>
+			<hamchest/>
+			<hamclose/>
+			<hammoveo/>
+			<hamrepeatfromstart/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

@@ -1,0 +1,30 @@
+<sigml>
+<hns_sign gloss="march">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamflathand/>
+		<hamthumbacrossmod/>
+		<hampinky/>
+		<hamfingerhookmod/>
+		<hamextfingerol/>
+		<hampalmd/>
+		<hamstomach/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamcee12/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalmdl/>
+		<hammoveor/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

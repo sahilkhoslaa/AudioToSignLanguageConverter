@@ -1,0 +1,36 @@
+<sigml>
+
+	<hns_sign gloss="how are you">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="@_Uke_I"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamsymmlr/>
+			<hamflathand/>
+			<hambetween/>
+			<hamfinger2345/>
+			<hamthumboutmod/>
+			<hamextfingerul/>
+			<hampalmdl/>
+			<hambetween/>
+			<hampalml/>
+			<hamchest/>
+			<hamlrat/>
+			<hamtouch/>
+			<hamparbegin/>
+			<hammoveo/>
+			<hamreplace/>
+			<hamfist/>
+			<hamthumboutmod/>
+			<hamextfingerol/>
+			<hampalmul/>
+			<hambetween/>
+			<hampalmu/>
+			<hamchest/>
+			<hamlrat/>
+			<hamarmextended/>
+			<hamparend/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

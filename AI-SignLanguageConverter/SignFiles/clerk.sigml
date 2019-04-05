@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="clerk">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamceeall/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamshoulders/>
+		<hamfingerplay/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamcee12/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

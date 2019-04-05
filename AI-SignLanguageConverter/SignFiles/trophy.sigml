@@ -1,0 +1,33 @@
+<sigml>
+<hns_sign gloss="trophy">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamfingerstraightmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamfingerstraightmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerl/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmu/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hampalm/>
+		<hamparend/>
+		<hamclose/>
+		<hammoveo/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

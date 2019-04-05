@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="eyelash">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamfingerstraightmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hameyes/>
+		<hamlrat/>
+		<hamclose/>
+		<hamswinging/>
+		<hamsmallmod/>
+		<hamslow/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

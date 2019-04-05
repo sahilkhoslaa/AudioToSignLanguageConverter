@@ -1,0 +1,21 @@
+<sigml>
+<hns_sign gloss="age">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamextfingerl/>
+		<hambetween/>
+		<hamextfingerol/>
+		<hampalml/>
+		<hambetween/>
+		<hampalmul/>
+		<hamunderchin/>
+		<hamreplace/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamunderchin/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

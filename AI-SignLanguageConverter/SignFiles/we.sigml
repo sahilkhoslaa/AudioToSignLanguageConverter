@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="we">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23spread/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalmur/>
+		<hamshoulders/>
+		<hamlrbeside/>
+		<hamclose/>
+		<hammovel/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

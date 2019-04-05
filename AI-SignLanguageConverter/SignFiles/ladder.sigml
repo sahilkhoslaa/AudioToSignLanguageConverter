@@ -1,0 +1,28 @@
+<sigml>
+<hns_sign gloss="ladder">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingero/>
+		<hampalml/>
+		<hamshoulders/>
+		<hammoved/>
+		<hamstomach/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfist/>
+		<hampalmd/>
+		<hamparend/>
+		<hamseqbegin/>
+		<hammoveuo/>
+		<hamslow/>
+		<hamseqend/>
+		<hamrepeatcontinueseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

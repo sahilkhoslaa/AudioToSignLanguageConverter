@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="thermometer">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamlips/>
+		<hamtouch/>
+		<hammoved/>
+		<hamswinging/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,23 @@
+<sigml>
+
+	<hns_sign gloss="understand">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="a_IVnd@st{nd"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfist/>
+			<hamthumbacrossmod/>
+			<hamextfingeru/>
+			<hampalmu/>
+			<hamforehead/>
+			<hamlrbeside/>
+			<hamparbegin/>
+			<hammoveo/>
+			<hamreplace/>
+			<hamfinger2/>
+			<hamthumbacrossmod/>
+			<hamparend/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

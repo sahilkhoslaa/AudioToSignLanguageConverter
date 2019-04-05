@@ -1,0 +1,32 @@
+<sigml>
+<hns_sign gloss="teacher">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfinger2/>
+		<hamplus/>
+		<hamfist/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamthumbside/>
+		<hamplus/>
+		<hampinkyside/>
+		<hamparend/>
+		<hammoved/>
+		<hamsmallmod/>
+		<hamtouch/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

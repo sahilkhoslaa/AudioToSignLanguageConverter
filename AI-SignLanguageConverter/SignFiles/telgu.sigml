@@ -1,0 +1,29 @@
+<sigml>
+<hns_sign gloss="telgu">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hampinchopen/>
+		<hamplus/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hamplus/>
+		<hamextfingerur/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmd/>
+		<hamparend/>
+		<hamchest/>
+		<hamclose/>
+		<hammover/>
+		<hamzigzag/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

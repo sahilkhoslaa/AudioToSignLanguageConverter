@@ -1,0 +1,30 @@
+<sigml>
+<hns_sign gloss="christmas">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23/>
+		<hamthumbacrossmod/>
+		<hamextfingerul/>
+		<hampalmd/>
+		<hamcheek/>
+		<hamlrat/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2345/>
+		<hamfingerbendmod/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamparend/>
+		<hamnodding/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

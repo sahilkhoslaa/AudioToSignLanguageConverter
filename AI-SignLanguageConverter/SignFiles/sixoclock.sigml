@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="six o clock">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamthumboutmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamchest/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampalmul/>
+		<hamrepeatfromstart/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,33 @@
+<sigml>
+<hns_sign gloss="thermus">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamfingerbendmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamfingerbendmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamthumbside/>
+		<hamplus/>
+		<hammiddlefinger/>
+		<hamfingerpad/>
+		<hamparend/>
+		<hamclose/>
+		<hamstirccw/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

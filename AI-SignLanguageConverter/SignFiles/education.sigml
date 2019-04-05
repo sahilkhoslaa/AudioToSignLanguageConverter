@@ -1,0 +1,20 @@
+<sigml>
+<hns_sign gloss="education">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamceeall/>
+		<hamfingerstraightmod/>
+		<hamextfingerui/>
+		<hampalmd/>
+		<hamhead/>
+		<hamlrat/>
+		<hamtouch/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

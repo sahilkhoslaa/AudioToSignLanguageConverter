@@ -1,0 +1,25 @@
+<sigml>
+
+	<hns_sign gloss="worst">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="w3:t"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamsymmlr/>
+			<hamfist/>
+			<hampinky/>
+			<hamfingerstraightmod/>
+			<hamextfingero/>
+			<hampalmul/>
+			<hamshoulders/>
+			<hamparbegin/>
+			<hamreplace/>
+			<hamextfingero/>
+			<hampalmdl/>
+			<hammoved/>
+			<hamarcl/>
+			<hamparend/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

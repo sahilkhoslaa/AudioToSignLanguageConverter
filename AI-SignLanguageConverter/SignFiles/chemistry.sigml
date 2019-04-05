@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="chemistry">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamcee12/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamshoulders/>
+		<hammoveil/>
+		<hamarcd/>
+		<hamsmallmod/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

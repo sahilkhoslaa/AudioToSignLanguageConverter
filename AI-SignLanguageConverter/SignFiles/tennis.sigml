@@ -1,0 +1,18 @@
+<sigml>
+<hns_sign gloss="tennis">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamfingerhookmod/>
+		<hamextfingerol/>
+		<hampalmd/>
+		<hamshoulders/>
+		<hamclose/>
+		<hammoveul/>
+		<hamzigzag/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

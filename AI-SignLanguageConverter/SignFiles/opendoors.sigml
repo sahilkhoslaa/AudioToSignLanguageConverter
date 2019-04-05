@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="open doors">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamtouch/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamextfingerr/>
+		<hambetween/>
+		<hamextfingeror/>
+		<hampalml/>
+		<hamparend/>
+		<hamclose/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

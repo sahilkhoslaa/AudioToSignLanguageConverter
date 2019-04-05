@@ -1,0 +1,34 @@
+<sigml>
+<hns_sign gloss="antartica">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamplus/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamparend/>
+		<hamextfingeru/>
+		<hamparbegin/>
+		<hampalmdl/>
+		<hamplus/>
+		<hampalmdr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamhandback/>
+		<hamplus/>
+		<hamhandback/>
+		<hamparend/>
+		<hamclose/>
+		<hamparbegin/>
+		<hammover/>
+		<hamarcr/>
+		<hamplus/>
+		<hammovel/>
+		<hamarcl/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,28 @@
+<sigml>
+<hns_sign gloss="accident">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamparbegin/>
+		<hamextfingerol/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamchest/>
+		<hamparbegin/>
+		<hammoveol/>
+		<hamplus/>
+		<hammoveir/>
+		<hamlargemod/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

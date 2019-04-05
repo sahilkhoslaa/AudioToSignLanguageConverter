@@ -1,0 +1,32 @@
+<sigml>
+<hns_sign gloss="congratulations">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamthumboutmod/>
+		<hamextfingerol/>
+		<hambetween/>
+		<hamextfingero/>
+		<hampalml/>
+		<hamparbegin/>
+		<hamfingermidjoint/>
+		<hamindexfinger/>
+		<hammiddlefinger/>
+		<hamringfinger/>
+		<hampinky/>
+		<hamplus/>
+		<hamfingermidjoint/>
+		<hamindexfinger/>
+		<hammiddlefinger/>
+		<hamringfinger/>
+		<hampinky/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hamarmextended/>
+		<hamcirclel/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

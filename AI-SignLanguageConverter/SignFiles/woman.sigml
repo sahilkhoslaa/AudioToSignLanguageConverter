@@ -1,0 +1,25 @@
+<sigml>
+
+	<hns_sign gloss="woman">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="W:uman"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfinger2/>
+			<hamthumbacrossmod/>
+			<hamextfingeru/>
+			<hampalml/>
+			<hambetween/>
+			<hampalmdl/>
+			<hamearlobe/>
+			<hambetween/>
+			<hamcheek/>
+			<hammovedr/>
+			<hamsmallmod/>
+			<hamchin/>
+			<hamlrat/>
+			<hamrepeatfromstart/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

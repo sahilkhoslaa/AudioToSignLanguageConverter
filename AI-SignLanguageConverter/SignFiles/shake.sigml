@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="shake">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamextfingeruo/>
+		<hampalmd/>
+		<hamchest/>
+		<hamclose/>
+		<hamswinging/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

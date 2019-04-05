@@ -1,0 +1,35 @@
+<sigml>
+<hns_sign gloss="boxing">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamplus/>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmdl/>
+		<hamplus/>
+		<hampalmdr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hammoveol/>
+		<hamlargemod/>
+		<hamplus/>
+		<hammoved/>
+		<hamarcd/>
+		<hamlargemod/>
+		<hamparend/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,21 @@
+<sigml>
+
+	<hns_sign gloss="three">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="T_ri:"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfinger2345/>
+			<hamthumbacrossmod/>
+			<hampinky/>
+			<hamdoublebent/>
+			<hamextfingeru/>
+			<hampalmu/>
+			<hamchest/>
+			<hamclose/>
+			<hammoveo/>
+			<hamsmallmod/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

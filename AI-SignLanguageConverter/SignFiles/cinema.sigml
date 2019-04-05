@@ -1,0 +1,21 @@
+<sigml>
+<hns_sign gloss="cinema">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinchall/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hameyes/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger23/>
+		<hamthumbacrossmod/>
+		<hamextfingeruo/>
+		<hampalmdl/>
+		<hamneck/>
+		<hamlrat/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

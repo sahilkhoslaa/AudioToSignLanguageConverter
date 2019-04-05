@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="teeth">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingerul/>
+		<hampalml/>
+		<hamnostrils/>
+		<hambetween/>
+		<hamtongue/>
+		<hamtouch/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,21 @@
+<sigml>
+<hns_sign gloss="weaver">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamfingerhookmod/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamchest/>
+		<hamtouch/>
+		<hamreplace/>
+		<hamextfingero/>
+		<hampalml/>
+		<hammoved/>
+		<hamzigzag/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

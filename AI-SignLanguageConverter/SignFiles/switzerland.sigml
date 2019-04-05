@@ -1,0 +1,26 @@
+<sigml>
+
+	<hns_sign gloss="Switzerland">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="Sz_ir@lad"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamcee12/>
+			<hamextfingerl/>
+			<hampalml/>
+			<hamshoulders/>
+			<hammoved/>
+			<hamlargemod/>
+			<hamparbegin/>
+			<hammoveul/>
+			<hammoveu/>
+			<hamparend/>
+			<hamreplace/>
+			<hamextfingerdl/>
+			<hampalmdl/>
+			<hammover/>
+			<hamlargemod/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

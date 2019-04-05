@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="water-bottle">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfist/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamlips/>
+		<hamclose/>
+		<hamreplace/>
+		<hamflathand/>
+		<hamextfingeru/>
+		<hamhead/>
+		<hamlrat/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

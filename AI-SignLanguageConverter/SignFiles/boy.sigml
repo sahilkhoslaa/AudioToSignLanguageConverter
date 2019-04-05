@@ -1,0 +1,20 @@
+<sigml>
+
+	<hns_sign gloss="boy">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="bO:i:"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfinger2/>
+			<hamfingerstraightmod/>
+			<hamthumbacrossmod/>
+			<hamextfingeru/>
+			<hampalml/>
+			<hamunderchin/>
+			<hamlrbeside/>
+			<hammovel/>
+			<hamsmallmod/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="tall">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamflathand/>
+		<hamextfingerl/>
+		<hampalmd/>
+		<hamheadtop/>
+		<hamlrat/>
+		<hammoveu/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

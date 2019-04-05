@@ -1,0 +1,23 @@
+<sigml>
+<hns_sign gloss="quran">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingero/>
+		<hampalml/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hampalm/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hamclose/>
+		<hamreplace/>
+		<hampalmul/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

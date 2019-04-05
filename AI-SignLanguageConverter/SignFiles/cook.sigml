@@ -1,0 +1,23 @@
+<sigml>
+<hns_sign gloss="cook">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinch12/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamteeth/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfist/>
+		<hamextfingerd/>
+		<hampalmd/>
+		<hamchest/>
+		<hamparend/>
+		<hamstircw/>
+		<hamfast/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,42 @@
+<sigml>
+
+	<hns_sign gloss="brown">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="bra_Un"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamparbegin/>
+			<hamfinger2345/>
+			<hamthumboutmod/>
+			<hambetween/>
+			<hamflathand/>
+			<hamplus/>
+			<hamfist/>
+			<hamthumbacrossmod/>
+			<hamparend/>
+			<hamparbegin/>
+			<hamextfingerl/>
+			<hambetween/>
+			<hamextfingerul/>
+			<hampalml/>
+			<hamplus/>
+			<hamextfingerr/>
+			<hambetween/>
+			<hamextfingerur/>
+			<hampalmr/>
+			<hamparend/>
+			<hamparbegin/>
+			<hamlrat/>
+			<hamchest/>
+			<hamclose/>
+			<hamplus/>
+			<hamunderchin/>
+			<hamlrat/>
+			<hamclose/>
+			<hamparend/>
+			<hamcirclei/>
+			<hamsmallmod/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

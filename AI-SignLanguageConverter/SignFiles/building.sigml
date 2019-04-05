@@ -1,0 +1,30 @@
+<sigml>
+<hns_sign gloss="building">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger23/>
+		<hamthumbacrossmod/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamparbegin/>
+		<hamindexfinger/>
+		<hamfingerside/>
+		<hamplus/>
+		<hamindexfinger/>
+		<hamfingerside/>
+		<hamparend/>
+		<hamtouch/>
+		<hamneck/>
+		<hammover/>
+		<hamlargemod/>
+		<hamparbegin/>
+		<hammoved/>
+		<hamlargemod/>
+		<hamreplace/>
+		<hampalml/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

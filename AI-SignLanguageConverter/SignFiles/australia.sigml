@@ -1,0 +1,47 @@
+<sigml>
+
+	<hns_sign gloss="Australia">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="O:stre_IljV"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamflathand/>
+			<hamextfingeru/>
+			<hampalmul/>
+			<hamforehead/>
+			<hamlrbeside/>
+			<hamclose/>
+			<hamreplace/>
+			<hamextfingeril/>
+			<hambetween/>
+			<hamextfingeru/>
+			<hampalmd/>
+			<hamparbegin/>
+			<hammoveil/>
+			<hamsmallmod/>
+			<hamarcu/>
+			<hamrest/>
+			<hammoveor/>
+			<hamarcd/>
+			<hamreplace/>
+			<hamfist/>
+			<hamparend/>
+			<hamparbegin/>
+			<hamreplace/>
+			<hamfist/>
+			<hamextfingeril/>
+			<hambetween/>
+			<hamextfingeru/>
+			<hampalmd/>
+			<hamforehead/>
+			<hamlrbeside/>
+			<hamseqbegin/>
+			<hamtouch/>
+			<hammiddlefinger/>
+			<hamfingernail/>
+			<hamseqend/>
+			<hamparend/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

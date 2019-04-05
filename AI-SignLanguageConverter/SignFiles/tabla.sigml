@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="tabla">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamfingerstraightmod/>
+		<hamextfingerol/>
+		<hampalmd/>
+		<hamchest/>
+		<hamclose/>
+		<hamswinging/>
+		<hamfast/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,25 @@
+<sigml>
+
+	<hns_sign gloss="cream">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="kri:m"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfinger2/>
+			<hamextfingeru/>
+			<hambetween/>
+			<hamextfingerul/>
+			<hampalmdl/>
+			<hambetween/>
+			<hampalmd/>
+			<hamlips/>
+			<hamlrat/>
+			<hammoved/>
+			<hamsmallmod/>
+			<hamarcu/>
+			<hamchin/>
+			<hamlrat/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="sunday">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamflathand/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamchest/>
+		<hamlrat/>
+		<hammovel/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="oriya">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinchopen/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamchest/>
+		<hamclose/>
+		<hammover/>
+		<hamwavy/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

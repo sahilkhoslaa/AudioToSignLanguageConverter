@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="chair">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamflathand/>
+		<hamextfingero/>
+		<hampalml/>
+		<hamchest/>
+		<hamlrat/>
+		<hamclose/>
+		<hammoved/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

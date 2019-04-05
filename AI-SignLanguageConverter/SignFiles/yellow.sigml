@@ -1,0 +1,22 @@
+<sigml>
+
+	<hns_sign gloss="yellow">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="jel@_U"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hampinchall/>
+			<hammiddlefinger/>
+			<hamdoublehooked/>
+			<hamextfingeru/>
+			<hampalmu/>
+			<hamhead/>
+			<hamlrbeside/>
+			<hamreplace/>
+			<hamfinger2345/>
+			<hamthumboutmod/>
+			<hamrepeatfromstart/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

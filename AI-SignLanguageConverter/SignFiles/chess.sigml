@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="chess">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23/>
+		<hamthumbopenmod/>
+		<hamextfingerd/>
+		<hampalmd/>
+		<hamshoulders/>
+		<hammoved/>
+		<hamwavy/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

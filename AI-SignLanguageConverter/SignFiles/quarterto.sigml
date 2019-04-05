@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="quarter to">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingerd/>
+		<hampalmd/>
+		<hamchest/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamextfingerl/>
+		<hampalmdl/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

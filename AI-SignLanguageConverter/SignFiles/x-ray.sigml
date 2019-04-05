@@ -1,0 +1,23 @@
+<sigml>
+<hns_sign gloss="x-ray">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamforehead/>
+		<hamlrbeside/>
+		<hamtouch/>
+		<hamreplace/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamchest/>
+		<hammoveo/>
+		<hamreplace/>
+		<hamfist/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

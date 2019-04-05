@@ -1,0 +1,36 @@
+<sigml>
+<hns_sign gloss="table-tennis">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerl/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmu/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hampinkyside/>
+		<hamparend/>
+		<hamclose/>
+		<hamchest/>
+		<hamclose/>
+		<hammoveo/>
+		<hamwavy/>
+		<hamlargemod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

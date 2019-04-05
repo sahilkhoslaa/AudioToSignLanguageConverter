@@ -1,0 +1,36 @@
+<sigml>
+<hns_sign gloss="arrest">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamfist/>
+		<hamplus/>
+		<hamfist/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerol/>
+		<hambetween/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamplus/>
+		<hamextfingeror/>
+		<hambetween/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamwristback/>
+		<hampalm/>
+		<hamplus/>
+		<hamwristback/>
+		<hamhandback/>
+		<hamparend/>
+		<hamtouch/>
+		<hamshoulders/>
+		<hammoveo/>
+		<hamlargemod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

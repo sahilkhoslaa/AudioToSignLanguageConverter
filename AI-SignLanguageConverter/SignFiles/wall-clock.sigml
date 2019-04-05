@@ -1,0 +1,34 @@
+<sigml>
+<hns_sign gloss="wall-clock">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hampinchall/>
+		<hamplus/>
+		<hamfist/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingeru/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamhandback/>
+		<hamplus/>
+		<hamthumb/>
+		<hamindexfinger/>
+		<hamfingernail/>
+		<hamparend/>
+		<hamtouch/>
+		<hamshoulders/>
+		<hamclose/>
+		<hamcirclei/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

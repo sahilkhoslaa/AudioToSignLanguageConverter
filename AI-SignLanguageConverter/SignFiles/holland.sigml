@@ -1,0 +1,30 @@
+<sigml>
+
+	<hns_sign gloss="Holland">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="holan"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamsymmlr/>
+			<hamceeall/>
+			<hamfingerstraightmod/>
+			<hamthumbopenmod/>
+			<hamextfingerul/>
+			<hampalmd/>
+			<hamforehead/>
+			<hamlrat/>
+			<hamseqbegin/>
+			<hamtouch/>
+			<hamthumb/>
+			<hamseqend/>
+			<hamparbegin/>
+			<hamreplace/>
+			<hampinchall/>
+			<hamextfingerul/>
+			<hampalmd/>
+			<hammover/>
+			<hamparend/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

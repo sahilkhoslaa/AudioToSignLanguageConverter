@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="prayer">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamextfingeruo/>
+		<hampalml/>
+		<hamseqbegin/>
+		<hamtouch/>
+		<hamfingerpad/>
+		<hammiddlefinger/>
+		<hampalm/>
+		<hamseqend/>
+		<hamshoulders/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

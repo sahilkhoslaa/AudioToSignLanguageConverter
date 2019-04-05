@@ -1,0 +1,24 @@
+<sigml>
+
+	<hns_sign gloss="rain">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="ra:_In"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamsymmlr/>
+			<hamfinger2345/>
+			<hamthumboutmod/>
+			<hamextfingero/>
+			<hampalmd/>
+			<hamchin/>
+			<hamclose/>
+			<hamparbegin/>
+			<hammoved/>
+			<hamslow/>
+			<hamfingerplay/>
+			<hamparend/>
+			<hamfingerplay/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

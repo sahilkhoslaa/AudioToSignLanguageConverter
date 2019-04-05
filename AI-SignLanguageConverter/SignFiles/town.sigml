@@ -1,0 +1,34 @@
+<sigml>
+<hns_sign gloss="town">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamfinger2/>
+		<hamplus/>
+		<hamfinger2/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerul/>
+		<hamplus/>
+		<hamextfingerur/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamindexfinger/>
+		<hamfingerbase/>
+		<hamplus/>
+		<hamindexfinger/>
+		<hamfingertip/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hamclose/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

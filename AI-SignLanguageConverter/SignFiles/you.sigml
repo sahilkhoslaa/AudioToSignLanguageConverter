@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="you">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingero/>
+		<hampalml/>
+		<hambetween/>
+		<hampalmdr/>
+		<hamchest/>
+		<hammoveo/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

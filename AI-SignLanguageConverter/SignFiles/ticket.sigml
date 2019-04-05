@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="ticket">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23spread/>
+		<hamthumbacrossmod/>
+		<hamextfingero/>
+		<hampalmu/>
+		<hamchest/>
+		<hamclose/>
+		<hammoveo/>
+		<hamsmallmod/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

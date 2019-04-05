@@ -1,0 +1,35 @@
+<sigml>
+<hns_sign gloss="tiffin box">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfinger2345/>
+		<hamfingerbendmod/>
+		<hamplus/>
+		<hamfinger2345/>
+		<hamfingerbendmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerd/>
+		<hamplus/>
+		<hamextfingeru/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmu/>
+		<hamparend/>
+		<hamparbegin/>
+		<hammiddlefinger/>
+		<hamfingertip/>
+		<hamplus/>
+		<hammiddlefinger/>
+		<hamfingertip/>
+		<hamparend/>
+		<hamclose/>
+		<hammoved/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

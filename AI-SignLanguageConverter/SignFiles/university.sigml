@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="university">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamcee12/>
+		<hamextfingerur/>
+		<hampalmu/>
+		<hamshoulders/>
+		<hamlrat/>
+		<hamcircleo/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

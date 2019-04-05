@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="email">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinch12/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamchest/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hammoveo/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

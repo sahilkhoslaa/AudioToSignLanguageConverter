@@ -1,0 +1,44 @@
+<sigml>
+<hns_sign gloss="clinic">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamfingerbendmod/>
+		<hamplus/>
+		<hamfist/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerl/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamwristback/>
+		<hamplus/>
+		<hampalm/>
+		<hamparend/>
+		<hamtouch/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamflathand/>
+		<hamextfingerol/>
+		<hampalml/>
+		<hamclose/>
+		<hamshoulders/>
+		<hammoved/>
+		<hamarcd/>
+		<hamlargemod/>
+		<hamclose/>
+		<hamstomach/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

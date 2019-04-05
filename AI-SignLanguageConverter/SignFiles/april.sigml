@@ -1,0 +1,27 @@
+<sigml>
+<hns_sign gloss="april">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingerul/>
+		<hampalmdl/>
+		<hamstomach/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampinchopen/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingerol/>
+		<hampalmd/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

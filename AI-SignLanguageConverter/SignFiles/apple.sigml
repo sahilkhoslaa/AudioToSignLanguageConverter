@@ -1,0 +1,21 @@
+<sigml>
+<hns_sign gloss="apple">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumboutmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamlrat/>
+		<hamchin/>
+		<hamtouch/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamparend/>
+		<hamswinging/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

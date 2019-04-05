@@ -1,0 +1,18 @@
+<sigml>
+<hns_sign gloss="kite">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamfingerbendmod/>
+		<hamextfingeruo/>
+		<hampalmdl/>
+		<hamchest/>
+		<hammoveol/>
+		<hammoveir/>
+		<hammoveol/>
+		<hammoveir/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

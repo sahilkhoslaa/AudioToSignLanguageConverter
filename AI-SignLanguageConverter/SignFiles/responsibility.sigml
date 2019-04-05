@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="responsibility">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingerui/>
+		<hampalmd/>
+		<hamshoulders/>
+		<hamlrat/>
+		<hamtouch/>
+		<hammoveui/>
+		<hamrepeatfromstartseveral/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

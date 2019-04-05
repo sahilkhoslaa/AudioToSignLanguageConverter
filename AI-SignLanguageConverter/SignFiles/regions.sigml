@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="regions">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamshoulders/>
+		<hamlrat/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamextfingerr/>
+		<hampalml/>
+		<hamhead/>
+		<hamlrat/>
+		<hamparend/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

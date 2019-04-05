@@ -1,0 +1,23 @@
+<sigml>
+
+	<hns_sign gloss="eight">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="e_It"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamflathand/>
+			<hamthumboutmod/>
+			<hamringfinger/>
+			<hamfingerhookmod/>
+			<hampinky/>
+			<hamfingerhookmod/>
+			<hamextfingerl/>
+			<hampalml/>
+			<hamchest/>
+			<hamclose/>
+			<hammoveo/>
+			<hamsmallmod/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

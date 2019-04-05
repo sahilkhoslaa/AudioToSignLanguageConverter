@@ -1,0 +1,21 @@
+<sigml>
+<hns_sign gloss="profit">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinchall/>
+		<hamfingerstraightmod/>
+		<hambetween/>
+		<hampinchall/>
+		<hamextfingerl/>
+		<hampalmd/>
+		<hamlrat/>
+		<hamshoulders/>
+		<hambetween/>
+		<hamshoulders/>
+		<hamtouch/>
+		<hammoved/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,32 @@
+<sigml>
+<hns_sign gloss="june">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingerul/>
+		<hampalmdl/>
+		<hamstomach/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger23/>
+		<hamthumbacrossmod/>
+		<hamextfingerol/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingerol/>
+		<hampalmd/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

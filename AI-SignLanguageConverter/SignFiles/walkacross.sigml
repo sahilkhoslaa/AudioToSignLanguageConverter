@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="walk across">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23/>
+		<hamthumbacrossmod/>
+		<hamfingerstraightmod/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamchest/>
+		<hammoveo/>
+		<hamarcu/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

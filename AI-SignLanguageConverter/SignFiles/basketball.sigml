@@ -1,0 +1,18 @@
+<sigml>
+<hns_sign gloss="basketball">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamfingerbendmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamshoulders/>
+		<hammovel/>
+		<hamchest/>
+		<hammoveo/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

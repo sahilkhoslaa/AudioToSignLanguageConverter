@@ -1,0 +1,40 @@
+<sigml>
+
+	<hns_sign gloss="grey">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="gre_I"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamparbegin/>
+			<hamfist/>
+			<hampinky/>
+			<hamfingerstraightmod/>
+			<hamplus/>
+			<hamfist/>
+			<hampinky/>
+			<hamfingerstraightmod/>
+			<hamparend/>
+			<hamparbegin/>
+			<hamextfingero/>
+			<hampalml/>
+			<hamplus/>
+			<hamextfingero/>
+			<hampalmr/>
+			<hamparend/>
+			<hamparbegin/>
+			<hamfingerpad/>
+			<hamthumb/>
+			<hamplus/>
+			<hamfingerpad/>
+			<hampinky/>
+			<hamparend/>
+			<hamtouch/>
+			<hamcircleu/>
+			<hamsmallmod/>
+			<hamclockur/>
+			<hamclockur/>
+			<hamrepeatfromstart/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

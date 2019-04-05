@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="just a moment">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingero/>
+		<hambetween/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamstomach/>
+		<hamlrbeside/>
+		<hammoveo/>
+		<hamsmallmod/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

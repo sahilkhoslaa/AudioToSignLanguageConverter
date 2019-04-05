@@ -1,0 +1,31 @@
+<sigml>
+<hns_sign gloss="pound">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamplus/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerol/>
+		<hampalmu/>
+		<hamplus/>
+		<hamextfingeror/>
+		<hampalmu/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hamfingermidjoint/>
+		<hamindexfinger/>
+		<hamparend/>
+		<hamclose/>
+		<hammovedo/>
+		<hamtouch/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

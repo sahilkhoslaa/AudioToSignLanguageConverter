@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="paranoid">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23spread/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamforehead/>
+		<hamlrat/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampalmul/>
+		<hamrepeatfromstart/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,13 @@
+<sigml>
+<hns_sign gloss="koli">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamceeall/>
+		<hamextfingerdl/>
+		<hampalmul/>
+		<hamchest/>
+		<hamclose/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

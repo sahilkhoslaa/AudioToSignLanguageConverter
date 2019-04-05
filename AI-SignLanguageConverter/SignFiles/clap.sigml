@@ -1,0 +1,31 @@
+<sigml>
+<hns_sign gloss="clap">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamfingerbendmod/>
+		<hamextfingeru/>
+		<hamparbegin/>
+		<hampalmul/>
+		<hamplus/>
+		<hampalmdr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hamindexfinger/>
+		<hammiddlefinger/>
+		<hamringfinger/>
+		<hampinky/>
+		<hamfingertip/>
+		<hamparend/>
+		<hamtouch/>
+		<hamnodding/>
+		<hamsmallmod/>
+		<hamtouch/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

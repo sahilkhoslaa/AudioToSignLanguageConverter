@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="bent-hand">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2345/>
+		<hamfingerstraightmod/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalmul/>
+		<hamchest/>
+		<hamclose/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

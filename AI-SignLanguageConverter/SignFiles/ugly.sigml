@@ -1,0 +1,29 @@
+<sigml>
+
+	<hns_sign gloss="ugly">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="Vgli:"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamflathand/>
+			<hamthumbacrossmod/>
+			<hamindexfinger/>
+			<hamdoublebent/>
+			<hammiddlefinger/>
+			<hamdoublebent/>
+			<hamringfinger/>
+			<hamdoublebent/>
+			<hamextfingeru/>
+			<hampalmu/>
+			<hamlrbeside/>
+			<hamnose/>
+			<hamclose/>
+			<hamcirclei/>
+			<hamcirclei/>
+			<hamsmallmod/>
+			<hamclockdr/>
+			<hamclocku/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

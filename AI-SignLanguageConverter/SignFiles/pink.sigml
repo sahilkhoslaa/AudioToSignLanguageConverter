@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="pink">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamlrat/>
+		<hamlips/>
+		<hamdoublebent/>
+		<hamcircleui/>
+		<hamclose/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

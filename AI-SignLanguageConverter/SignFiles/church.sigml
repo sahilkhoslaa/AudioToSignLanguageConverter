@@ -1,0 +1,33 @@
+<sigml>
+<hns_sign gloss="church">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamparbegin/>
+		<hamceeall/>
+		<hamplus/>
+		<hamflathand/>
+		<hamthumbopenmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingeru/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamhandback/>
+		<hamplus/>
+		<hamwristback/>
+		<hamparend/>
+		<hamclose/>
+		<hammoved/>
+		<hamtouch/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,34 @@
+<sigml>
+
+	<hns_sign gloss="every">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="ev3ri:"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfist/>
+			<hamthumbacrossmod/>
+			<hamextfingeru/>
+			<hambetween/>
+			<hamextfingeri/>
+			<hampalmd/>
+			<hamcheek/>
+			<hamseqbegin/>
+			<hamtouch/>
+			<hammiddlefinger/>
+			<hamfingermidjoint/>
+			<hamseqend/>
+			<hamparbegin/>
+			<hammovedo/>
+			<hamarcu/>
+			<hamreplace/>
+			<hamfinger2345/>
+			<hamthumboutmod/>
+			<hamextfingero/>
+			<hambetween/>
+			<hamextfingeruo/>
+			<hampalmu/>
+			<hamparend/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

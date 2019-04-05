@@ -1,0 +1,24 @@
+<sigml>
+<hns_sign gloss="carry">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamfingerbendmod/>
+		<hamextfingero/>
+		<hampalmu/>
+		<hamtouch/>
+		<hamlrat/>
+		<hamchest/>
+		<hammoveu/>
+		<hammover/>
+		<hamlargemod/>
+		<hamshoulders/>
+		<hamlrbeside/>
+		<hammoved/>
+		<hamtouch/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

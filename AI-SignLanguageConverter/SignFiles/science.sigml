@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="science">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfist/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hambetween/>
+		<hampalml/>
+		<hamshoulders/>
+		<hamparbegin/>
+		<hamcirclei/>
+		<hamplus/>
+		<hamcircleo/>
+		<hamparend/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

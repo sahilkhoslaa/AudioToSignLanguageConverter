@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="tablet">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamfingerhookmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamteeth/>
+		<hammoveo/>
+		<hamreplace/>
+		<hampalmdl/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

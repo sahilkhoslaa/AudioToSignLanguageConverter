@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="fight">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfist/>
+		<hamextfingerul/>
+		<hampalmdl/>
+		<hamshoulders/>
+		<hammover/>
+		<hammovel/>
+		<hamtouch/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

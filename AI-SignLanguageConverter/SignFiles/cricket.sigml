@@ -1,0 +1,42 @@
+<sigml>
+<hns_sign gloss="cricket">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamplus/>
+		<hamflathand/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingeru/>
+		<hamplus/>
+		<hamextfingeru/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalm/>
+		<hamplus/>
+		<hampalm/>
+		<hamparend/>
+		<hamtouch/>
+		<hamshouldertop/>
+		<hamlrat/>
+		<hammover/>
+		<hamreplace/>
+		<hamextfingeror/>
+		<hamtouch/>
+		<hammoved/>
+		<hamlargemod/>
+		<hamarcr/>
+		<hamlargemod/>
+		<hamtouch/>
+		<hamchest/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

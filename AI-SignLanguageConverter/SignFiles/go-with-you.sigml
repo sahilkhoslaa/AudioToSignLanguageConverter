@@ -1,0 +1,27 @@
+<sigml>
+<hns_sign gloss="go-with-you">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamparbegin/>
+		<hamfingerside/>
+		<hamindexfinger/>
+		<hamplus/>
+		<hamfingerside/>
+		<hamindexfinger/>
+		<hamparend/>
+		<hamclose/>
+		<hamshoulders/>
+		<hamparbegin/>
+		<hammoveo/>
+		<hamreplace/>
+		<hampalmd/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

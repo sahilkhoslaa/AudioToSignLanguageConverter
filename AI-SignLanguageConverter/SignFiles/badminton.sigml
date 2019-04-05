@@ -1,0 +1,35 @@
+<sigml>
+<hns_sign gloss="badminton">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamfingerbendmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamshouldertop/>
+		<hamlrat/>
+		<hammoved/>
+		<hamwavy/>
+		<hamfast/>
+		<hamlrat/>
+		<hamshoulders/>
+		<hammoved/>
+		<hamwavy/>
+		<hamfast/>
+		<hamshoulders/>
+		<hamlrat/>
+		<hammoved/>
+		<hamwavy/>
+		<hamfast/>
+		<hamlrat/>
+		<hamchest/>
+		<hammoved/>
+		<hamwavy/>
+		<hamfast/>
+		<hamchest/>
+		<hamlrat/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

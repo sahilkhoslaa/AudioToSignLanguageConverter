@@ -1,0 +1,38 @@
+<sigml>
+<hns_sign gloss="bogies">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmpar/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingerol/>
+		<hampalml/>
+		<hamclose/>
+		<hamshoulders/>
+		<hamseqbegin/>
+		<hammoveo/>
+		<hamarcu/>
+		<hamlargemod/>
+		<hammovei/>
+		<hamarcd/>
+		<hamlargemod/>
+		<hamseqend/>
+		<hamrepeatfromstart/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamextfingero/>
+		<hampalml/>
+		<hamchest/>
+		<hamparend/>
+		<hammover/>
+		<hamnomotion/>
+		<hammover/>
+		<hamnomotion/>
+		<hammover/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

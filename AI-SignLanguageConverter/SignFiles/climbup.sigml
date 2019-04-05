@@ -1,0 +1,30 @@
+<sigml>
+<hns_sign gloss="climbup">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamfist/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamstomach/>
+		<hammoveu/>
+		<hamwavy/>
+		<hammoveu/>
+		<hamwavy/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamextfingeru/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hammoveu/>
+		<hamplus/>
+		<hamnomotion/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

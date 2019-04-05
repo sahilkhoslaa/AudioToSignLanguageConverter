@@ -1,0 +1,14 @@
+<sigml>
+<hns_sign gloss="run">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfist/>
+		<hamextfingerul/>
+		<hampalmdl/>
+		<hamshoulders/>
+		<hamcircleo/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

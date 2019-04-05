@@ -1,0 +1,29 @@
+<sigml>
+<hns_sign gloss="keyboard">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hambetween/>
+		<hamfinger2345/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamchest/>
+		<hamclose/>
+		<hamfingerplay/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamcee12/>
+		<hambetween/>
+		<hamfinger2/>
+		<hamthumbopenmod/>
+		<hamextfingero/>
+		<hampalml/>
+		<hamclose/>
+		<hamparend/>
+		<hammover/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,34 @@
+<sigml>
+<hns_sign gloss="track">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamplus/>
+		<hamflathand/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalml/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamchest/>
+		<hamclose/>
+		<hammoveo/>
+		<hamrepeatfromstart/>
+		<hamreplace/>
+		<hamceeall/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hammoveo/>
+		<hamlargemod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

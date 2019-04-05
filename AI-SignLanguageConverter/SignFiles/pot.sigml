@@ -1,0 +1,24 @@
+<sigml>
+<hns_sign gloss="pot">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamfingerbendmod/>
+		<hamextfingero/>
+		<hampalmul/>
+		<hamstomach/>
+		<hammoveu/>
+		<hamarcr/>
+		<hamchest/>
+		<hammoveu/>
+		<hamarcr/>
+		<hamshoulders/>
+		<hammoveu/>
+		<hamarcr/>
+		<hamear/>
+		<hammoveu/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

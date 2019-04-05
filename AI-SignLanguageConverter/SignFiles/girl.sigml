@@ -1,0 +1,19 @@
+<sigml>
+<hns_sign gloss="girl">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamthumbacrossmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamnose/>
+		<hamlrat/>
+		<hamseqbegin/>
+		<hamtouch/>
+		<hamfingerpad/>
+		<hamindexfinger/>
+		<hamseqend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

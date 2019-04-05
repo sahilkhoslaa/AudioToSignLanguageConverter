@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="transport">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfist/>
+		<hamextfingero/>
+		<hampalmu/>
+		<hamchest/>
+		<hamclose/>
+		<hammoved/>
+		<hamarcr/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

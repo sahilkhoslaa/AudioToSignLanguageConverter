@@ -1,0 +1,33 @@
+<sigml>
+<hns_sign gloss="farmer">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamflathand/>
+		<hamplus/>
+		<hamfist/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingerol/>
+		<hamplus/>
+		<hamextfingerr/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmr/>
+		<hamparend/>
+		<hamclose/>
+		<hamparbegin/>
+		<hammoved/>
+		<hamsmallmod/>
+		<hamplus/>
+		<hamnomotion/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

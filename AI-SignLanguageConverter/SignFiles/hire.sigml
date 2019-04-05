@@ -1,0 +1,27 @@
+<sigml>
+<hns_sign gloss="hire">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfist/>
+		<hamthumbacrossmod/>
+		<hamparbegin/>
+		<hamextfingerul/>
+		<hampalmd/>
+		<hamplus/>
+		<hamextfingerur/>
+		<hampalmu/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamthumb/>
+		<hamfingerbase/>
+		<hamplus/>
+		<hamwristback/>
+		<hamparend/>
+		<hamtouch/>
+		<hamchest/>
+		<hammovei/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

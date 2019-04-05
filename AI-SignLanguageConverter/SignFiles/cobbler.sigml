@@ -1,0 +1,39 @@
+<sigml>
+<hns_sign gloss="cobbler">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamfinger2/>
+		<hamfingerbendmod/>
+		<hamplus/>
+		<hamfinger2/>
+		<hamfingerbendmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingero/>
+		<hamplus/>
+		<hamextfingero/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmd/>
+		<hamplus/>
+		<hampalmd/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamextfingeri/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamflathand/>
+		<hamparbegin/>
+		<hamextfingerl/>
+		<hamplus/>
+		<hamextfingerol/>
+		<hamparend/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="vegetables">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger23spread/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamtongue/>
+		<hammovedl/>
+		<hammovedr/>
+		<hamwavy/>
+		<hamsmallmod/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

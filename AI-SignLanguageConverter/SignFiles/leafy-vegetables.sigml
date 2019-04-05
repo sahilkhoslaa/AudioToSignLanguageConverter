@@ -1,0 +1,14 @@
+<sigml>
+<hns_sign gloss="leafy-vegetables">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamflathand/>
+		<hamextfingerul/>
+		<hampalmul/>
+		<hamshoulders/>
+		<hammoveo/>
+		<hamswinging/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="north-pole">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfinger2345/>
+		<hamfingerbendmod/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamchest/>
+		<hamcircleo/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

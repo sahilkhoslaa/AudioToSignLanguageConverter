@@ -1,0 +1,22 @@
+<sigml>
+<hns_sign gloss="officer">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinch12/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamshoulders/>
+		<hamlrat/>
+		<hammoved/>
+		<hamzigzag/>
+		<hamstomach/>
+		<hamreplace/>
+		<hamfist/>
+		<hamthumboutmod/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamshoulders/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,29 @@
+<sigml>
+<hns_sign gloss="communication">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamfingerstraightmod/>
+		<hamalternatingmotion/>
+		<hamceeall/>
+		<hamthumbopenmod/>
+		<hamextfingerul/>
+		<hampalmd/>
+		<hamparbegin/>
+		<hammiddlefinger/>
+		<hamfingerpad/>
+		<hamplus/>
+		<hammiddlefinger/>
+		<hamfingerpad/>
+		<hamparend/>
+		<hamclose/>
+		<hamneck/>
+		<hamseqbegin/>
+		<hammoveo/>
+		<hammovei/>
+		<hamseqend/>
+		<hamrepeatfromstart/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,23 @@
+<sigml>
+<hns_sign gloss="carrot">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamfinger2/>
+		<hamextfingerl/>
+		<hampalml/>
+		<hamlrbeside/>
+		<hamteeth/>
+		<hammover/>
+		<hamsmallmod/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfist/>
+		<hamextfingerol/>
+		<hamunderchin/>
+		<hamlrat/>
+		<hamparend/>
+		<hamnodding/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

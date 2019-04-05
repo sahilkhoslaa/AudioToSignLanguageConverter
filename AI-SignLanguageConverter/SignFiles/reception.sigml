@@ -1,0 +1,15 @@
+<sigml>
+<hns_sign gloss="reception">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamcee12/>
+		<hamextfingero/>
+		<hampalmd/>
+		<hamchest/>
+		<hammover/>
+		<hammovei/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

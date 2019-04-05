@@ -1,0 +1,16 @@
+<sigml>
+<hns_sign gloss="coin">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hampinchopen/>
+		<hamextfingeru/>
+		<hampalmu/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampalmdl/>
+		<hamparend/>
+		<hamfingerplay/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

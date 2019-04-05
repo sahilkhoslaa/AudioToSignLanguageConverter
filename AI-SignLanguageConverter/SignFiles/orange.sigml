@@ -1,0 +1,26 @@
+<sigml>
+
+	<hns_sign gloss="orange">
+		<hamnosys_nonmanual>
+			<hnm_mouthpicture picture="O:rInd_Z"/>
+		</hamnosys_nonmanual>
+		<hamnosys_manual>
+			<hamfinger2345/>
+			<hamthumboutmod/>
+			<hamextfingeru/>
+			<hampalmd/>
+			<hambetween/>
+			<hampalml/>
+			<hamneck/>
+			<hamlrat/>
+			<hambetween/>
+			<hamchin/>
+			<hamlrat/>
+			<hamparbegin/>
+			<hamreplace/>
+			<hampinchall/>
+			<hamparend/>
+		</hamnosys_manual>
+	</hns_sign>
+
+</sigml>

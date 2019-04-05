@@ -1,0 +1,41 @@
+<sigml>
+<hns_sign gloss="cauliflower">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamparbegin/>
+		<hamfinger2345/>
+		<hamfingerbendmod/>
+		<hamplus/>
+		<hamfinger2345/>
+		<hamfingerbendmod/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamextfingeru/>
+		<hamplus/>
+		<hamextfingeru/>
+		<hamparend/>
+		<hamparbegin/>
+		<hampalmu/>
+		<hamplus/>
+		<hampalmu/>
+		<hamparend/>
+		<hamneck/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfist/>
+		<hamrepeatfromstartseveral/>
+		<hamparend/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2345/>
+		<hamthumboutmod/>
+		<hamfingerbendmod/>
+		<hamextfingerur/>
+		<hampalmur/>
+		<hamtouch/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

@@ -1,0 +1,17 @@
+<sigml>
+<hns_sign gloss="c-x">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamcee12/>
+		<hamextfingeru/>
+		<hampalml/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hamfinger2/>
+		<hamextfingerul/>
+		<hampalmdl/>
+		<hamparend/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>

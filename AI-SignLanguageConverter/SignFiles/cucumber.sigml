@@ -1,0 +1,23 @@
+<sigml>
+<hns_sign gloss="cucumber">
+	<hamnosys_nonmanual>
+	</hamnosys_nonmanual>
+	<hamnosys_manual>
+		<hamsymmlr/>
+		<hamflathand/>
+		<hamthumboutmod/>
+		<hamextfingeru/>
+		<hampalmur/>
+		<hamchest/>
+		<hamclose/>
+		<hamparbegin/>
+		<hamreplace/>
+		<hampinch12/>
+		<hamextfingerl/>
+		<hampalmd/>
+		<hammover/>
+		<hamparend/>
+		<hammover/>
+	</hamnosys_manual>
+</hns_sign>
+</sigml>
