@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Divanshu Singh - Thapar University" >
+    <link rel="icon" href="images/favicon.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <title>ISL : Avatar Page</title>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta http-equiv="Access-Control-Allow-Methods" content="GET">
+    <link rel="stylesheet" href="css/cwasa.css" />
+    <script type="text/javascript" src="js/allcsa.js"></script>
+    <script language="javascript">
+        // Initial configuration
+        var initCfg = {
+            "avsbsl" : ["luna", "siggi", "anna", "marc", "francoise"],
+            "avSettings" : { "avList": "avsbsl", "initAv": "marc" }
+        };
+
+        // global variable to store the sigmal list
+        var sigmlList = null;
+
+        // global variable to tell if avatar is ready or not
+        var tuavatarLoaded = false;
+    </script>
+
+    <script type="text/javascript">
+        function submit()
+        {
+            document.getElementById("startrunning").click(); // Simulates button click
+            document.submitForm.submit(); // Submits the form without the button
+        }
+    </script>
+
+    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
+        google.load("elements", "1", {
+            packages: "transliteration"
+        });
+        function onLoad(){
+            var options = {
+                sourceLanguage: google.elements.transliteration.LanguageCode.ENGLISH,
+                destinationLanguage: [google.elements.transliteration.LanguageCode.HINDI],
+                shortcutKey: 'ctrl+g',
+                transliterationEnabled: true
+            };
+            var control = new google.elements.transliteration.TransliterationControl(options);
+            control.makeTransliteratable(['transliterateTextarea']);
+
+        }
+        google.setOnLoadCallback(onLoad);
+        function myread(){
+            var text=document.conversion.transliterateTextarea;
+            var tcontent=text.value;
+            window.alert(tcontent);
+            return tcontent;
+        }
+
+    </script>
+</head>
+<body onload="CWASA.init(initCfg);" >
+<div id="loading" class="container">
+    <div class="row text-center"><span style="background-color:#ebf8a4; padding: 8px 20px;">Loading ... Please wait...</span></div>
+</div>
+<!-- left side division starts here -->
+<div style="width:40%; padding:15px; float:left; margin-left:14%;">
+
+    <div id="menu1">
+        <br/>
+        <br/>
+        <button onclick="yahoo();" id="a">go</button>
+    </div>
+
+    <div id="dom-target" style="display: none;">
+        art me hello m
+    </div>
+
+
+    <!--
+    <div id="menu2">
+    <br>
+    <label for="inputText">Type text to convert to hindi:</rmbel><br>
+    <textarea id="transliterateTextarea" name="transliterateTextarea" style="width:100%; height:80px;"></textarea>
+    </div>
+    -->
+    <!--<div id="menu3">
+    <br>
+    Alphabets will be displayed here
+    </div>
+
+    <div id="menu4">
+    <br>
+    Number will be displayed here
+    </div>-->
+
+    <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;">
+        <br><strong>Debugger</strong></br>
+        <div id="debugger"></div>
+    </div>
+</div> <!-- left side division ends here -->
+<script language="javascript" src="js/animationPlayer.js"></script>
+
+<div style="box-sizing: border-box; width: 30%; height: 80%; padding: 15px; float:right; margin-right:14%;" >
+    <table align="center" style="width:100%; height:100%;" >
+        <tr align="center">
+            <!--================================================================-->
+            <!-- CWA signing avatar panel 0 -->
+            <!--================================================================-->
+            <!-- Replaced by an avatar panel -->
+            <!--================================================================-->
+            <td width="100%" height="90%" >
+                <div class="CWASAAvatar av0" align="center" ></div>
+            </td>
+            <!--================================================================-->
+        </tr>
+        <tr>
+            <td>
+                <p class="alert-warning text-center" style="padding:5px; font-size:20px; font-weight:bold;" id="textHint"></p>
+            </td>
+        </tr>
+        <tr style="display:none;">
+            <td align="center">
+                <span class="CWASAAvMenu av0" ></span>
+                <input type="button" value="Sign" class="bttnPlaySiGMLURL av0" />
+                <input type="button" value="Stop" class="bttnStop av0" />
+                <span class="CWASASpeed av0" ></span>
+                <br/>
+                <span style="font-size: 90%;" >
+                            Sign/Frame:
+                            <input class="txtSF av0" value="0/0" type="text">
+                            Gloss:
+                            <input class="txtGloss av0" value="[none]" type="text">
+                        </span>
+                <!--  CachedSiGML URL  -->
+                <input type="text" id="URLText" class="txtSiGMLURL av0 undisplayed" value="" />
+                <script language="text/javascript">
+                    // Set default sign
+                    setSiGMLURL("SignFiles/hello.sigml");
+                </script>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script type="text/javascript" src="js/player.js"></script>
+<script type="text/javascript">
+    /*
+        Load json file for sigml available for easy searching
+    */
+    $.getJSON("js/sigmlFiles.json", function(json){
+        sigmlList = json;
+    });
+
+    // code for clear button in input box for words
+    $("#btnClear").click(function() {
+        $("#inputText").val("");
+    });
+
+    // code to check if avatar has been loaded or not and hide the loading sign
+    var loadingTout = setInterval(function() {
+        if(tuavatarLoaded) {
+            $("#loading").hide();
+            clearInterval(loadingTout);
+            console.log("Avatar loaded successfully !");
+        }
+    }, 1000);
+
+
+    // code to animate tabs
+
+    alltabhead = ["menu1-h", "menu2-h", "menu3-h", "menu4-h"];
+    alltabbody = ["menu1", "menu2", "menu3", "menu4"];
+
+    function activateTab(tabheadid, tabbodyid)
+    {
+        for(x = 0; x < alltabhead.length; x++)
+            $("#"+alltabhead[x]).css("background-color", "white");
+        $("#"+tabheadid).css("background-color", "#d5d5d5");
+        for(x = 0; x < alltabbody.length; x++)
+            $("#"+alltabbody[x]).hide();
+        $("#"+tabbodyid).show();
+    }
+
+    activateTab("menu1-h", "menu1"); // activate first menu by default
+
+</script>
+</body>
+
+
+</html>
