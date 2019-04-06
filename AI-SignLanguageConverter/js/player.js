@@ -136,12 +136,193 @@ function searchForSigml(key)
 	Hook for the button being clicked to run the animation
 */
 
-function yahoo(){
-
+// function yahoo(){
+//
+// 	// read the input paragraph from the text box
+// 	// trim it to remove any spaces from sides
+//
+// 	console.log("reading inputt");
+// 	//inputText = $("#inputText").val().trim();
+//
+//
+// 	//document.getElementById('foo').value = 'bar';
+// 	//console.log("reading input");
+//
+// 	//var x = document.getElementById("inputText").value;
+//
+// 	//inputText = $("#inputText").val().trim();
+//     //inputText = <?php echo $varrr;?>;
+//
+//     //var valll = "<?php echo $ff ?>";
+//     //console.log(valll);
+//
+//
+//
+// 	var div = document.getElementById("dom-target");
+//     var myData = document.getElementById('dom-target').value;
+//     console.log("##########################" + myData);
+//
+//     inputText = myData;
+// 	// read the language that has been set
+// 	lang = "English"; // using english for default
+// 	tokens = [];
+//
+// 	if(lang=="English") {
+//
+// 		// tokenize the english paragraph
+// 		tokenString = tokenizeEnglish(inputText);
+// 		tokens = tokenString.split(',');
+// 		console.log("Got tokens");
+//
+// 	} else if(lang == "Hindi") {
+//
+// 		// tokenize the english paragraph
+// 		tokenString = tokenizeHindi(inputText);
+// 		tokens = tokenString.split(',');
+// 		console.log("Got tokens");
+//
+// 	}
+//
+// 	// remove empty values from tokens
+// 	for(x = 0; x < tokens.length; x++) {
+// 		t = tokens[x];
+//
+// 		if(t == "")
+// 			tokens.splice(x, 1);
+// 	}
+//
+// 	console.log(tokens);
+//
+// 	// process tokens based on language settings
+// 	// use the script to generate the sigml files available and if
+// 	// word file is available use word file less speak as letter based
+// 	// list of sigmlfile is available in sigmlArray.js
+//
+//
+// 	for(x = 0; x < tokens.length; x++) {
+// 		// process each token
+// 		t = tokens[x];
+// 		if(t == "EOL")
+// 			continue;
+// 		// convert token to lower case for seaching in the database
+// 		// search for name and it will return filename if it will exists
+// 		t = t.toLowerCase();
+// 		t = t.replace('.',""); // remove the puntuation from the end
+// 		tokens[x] = t;
+// 	}
+//
+// 	console.log(tokens);
+//
+// 	// reset the wordArray and arrayCounter here
+// 	wordArray = [];
+// 	arrayCounter = 0;
+// 	console.log("sigmllength : "+sigmlList.length);
+// 	for(x = 0; x < tokens.length; x++)
+// 	{
+// 		wordfoundflag = false;
+// 		t = tokens[x];
+// 		for(y = 0; y < sigmlList.length; y++) {
+// 			if(sigmlList[y].name == t) {
+// 				console.log(sigmlList[y].sid);
+// 				wordArray[arrayCounter++] = new FinalText(t, sigmlList[y].fileName);
+// 				wordfoundflag = true;
+// 				break;
+// 			}
+// 		}
+//
+// 		// if word not found then add chars - starts here
+// 		if(wordfoundflag == false) {
+// 			wordlen = t.length;
+// 			for(p = 0; p < wordlen; p++) {
+// 				q = t[p];
+// 				//q=q.toUpperCase();
+// 				for(k = 0; k < sigmlList.length; k++) {
+// 					if(sigmlList[k].name == q) {
+// 						wordArray[arrayCounter++] = new FinalText(q, sigmlList[k].fileName);
+// 						break;
+// 					}
+//                 }
+// 			}
+// 		   max = 0,countit=0;
+//
+//            for(k=0;k<sigmlList.length;k++)
+//            {
+// 		countit++;
+//            	  if(sigmlList[k].sid>max)
+//            	  	{ max = sigmlList[k].sid; }
+//            }
+//            console.log("maxi is : "+max);
+//            max = max + 1;
+// 		   if(t!="EOL"){
+//            console.log("k is : "+k);
+//            var obj = {"sid": max,"name": t,"fileName": t+".sigml"};
+//           /*// sigmlList.push(obj);
+// 	 file="sigmlFiles.json";
+// 	//$json = json_decode(file_get_contents($file),true);
+//
+// 	//$json[$countit] = array("sid" => $max, "name" => $t, "fileName" => $t+".sigml");
+//
+//
+// 	  // file_put_contents($file, json_encode($json));*/
+// /*
+// $json = file_get_contents('sigmlFiles.json');
+// $data = json_decode($json);
+// $data[] = $_POST[obj];
+// file_put_contents('sigmlFiles.json', json_encode($data));*/
+// /*
+// <?php
+// $data[] = $_POST['{"sid": max,"name": t,"fileName": t+".sigml"}'];
+//
+// $inp = file_get_contents('sigmlFiles.json');
+// $tempArray = json_decode($inp);
+// array_push($tempArray, $data);
+// $jsonData = json_encode($tempArray);
+// file_put_contents('sigmlFiles.json', $jsonData);
+// ?>
+// */
+//
+//            var newdata = JSON.stringify(sigmlList);
+//            console.log(newdata);
+//
+//            }
+// 		}
+// 		// if not word found part ends here
+// 	}
+//
+//
+// 	console.log(wordArray);
+// 	console.log(wordArray.length);
+//
+// 	$("#debugger").html(JSON.stringify(wordArray));
+//
+// 	// wordArray object contains the word and corresponding files to be played
+// 	// call the startPlayer on it in syn manner
+// 	totalWords = wordArray.length;
+// 	i = 0;
+//
+// 	var int = setInterval(function () {
+// 		if(i == totalWords) {
+// 			if(playerAvailableToPlay) {
+// 				clearInterval(int);
+// 				finalHint = $("#inputText").val();
+// 				$("#textHint").html(finalHint);
+// 			}
+// 		} else {
+// 			if(playerAvailableToPlay) {
+// 				playerAvailableToPlay = false;
+// 				startPlayer("SignFiles/" + wordArray[i].fileName);
+// 				$("#textHint").html(wordArray[i].word);
+// 				i++;
+// 			}
+// 		}
+// 	}, 3000);
+//
+// }
+function clickme() {
 	// read the input paragraph from the text box
 	// trim it to remove any spaces from sides
 	
-	console.log("reading inpur");
+	console.log("reading inpurrrr");
 	//inputText = $("#inputText").val().trim();
 
 
@@ -159,8 +340,8 @@ function yahoo(){
 	
 
 	var div = document.getElementById("dom-target");
-    var myData = div.textContent;
-    console.log(myData);
+    var myData = document.getElementById('dom-target').value;
+    console.log('##########' + myData);
 
     inputText = myData;
 	// read the language that has been set
@@ -316,187 +497,6 @@ file_put_contents('sigmlFiles.json', $jsonData);
 			}
 		}
 	}, 3000);
-
+	
+	
 }
-$("#btnRun").click(function () {
-	// read the input paragraph from the text box
-	// trim it to remove any spaces from sides
-	
-	console.log("reading inpur");
-	//inputText = $("#inputText").val().trim();
-
-
-	//document.getElementById('foo').value = 'bar';
-	//console.log("reading input");
-
-	//var x = document.getElementById("inputText").value;
-
-	//inputText = $("#inputText").val().trim();
-    //inputText = <?php echo $varrr;?>;
-
-    //var valll = "<?php echo $ff ?>";
-    //console.log(valll); 
-	
-	
-
-	var div = document.getElementById("dom-target");
-    var myData = div.textContent;
-    console.log(myData);
-
-    inputText = myData;
-	// read the language that has been set
-	lang = "English"; // using english for default
-	tokens = [];
-	
-	if(lang=="English") {
-		
-		// tokenize the english paragraph
-		tokenString = tokenizeEnglish(inputText);
-		tokens = tokenString.split(',');
-		console.log("Got tokens"); 
-		
-	} else if(lang == "Hindi") {
-		
-		// tokenize the english paragraph
-		tokenString = tokenizeHindi(inputText);
-		tokens = tokenString.split(',');
-		console.log("Got tokens"); 	
-		
-	}
-		
-	// remove empty values from tokens
-	for(x = 0; x < tokens.length; x++) {
-		t = tokens[x];
-		
-		if(t == "")
-			tokens.splice(x, 1);
-	}
-	
-	console.log(tokens);
-
-	// process tokens based on language settings
-	// use the script to generate the sigml files available and if
-	// word file is available use word file less speak as letter based
-	// list of sigmlfile is available in sigmlArray.js
-	
-		
-	for(x = 0; x < tokens.length; x++) {
-		// process each token
-		t = tokens[x];	
-		if(t == "EOL")
-			continue;
-		// convert token to lower case for seaching in the database
-		// search for name and it will return filename if it will exists
-		t = t.toLowerCase();
-		t = t.replace('.',""); // remove the puntuation from the end
-		tokens[x] = t;
-	}
-	
-	console.log(tokens);
-	
-	// reset the wordArray and arrayCounter here
-	wordArray = [];
-	arrayCounter = 0;
-	console.log("sigmllength : "+sigmlList.length);
-	for(x = 0; x < tokens.length; x++) 
-	{
-		wordfoundflag = false;
-		t = tokens[x];
-		for(y = 0; y < sigmlList.length; y++) {
-			if(sigmlList[y].name == t) {
-				console.log(sigmlList[y].sid);
-				wordArray[arrayCounter++] = new FinalText(t, sigmlList[y].fileName);
-				wordfoundflag = true;
-				break;
-			}
-		}
-		
-		// if word not found then add chars - starts here
-		if(wordfoundflag == false) {
-			wordlen = t.length;
-			for(p = 0; p < wordlen; p++) {
-				q = t[p];
-				//q=q.toUpperCase();
-				for(k = 0; k < sigmlList.length; k++) {
-					if(sigmlList[k].name == q) {
-						wordArray[arrayCounter++] = new FinalText(q, sigmlList[k].fileName);
-						break;
-					}
-                }				
-			}
-		   max = 0,countit=0;
-
-           for(k=0;k<sigmlList.length;k++)
-           {
-		countit++;
-           	  if(sigmlList[k].sid>max)
-           	  	{ max = sigmlList[k].sid; }
-           }
-           console.log("maxi is : "+max);
-           max = max + 1;
-		   if(t!="EOL"){
-           console.log("k is : "+k);
-           var obj = {"sid": max,"name": t,"fileName": t+".sigml"};
-          /*// sigmlList.push(obj);
-	 file="sigmlFiles.json";
-	//$json = json_decode(file_get_contents($file),true);
-
-	//$json[$countit] = array("sid" => $max, "name" => $t, "fileName" => $t+".sigml");
-
-	  
-	  // file_put_contents($file, json_encode($json));*/
-/*
-$json = file_get_contents('sigmlFiles.json');
-$data = json_decode($json);
-$data[] = $_POST[obj];
-file_put_contents('sigmlFiles.json', json_encode($data));*/
-/*
-<?php
-$data[] = $_POST['{"sid": max,"name": t,"fileName": t+".sigml"}'];
-
-$inp = file_get_contents('sigmlFiles.json');
-$tempArray = json_decode($inp);
-array_push($tempArray, $data);
-$jsonData = json_encode($tempArray);
-file_put_contents('sigmlFiles.json', $jsonData);
-?>
-*/
-
-           var newdata = JSON.stringify(sigmlList);
-           console.log(newdata);
-           
-           }
-		}
-		// if not word found part ends here
-	}
-	
-	
-	console.log(wordArray);
-	console.log(wordArray.length);
-	
-	$("#debugger").html(JSON.stringify(wordArray));
-	
-	// wordArray object contains the word and corresponding files to be played
-	// call the startPlayer on it in syn manner
-	totalWords = wordArray.length;
-	i = 0;
-	
-	var int = setInterval(function () {
-		if(i == totalWords) {
-			if(playerAvailableToPlay) {
-				clearInterval(int);
-				finalHint = $("#inputText").val();
-				$("#textHint").html(finalHint);
-			}			
-		} else {
-			if(playerAvailableToPlay) {
-				playerAvailableToPlay = false;				
-				startPlayer("SignFiles/" + wordArray[i].fileName);
-				$("#textHint").html(wordArray[i].word);
-				i++;
-			}
-		}
-	}, 3000);
-	
-	
-});

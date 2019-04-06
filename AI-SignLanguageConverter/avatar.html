@@ -76,88 +76,74 @@
     </script>
 </head>
 <body onload="CWASA.init(initCfg);" >
-<div id="loading" class="container">
+
+    <div id="loading" class="container">
     <div class="row text-center"><span style="background-color:#ebf8a4; padding: 8px 20px;">Loading ... Please wait...</span></div>
 </div>
-<!-- left side division starts here -->
-<div style="width:40%; padding:15px; float:left; margin-left:14%;">
 
-    <div id="menu1">
-        <br/>
-        <br/>
-        <button onclick="yahoo();" id="a">go</button>
+    <!-- left side division starts here -->
+
+
+    <script language="javascript" src="js/animationPlayer.js"></script>
+
+    <div style="box-sizing: border-box; width: 70%; height: 60%; padding: 15px; float:right; margin-right:14%;" >
+        <table align="center" style="width:100%; height:100%;" >
+            <tr align="center">
+                <!--================================================================-->
+                <!-- CWA signing avatar panel 0 -->
+                <!--================================================================-->
+                <!-- Replaced by an avatar panel -->
+                <!--================================================================-->
+                <td width="100%" height="90%" >
+                    <div class="CWASAAvatar av0" align="center" ></div>
+                </td>
+                <!--================================================================-->
+            </tr>
+            <tr>
+                <td>
+                    <p class="alert-warning text-center" style="padding:5px; font-size:20px; font-weight:bold;" id="textHint"></p>
+                </td>
+            </tr>
+            <tr style="display:none;">
+                <td align="center">
+                    <span class="CWASAAvMenu av0" ></span>
+                    <input type="button" value="Sign" class="bttnPlaySiGMLURL av0" />
+                    <input type="button" value="Stop" class="bttnStop av0" />
+                    <span class="CWASASpeed av0" ></span>
+                    <br/>
+                    <span style="font-size: 90%;" >
+                                Sign/Frame:
+                                <input class="txtSF av0" value="0/0" type="text">
+                                Gloss:
+                                <input class="txtGloss av0" value="[none]" type="text">
+                            </span>
+                    <!--  CachedSiGML URL  -->
+                    <input type="text" id="URLText" class="txtSiGMLURL av0 undisplayed" value="" />
+                    <script language="text/javascript">
+                        // Set default sign
+                        setSiGMLURL("SignFiles/hello.sigml");
+                    </script>
+                </td>
+            </tr>
+        </table>
     </div>
-
-    <div id="dom-target" style="display: none;">
-        art me hello m
-    </div>
+    <div style="width:80%; padding:15px; float:left; margin-left:14%;">
 
 
-    <!--
-    <div id="menu2">
-    <br>
-    <label for="inputText">Type text to convert to hindi:</rmbel><br>
-    <textarea id="transliterateTextarea" name="transliterateTextarea" style="width:100%; height:80px;"></textarea>
-    </div>
-    -->
-    <!--<div id="menu3">
-    <br>
-    Alphabets will be displayed here
-    </div>
+        <form id="inputText">
+            <input id="dom-target" type="text" name="firstname"><br>
+        </form>
+        <div id="menu1">
+            <br/>
+            <br/>
+            <button onclick="clickme()" id="btnRun">GO</button>
+        </div>
 
-    <div id="menu4">
-    <br>
-    Number will be displayed here
-    </div>-->
-
-    <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;">
-        <br><strong>Debugger</strong></br>
-        <div id="debugger"></div>
-    </div>
-</div> <!-- left side division ends here -->
-<script language="javascript" src="js/animationPlayer.js"></script>
-
-<div style="box-sizing: border-box; width: 30%; height: 80%; padding: 15px; float:right; margin-right:14%;" >
-    <table align="center" style="width:100%; height:100%;" >
-        <tr align="center">
-            <!--================================================================-->
-            <!-- CWA signing avatar panel 0 -->
-            <!--================================================================-->
-            <!-- Replaced by an avatar panel -->
-            <!--================================================================-->
-            <td width="100%" height="90%" >
-                <div class="CWASAAvatar av0" align="center" ></div>
-            </td>
-            <!--================================================================-->
-        </tr>
-        <tr>
-            <td>
-                <p class="alert-warning text-center" style="padding:5px; font-size:20px; font-weight:bold;" id="textHint"></p>
-            </td>
-        </tr>
-        <tr style="display:none;">
-            <td align="center">
-                <span class="CWASAAvMenu av0" ></span>
-                <input type="button" value="Sign" class="bttnPlaySiGMLURL av0" />
-                <input type="button" value="Stop" class="bttnStop av0" />
-                <span class="CWASASpeed av0" ></span>
-                <br/>
-                <span style="font-size: 90%;" >
-                            Sign/Frame:
-                            <input class="txtSF av0" value="0/0" type="text">
-                            Gloss:
-                            <input class="txtGloss av0" value="[none]" type="text">
-                        </span>
-                <!--  CachedSiGML URL  -->
-                <input type="text" id="URLText" class="txtSiGMLURL av0 undisplayed" value="" />
-                <script language="text/javascript">
-                    // Set default sign
-                    setSiGMLURL("SignFiles/hello.sigml");
-                </script>
-            </td>
-        </tr>
-    </table>
-</div>
+        <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;">
+            <br><strong>Debugger</strong></br>
+            <div id="debugger"></div>
+        </div>
+    </div> <!-- left side division ends here -->
 
 <script type="text/javascript" src="js/player.js"></script>
 <script type="text/javascript">
