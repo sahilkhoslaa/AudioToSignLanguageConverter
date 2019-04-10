@@ -1,0 +1,532 @@
+<?xml version="1.0" standalone="yes"?>
+<avatarStaticData version="1.0">
+  <avatar name="arp-marc" version="1.0">
+    <skeleton scale="0.03906196">
+      <joint name="ROOT" position="0.000000 0.000000 0.000000" rotation="0.000000 0.000000 0.707330 0.706883">
+        <feature name="T-LS" position="13.189 -5.120 2.391" />
+        <feature name="T-CS" position="13.192 0.000 3.515" />
+        <feature name="T-RS" position="13.195 5.120 2.380" />
+        <feature name="T-LC" position="10.119 -2.562 3.745" />
+        <feature name="T-CC" position="10.121 0.000 4.341" />
+        <feature name="T-RC" position="10.122 2.558 3.739" />
+        <feature name="T-LA" position="5.940 -2.560 3.728" />
+        <feature name="T-CA" position="5.942 0.000 4.328" />
+        <feature name="T-RA" position="5.943 2.560 3.717" />
+        <feature name="T-LB" position="1.761 -2.557 3.272" />
+        <feature name="T-CB" position="1.762 0.000 3.772" />
+        <feature name="T-RB" position="1.764 2.563 3.275" />
+        <feature name="T-LLC" position="10.118 -4.841 0.760" />
+        <feature name="T-RRC" position="10.124 4.825 0.760" />
+        <feature name="T-LLA" position="5.939 -4.641 0.760" />
+        <feature name="T-RRA" position="5.945 4.628 0.760" />
+        <feature name="T-LLB" position="1.760 -4.203 0.760" />
+        <feature name="T-RRB" position="1.765 4.179 0.760" />
+        <feature name="T-armhang-L" position="-2.565 -6.333 1.027" />
+        <feature name="T-armhang-R" position="-2.557 6.351 1.024" />
+        <joint name="SPI1" position="0.000000 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+          <joint name="SPI2" position="4.699549 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+            <joint name="SPI3" position="4.699549 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+              <joint name="NEC1" position="4.699549 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                <joint name="HEAD" position="2.799732 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                  <feature name="S-headtop-C" position="6.381 -0.006 1.636" />
+                  <feature name="S-forehead-C" position="4.035 0.013 3.720" />
+                  <feature name="S-forehead-L" position="4.035 -1.246 3.443" />
+                  <feature name="S-forehead-R" position="4.036 1.220 3.444" />
+                  <feature name="S-eyebrows-C" position="3.384 0.014 3.769" />
+                  <feature name="S-eyebrows-L" position="3.498 -1.016 3.641" />
+                  <feature name="S-eyebrows-R" position="3.499 0.991 3.643" />
+                  <feature name="S-eyes-L" position="2.949 -0.919 3.454" />
+                  <feature name="S-eyes-R" position="2.950 0.894 3.455" />
+                  <feature name="S-eyes-C" position="2.949 0.008 3.887" />
+                  <feature name="S-uppereyelid-L" position="3.126 -0.933 3.510" />
+                  <feature name="S-uppereyelid-R" position="3.127 0.908 3.511" />
+                  <feature name="S-lowereyelid-R" position="2.716 0.889 3.459" />
+                  <feature name="S-lowereyelid-L" position="2.715 -0.913 3.458" />
+                  <feature name="S-nose-C" position="2.011 -0.019 4.324" />
+                  <feature name="S-nose-L" position="1.956 -0.425 3.867" />
+                  <feature name="S-nose-R" position="1.957 0.402 3.870" />
+                  <feature name="S-nostrils-C" position="1.807 -0.012 4.070" />
+                  <feature name="S-nostrils-L" position="1.806 -0.214 3.850" />
+                  <feature name="S-nostrils-R" position="1.807 0.190 3.852" />
+                  <feature name="S-lips-C" position="1.102 -0.011 3.788" />
+                  <feature name="S-lips-L" position="1.155 -0.727 3.548" />
+                  <feature name="S-lips-R" position="1.156 0.707 3.565" />
+                  <feature name="S-upperlip-C" position="1.252 -0.005 3.950" />
+                  <feature name="S-upperlip-L" position="1.251 -0.421 3.828" />
+                  <feature name="S-upperlip-R" position="1.252 0.398 3.829" />
+                  <feature name="S-lowerlip-R" position="0.997 0.389 3.745" />
+                  <feature name="S-lowerlip-L" position="0.997 -0.411 3.743" />
+                  <feature name="S-lowerlip-C" position="0.928 -0.011 3.847" />
+                  <feature name="S-tongue-C" position="0.994 -0.011 3.554" />
+                  <feature name="S-teeth-C" position="1.105 -0.011 3.630" />
+                  <feature name="S-upperteeth-C" position="1.240 -0.011 3.659" />
+                  <feature name="S-lowerteeth-C" position="0.940 -0.011 3.592" />
+                  <feature name="S-chin-C" position="0.163 -0.017 3.665" />
+                  <feature name="S-chin-L" position="0.228 -0.639 3.390" />
+                  <feature name="S-chin-R" position="0.229 0.618 3.394" />
+                  <feature name="S-underchin-C" position="-0.125 -0.021 2.882" />
+                  <feature name="S-ear-L" position="2.157 -1.963 0.676" />
+                  <feature name="S-ear-R" position="2.159 1.953 0.680" />
+                  <feature name="S-earlobe-R" position="1.349 2.129 0.852" />
+                  <feature name="S-earlobe-L" position="1.347 -2.141 0.847" />
+                  <feature name="S-cheek-L" position="1.854 -1.329 3.326" />
+                  <feature name="S-cheek-R" position="1.856 1.307 3.331" />
+                  <feature name="S-skullback-C" position="2.998 0.062 -2.121" />
+                  <feature name="S-eartop-R" position="3.116 2.506 0.619" />
+                  <feature name="S-eartop-L" position="3.113 -2.529 0.618" />
+                  <feature name="S-cheekbone-L" position="2.454 -1.375 3.227" />
+                  <feature name="S-cheekbone-R" position="2.456 1.352 3.229" />
+                  <feature name="S-gonion-R" position="1.469 1.867 1.494" />
+                  <feature name="S-gonion-L" position="1.467 -1.883 1.488" />
+                  <feature name="S-chinhollow-C" position="0.613 -0.030 3.715" />
+                  <feature name="S-upperorbit-L" position="3.225 -0.948 3.541" />
+                  <feature name="S-upperorbit-R" position="3.226 0.923 3.542" />
+                  <feature name="S-lowerorbit-R" position="2.629 0.882 3.432" />
+                  <feature name="S-lowerorbit-L" position="2.628 -0.906 3.431" />
+                  <feature name="S-innerorbit-L" position="2.935 -0.510 3.410" />
+                  <feature name="S-innerorbit-R" position="2.935 0.485 3.412" />
+                  <feature name="S-outerorbit-R" position="2.936 1.238 3.208" />
+                  <feature name="S-outerorbit-L" position="2.934 -1.261 3.201" />
+                  <feature name="S-cornea-L" position="2.934 -0.819 3.465" />
+                  <feature name="S-cornea-R" position="2.935 0.800 3.465" />
+                  <feature name="S-necktopback-C" position="0.172 0.005 -0.994" />
+                  <feature name="S-headtop-F" position="4.855 -0.014 3.914" />
+                  <feature name="S-headtop-FL" position="4.854 -1.457 2.922" />
+                  <feature name="S-headtop-L" position="4.853 -2.416 0.856" />
+                  <feature name="S-headtop-BL" position="4.853 -1.994 -0.932" />
+                  <feature name="S-headtop-B" position="4.855 0.021 -1.812" />
+                  <feature name="S-headtop-BR" position="4.856 1.608 -1.254" />
+                  <feature name="S-headtop-R" position="4.856 2.422 0.593" />
+                  <feature name="S-headtop-FR" position="4.856 1.949 2.632" />
+                  <feature name="S-chinextent-C" position="-0.360 -0.016 3.347" />
+                  <joint name="LEYE" position="2.939718 -0.839920 2.999715" rotation="0.000000 0.000000 0.000000 1.000000">
+                    <joint name="EN14" position="0.069993 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                  </joint>
+                  <joint name="REYE" position="2.939718 0.839920 2.999715" rotation="0.000000 0.000000 0.000000 1.000000">
+                    <joint name="EN15" position="0.069993 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                  </joint>
+                </joint>
+              </joint>
+              <joint name="LCLR" position="4.699549 0.000000 0.000000" rotation="0.454329 -0.541835 -0.541835 0.454329">
+                <feature name="A-LST" position="5.200 0.000 -1.774" />
+                <joint name="LUPA" position="5.199502 0.000000 0.000000" rotation="-0.017000 -0.628276 -0.021039 0.777520">
+                  <feature name="A-LSI" position="0.000 0.000 2.765" />
+                  <feature name="A-LSO" position="0.000 0.000 -1.782" />
+                  <feature name="A-LSB" position="0.000 -2.474 0.000" />
+                  <feature name="A-LSF" position="0.000 2.364 0.000" />
+                  <feature name="A-LUI" position="3.650 0.000 1.369" />
+                  <feature name="A-LUO" position="3.650 0.000 -1.102" />
+                  <feature name="A-LUB" position="3.650 -1.367 0.000" />
+                  <feature name="A-LUF" position="3.650 1.434 0.000" />
+                  <joint name="LLRA" position="7.299301 0.000000 0.000000" rotation="-0.500000 -0.500000 0.500000 0.500000">
+                    <feature name="A-LEI" position="0.000 -1.058 0.000" />
+                    <feature name="A-LEO" position="0.000 1.002 0.000" />
+                    <feature name="A-LEB" position="0.000 0.000 -1.255" />
+                    <feature name="A-LEF" position="0.000 0.000 1.296" />
+                    <feature name="A-LLI" position="3.650 -0.928 0.000" />
+                    <feature name="A-LLO" position="3.650 0.883 0.000" />
+                    <feature name="A-LLB" position="3.650 0.000 -1.098" />
+                    <feature name="A-LLF" position="3.650 0.000 0.968" />
+                    <joint name="LWRI" position="7.299301 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                      <feature name="A-LWF" position="0.000 0.000 0.762" />
+                      <feature name="A-LWB" position="0.000 0.000 -0.792" />
+                      <feature name="A-LWI" position="0.000 -0.505 0.000" />
+                      <feature name="A-LWO" position="0.000 0.451 0.000" />
+                      <feature name="H-LR" position="1.388 0.000 -1.014" />
+                      <feature name="H-LU" position="1.388 0.000 0.925" />
+                      <feature name="H-LP" position="1.388 -0.350 0.000" />
+                      <feature name="H-LD" position="1.388 0.403 0.000" />
+                      <joint name="LTH1" position="0.499953 -0.227574 0.629940" rotation="0.578385 -0.289295 0.241132 0.723626">
+                        <feature name="H-L1-J1-U" position="0.000 0.000 0.412" />
+                        <feature name="H-L1-J1-R" position="0.000 0.000 -0.619" />
+                        <feature name="H-L1-J1-D" position="0.000 0.257 0.000" />
+                        <feature name="H-L1-J1-P" position="0.000 -1.526 0.000" />
+                        <feature name="H-L1-B1-U" position="0.569 0.000 0.349" />
+                        <feature name="H-L1-B1-R" position="0.569 0.000 -0.838" />
+                        <feature name="H-L1-B1-D" position="0.569 0.213 0.000" />
+                        <feature name="H-L1-B1-P" position="0.569 -0.619 0.000" />
+                        <joint name="LTH2" position="1.137872 0.000000 0.000000" rotation="0.000000 0.000000 -0.017496 0.999847">
+                          <feature name="H-L1-J2-U" position="0.000 0.000 0.287" />
+                          <feature name="H-L1-J2-R" position="0.000 0.000 -0.239" />
+                          <feature name="H-L1-J2-D" position="0.000 0.221 0.000" />
+                          <feature name="H-L1-J2-P" position="0.000 -0.257 0.000" />
+                          <feature name="H-L1-B2-U" position="0.341 0.000 0.258" />
+                          <feature name="H-L1-B2-R" position="0.341 0.000 -0.201" />
+                          <feature name="H-L1-B2-D" position="0.341 0.170 0.000" />
+                          <feature name="H-L1-B2-P" position="0.341 -0.219 0.000" />
+                          <joint name="LTH3" position="0.682724 0.000000 0.000000" rotation="0.000000 0.000000 -0.031449 0.999505">
+                            <feature name="H-L1-J3-U" position="0.000 0.000 0.261" />
+                            <feature name="H-L1-J3-R" position="0.000 0.000 -0.247" />
+                            <feature name="H-L1-J3-D" position="0.000 0.183 0.000" />
+                            <feature name="H-L1-J3-P" position="0.000 -0.197 0.000" />
+                            <feature name="H-L1-B3-U" position="0.256 0.000 0.210" />
+                            <feature name="H-L1-B3-R" position="0.256 0.000 -0.193" />
+                            <feature name="H-L1-B3-D" position="0.256 0.143 0.000" />
+                            <feature name="H-L1-B3-P" position="0.256 -0.192 0.000" />
+                            <feature name="H-L1-TIP" position="0.593 0.000 0.000" />
+                            <joint name="EN06" position="0.512042 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                          </joint>
+                        </joint>
+                      </joint>
+                      <joint name="LMC2" position="0.499953 0.000000 0.449957" rotation="0.000803 -0.019963 0.040204 0.998992">
+                        <joint name="LIF1" position="1.763700 0.000000 0.000000" rotation="0.000280 0.019543 -0.014302 0.999707">
+                          <feature name="H-L2-J1-R" position="0.000 0.000 -1.339" />
+                          <feature name="H-L2-J1-U" position="0.000 0.000 0.268" />
+                          <feature name="H-L2-J1-P" position="0.000 -0.289 0.000" />
+                          <feature name="H-L2-J1-D" position="0.000 0.328 0.000" />
+                          <feature name="H-L2-B1-R" position="0.515 0.000 -0.240" />
+                          <feature name="H-L2-B1-U" position="0.515 0.000 0.209" />
+                          <feature name="H-L2-B1-P" position="0.515 -0.232 0.000" />
+                          <feature name="H-L2-B1-D" position="0.515 0.275 0.000" />
+                          <joint name="LIF2" position="1.029772 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                            <feature name="H-L2-J2-R" position="0.000 0.000 -0.228" />
+                            <feature name="H-L2-J2-U" position="0.000 0.000 0.214" />
+                            <feature name="H-L2-J2-P" position="0.000 -0.163 0.000" />
+                            <feature name="H-L2-J2-D" position="0.000 0.247 0.000" />
+                            <feature name="H-L2-B2-R" position="0.296 0.000 -0.201" />
+                            <feature name="H-L2-B2-U" position="0.296 0.000 0.192" />
+                            <feature name="H-L2-B2-P" position="0.296 -0.183 0.000" />
+                            <feature name="H-L2-B2-D" position="0.296 0.219 0.000" />
+                            <joint name="LIF3" position="0.591693 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                              <feature name="H-L2-J3-R" position="0.000 0.000 -0.197" />
+                              <feature name="H-L2-J3-U" position="0.000 0.000 0.196" />
+                              <feature name="H-L2-J3-P" position="0.000 -0.146 0.000" />
+                              <feature name="H-L2-J3-D" position="0.000 0.206 0.000" />
+                              <feature name="H-L2-B3-R" position="0.216 0.000 -0.161" />
+                              <feature name="H-L2-B3-U" position="0.216 0.000 0.179" />
+                              <feature name="H-L2-B3-P" position="0.216 -0.167 0.000" />
+                              <feature name="H-L2-B3-D" position="0.216 0.174 0.000" />
+                              <feature name="H-L2-TIP" position="0.444 0.000 0.000" />
+                              <joint name="EN05" position="0.432391 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                            </joint>
+                          </joint>
+                        </joint>
+                      </joint>
+                      <joint name="LMC3" position="0.499953 0.056894 0.147923" rotation="-0.001155 0.031002 0.037207 0.998826">
+                        <joint name="LMF1" position="1.775078 0.000000 0.000000" rotation="-0.000916 -0.027607 -0.033167 0.999068">
+                          <feature name="H-L3-J1-R" position="0.000 0.000 -0.820" />
+                          <feature name="H-L3-J1-U" position="0.000 0.000 0.791" />
+                          <feature name="H-L3-J1-P" position="0.000 -0.307 0.000" />
+                          <feature name="H-L3-J1-D" position="0.000 0.316 0.000" />
+                          <feature name="H-L3-B1-R" position="0.500 0.000 -0.256" />
+                          <feature name="H-L3-B1-U" position="0.500 0.000 0.186" />
+                          <feature name="H-L3-B1-P" position="0.500 -0.167 0.000" />
+                          <feature name="H-L3-B1-D" position="0.500 0.260 0.000" />
+                          <joint name="LMF2" position="0.999905 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                            <feature name="H-L3-J2-R" position="0.000 0.000 -0.255" />
+                            <feature name="H-L3-J2-U" position="0.000 0.000 0.194" />
+                            <feature name="H-L3-J2-P" position="0.000 -0.121 0.000" />
+                            <feature name="H-L3-J2-D" position="0.000 0.262 0.000" />
+                            <feature name="H-L3-B2-R" position="0.330 0.000 -0.239" />
+                            <feature name="H-L3-B2-U" position="0.330 0.000 0.174" />
+                            <feature name="H-L3-B2-P" position="0.330 -0.141 0.000" />
+                            <feature name="H-L3-B2-D" position="0.330 0.256 0.000" />
+                            <joint name="LMF3" position="0.659964 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                              <feature name="H-L3-J3-R" position="0.000 0.000 -0.259" />
+                              <feature name="H-L3-J3-U" position="0.000 0.000 0.189" />
+                              <feature name="H-L3-J3-P" position="0.000 -0.117 0.000" />
+                              <feature name="H-L3-J3-D" position="0.000 0.254 0.000" />
+                              <feature name="H-L3-B3-R" position="0.275 0.000 -0.246" />
+                              <feature name="H-L3-B3-U" position="0.275 0.000 0.169" />
+                              <feature name="H-L3-B3-P" position="0.275 -0.137 0.000" />
+                              <feature name="H-L3-B3-D" position="0.275 0.237 0.000" />
+                              <feature name="H-L3-TIP" position="0.568 0.000 0.000" />
+                              <joint name="EN04" position="0.549948 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                            </joint>
+                          </joint>
+                        </joint>
+                      </joint>
+                      <joint name="LMC4" position="0.499953 0.034135 -0.147923" rotation="-0.001460 0.085469 0.017014 0.996194">
+                        <joint name="LRF1" position="1.593019 0.000000 0.000000" rotation="-0.003044 -0.091687 -0.033040 0.995235">
+                          <feature name="H-L4-J1-R" position="0.000 0.000 -0.753" />
+                          <feature name="H-L4-J1-U" position="0.000 0.000 1.272" />
+                          <feature name="H-L4-J1-P" position="0.000 -0.336 0.000" />
+                          <feature name="H-L4-J1-D" position="0.000 0.274 0.000" />
+                          <feature name="H-L4-B1-R" position="0.518 0.000 -0.258" />
+                          <feature name="H-L4-B1-U" position="0.518 0.000 0.181" />
+                          <feature name="H-L4-B1-P" position="0.518 -0.240 0.000" />
+                          <feature name="H-L4-B1-D" position="0.518 0.216 0.000" />
+                          <joint name="LRF2" position="1.035462 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                            <feature name="H-L4-J2-R" position="0.000 0.000 -0.263" />
+                            <feature name="H-L4-J2-U" position="0.000 0.000 0.182" />
+                            <feature name="H-L4-J2-P" position="0.000 -0.169 0.000" />
+                            <feature name="H-L4-J2-D" position="0.000 0.203 0.000" />
+                            <feature name="H-L4-B2-R" position="0.290 0.000 -0.240" />
+                            <feature name="H-L4-B2-U" position="0.290 0.000 0.162" />
+                            <feature name="H-L4-B2-P" position="0.290 -0.178 0.000" />
+                            <feature name="H-L4-B2-D" position="0.290 0.195 0.000" />
+                            <joint name="LRF3" position="0.580313 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                              <feature name="H-L4-J3-R" position="0.000 0.000 -0.251" />
+                              <feature name="H-L4-J3-U" position="0.000 0.000 0.172" />
+                              <feature name="H-L4-J3-P" position="0.000 -0.143 0.000" />
+                              <feature name="H-L4-J3-D" position="0.000 0.205 0.000" />
+                              <feature name="H-L4-B3-R" position="0.222 0.000 -0.218" />
+                              <feature name="H-L4-B3-U" position="0.222 0.000 0.141" />
+                              <feature name="H-L4-B3-P" position="0.222 -0.150 0.000" />
+                              <feature name="H-L4-B3-D" position="0.222 0.179 0.000" />
+                              <feature name="H-L4-TIP" position="0.455 0.000 0.000" />
+                              <joint name="EN03" position="0.443770 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                            </joint>
+                          </joint>
+                        </joint>
+                      </joint>
+                      <joint name="LMC5" position="0.499953 -0.045514 -0.499953" rotation="-0.000474 0.127957 0.003672 0.991773">
+                        <joint name="LPF1" position="1.410959 0.000000 0.000000" rotation="-0.003985 -0.142600 -0.027653 0.989386">
+                          <feature name="H-L5-J1-R" position="0.000 0.000 -0.304" />
+                          <feature name="H-L5-J1-U" position="0.000 0.000 0.140" />
+                          <feature name="H-L5-J1-P" position="0.000 -0.381 0.000" />
+                          <feature name="H-L5-J1-D" position="0.000 0.255 0.000" />
+                          <feature name="H-L5-B1-R" position="0.427 0.000 -0.225" />
+                          <feature name="H-L5-B1-U" position="0.427 0.000 0.198" />
+                          <feature name="H-L5-B1-P" position="0.427 -0.256 0.000" />
+                          <feature name="H-L5-B1-D" position="0.427 0.215 0.000" />
+                          <joint name="LPF2" position="0.853404 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                            <feature name="H-L5-J2-R" position="0.000 0.000 -0.197" />
+                            <feature name="H-L5-J2-U" position="0.000 0.000 0.174" />
+                            <feature name="H-L5-J2-P" position="0.000 -0.200 0.000" />
+                            <feature name="H-L5-J2-D" position="0.000 0.188 0.000" />
+                            <feature name="H-L5-B2-R" position="0.225 0.000 -0.187" />
+                            <feature name="H-L5-B2-U" position="0.225 0.000 0.165" />
+                            <feature name="H-L5-B2-P" position="0.225 -0.217 0.000" />
+                            <feature name="H-L5-B2-D" position="0.225 0.169 0.000" />
+                            <joint name="LPF3" position="0.449460 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                              <feature name="H-L5-J3-R" position="0.000 0.000 -0.190" />
+                              <feature name="H-L5-J3-U" position="0.000 0.000 0.170" />
+                              <feature name="H-L5-J3-P" position="0.000 -0.192 0.000" />
+                              <feature name="H-L5-J3-D" position="0.000 0.183 0.000" />
+                              <feature name="H-L5-B3-R" position="0.222 0.000 -0.170" />
+                              <feature name="H-L5-B3-U" position="0.222 0.000 0.145" />
+                              <feature name="H-L5-B3-P" position="0.222 -0.185 0.000" />
+                              <feature name="H-L5-B3-D" position="0.222 0.177 0.000" />
+                              <feature name="H-L5-TIP" position="0.454 0.000 0.000" />
+                              <joint name="EN02" position="0.443770 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                            </joint>
+                          </joint>
+                        </joint>
+                      </joint>
+                    </joint>
+                  </joint>
+                </joint>
+              </joint>
+              <joint name="RCLR" position="4.699549 0.000000 0.000000" rotation="-0.454329 -0.541835 0.541835 0.454329">
+                <feature name="A-RST" position="5.200 0.000 -1.772" />
+                <joint name="RUPA" position="5.199502 0.000000 0.000000" rotation="0.017000 -0.628276 0.021039 0.777520">
+                  <feature name="A-RSO" position="0.000 0.000 -1.781" />
+                  <feature name="A-RSI" position="0.000 0.000 2.723" />
+                  <feature name="A-RSB" position="0.000 2.476 0.000" />
+                  <feature name="A-RSF" position="0.000 -2.356 0.000" />
+                  <feature name="A-RUO" position="3.650 0.000 -1.118" />
+                  <feature name="A-RUI" position="3.650 0.000 1.364" />
+                  <feature name="A-RUB" position="3.650 1.375 0.000" />
+                  <feature name="A-RUF" position="3.650 -1.455 0.000" />
+                  <joint name="RLRA" position="7.299301 0.000000 0.000000" rotation="0.500000 -0.500000 -0.500000 0.500000">
+                    <feature name="A-REO" position="0.000 -1.038 0.000" />
+                    <feature name="A-REI" position="0.000 1.035 0.000" />
+                    <feature name="A-REB" position="0.000 0.000 -1.271" />
+                    <feature name="A-REF" position="0.000 0.000 1.289" />
+                    <feature name="A-RLO" position="3.650 -0.892 0.000" />
+                    <feature name="A-RLI" position="3.650 0.923 0.000" />
+                    <feature name="A-RLB" position="3.650 0.000 -1.112" />
+                    <feature name="A-RLF" position="3.650 0.000 0.952" />
+                    <joint name="RWRI" position="7.299301 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                      <feature name="A-RWB" position="0.000 0.000 -0.805" />
+                      <feature name="A-RWF" position="0.000 0.000 0.761" />
+                      <feature name="A-RWI" position="0.000 0.496 0.000" />
+                      <feature name="A-RWO" position="0.000 -0.458 0.000" />
+                      <feature name="H-RU" position="1.388 0.000 -1.040" />
+                      <feature name="H-RR" position="1.388 0.000 0.910" />
+                      <feature name="H-RP" position="1.388 0.349 0.000" />
+                      <feature name="H-RD" position="1.388 -0.414 0.000" />
+                      <joint name="RTH1" position="0.499953 0.227598 0.629940" rotation="-0.577867 -0.281704 -0.258377 0.721079">
+                        <feature name="H-R1-J1-R" position="0.000 0.000 0.406" />
+                        <feature name="H-R1-J1-U" position="0.000 0.000 -0.616" />
+                        <feature name="H-R1-J1-D" position="0.000 -0.245 0.000" />
+                        <feature name="H-R1-J1-P" position="0.000 1.493 0.000" />
+                        <feature name="H-R1-B1-R" position="0.569 0.000 0.344" />
+                        <feature name="H-R1-B1-U" position="0.569 0.000 -0.819" />
+                        <feature name="H-R1-B1-D" position="0.569 -0.203 0.000" />
+                        <feature name="H-R1-B1-P" position="0.569 0.619 0.000" />
+                        <joint name="RTH2" position="1.137984 0.000000 0.000000" rotation="0.000000 0.000000 0.017540 0.999846">
+                          <feature name="H-R1-J2-R" position="0.000 0.000 0.278" />
+                          <feature name="H-R1-J2-U" position="0.000 0.000 -0.237" />
+                          <feature name="H-R1-J2-D" position="0.000 -0.202 0.000" />
+                          <feature name="H-R1-J2-P" position="0.000 0.254 0.000" />
+                          <feature name="H-R1-B2-R" position="0.341 0.000 0.249" />
+                          <feature name="H-R1-B2-U" position="0.341 0.000 -0.200" />
+                          <feature name="H-R1-B2-D" position="0.341 -0.155 0.000" />
+                          <feature name="H-R1-B2-P" position="0.341 0.231 0.000" />
+                          <joint name="RTH3" position="0.682791 0.000000 0.000000" rotation="0.000000 0.000000 0.031411 0.999507">
+                            <feature name="H-R1-J3-R" position="0.000 0.000 0.253" />
+                            <feature name="H-R1-J3-U" position="0.000 0.000 -0.244" />
+                            <feature name="H-R1-J3-D" position="0.000 -0.166 0.000" />
+                            <feature name="H-R1-J3-P" position="0.000 0.205 0.000" />
+                            <feature name="H-R1-B3-R" position="0.256 0.000 0.214" />
+                            <feature name="H-R1-B3-U" position="0.256 0.000 -0.186" />
+                            <feature name="H-R1-B3-D" position="0.256 -0.119 0.000" />
+                            <feature name="H-R1-B3-P" position="0.256 0.211 0.000" />
+                            <feature name="H-R1-TIP" position="0.580 0.000 0.000" />
+                            <joint name="EN07" position="0.512093 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                          </joint>
+                        </joint>
+                      </joint>
+                      <joint name="RMC2" position="0.499953 0.000000 0.449957" rotation="-0.000431 -0.019890 -0.054157 0.998334">
+                        <joint name="RIF1" position="1.763877 0.000000 0.000000" rotation="-0.001207 0.040269 0.029951 0.998739">
+                          <feature name="H-R2-J1-U" position="0.000 0.000 -1.354" />
+                          <feature name="H-R2-J1-R" position="0.000 0.000 0.252" />
+                          <feature name="H-R2-J1-P" position="0.000 0.268 0.000" />
+                          <feature name="H-R2-J1-D" position="0.000 -0.332 0.000" />
+                          <feature name="H-R2-B1-U" position="0.515 0.000 -0.256" />
+                          <feature name="H-R2-B1-R" position="0.515 0.000 0.195" />
+                          <feature name="H-R2-B1-P" position="0.515 0.219 0.000" />
+                          <feature name="H-R2-B1-D" position="0.515 -0.280 0.000" />
+                          <joint name="RIF2" position="1.029876 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                            <feature name="H-R2-J2-U" position="0.000 0.000 -0.243" />
+                            <feature name="H-R2-J2-R" position="0.000 0.000 0.197" />
+                            <feature name="H-R2-J2-P" position="0.000 0.153 0.000" />
+                            <feature name="H-R2-J2-D" position="0.000 -0.258 0.000" />
+                            <feature name="H-R2-B2-U" position="0.296 0.000 -0.217" />
+                            <feature name="H-R2-B2-R" position="0.296 0.000 0.175" />
+                            <feature name="H-R2-B2-P" position="0.296 0.169 0.000" />
+                            <feature name="H-R2-B2-D" position="0.296 -0.232 0.000" />
+                            <joint name="RIF3" position="0.591752 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                              <feature name="H-R2-J3-U" position="0.000 0.000 -0.215" />
+                              <feature name="H-R2-J3-R" position="0.000 0.000 0.180" />
+                              <feature name="H-R2-J3-P" position="0.000 0.137 0.000" />
+                              <feature name="H-R2-J3-D" position="0.000 -0.219 0.000" />
+                              <feature name="H-R2-B3-U" position="0.216 0.000 -0.173" />
+                              <feature name="H-R2-B3-R" position="0.216 0.000 0.159" />
+                              <feature name="H-R2-B3-P" position="0.216 0.147 0.000" />
+                              <feature name="H-R2-B3-D" position="0.216 -0.187 0.000" />
+                              <feature name="H-R2-TIP" position="0.418 0.000 0.000" />
+                              <joint name="EN08" position="0.432433 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                            </joint>
+                          </joint>
+                        </joint>
+                      </joint>
+                      <joint name="RMC3" position="0.499953 -0.056900 0.147938" rotation="0.001468 0.029630 -0.049438 0.998337">
+                        <joint name="RMF1" position="1.775255 0.000000 0.000000" rotation="0.001219 -0.020579 0.059149 0.998036">
+                          <feature name="H-R3-J1-U" position="0.000 0.000 -0.835" />
+                          <feature name="H-R3-J1-R" position="0.000 0.000 0.778" />
+                          <feature name="H-R3-J1-P" position="0.000 0.296 0.000" />
+                          <feature name="H-R3-J1-D" position="0.000 -0.317 0.000" />
+                          <feature name="H-R3-B1-U" position="0.495 0.000 -0.273" />
+                          <feature name="H-R3-B1-R" position="0.495 0.000 0.167" />
+                          <feature name="H-R3-B1-P" position="0.495 0.151 0.000" />
+                          <feature name="H-R3-B1-D" position="0.495 -0.260 0.000" />
+                          <joint name="RMF2" position="0.989905 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                            <feature name="H-R3-J2-U" position="0.000 0.000 -0.274" />
+                            <feature name="H-R3-J2-R" position="0.000 0.000 0.176" />
+                            <feature name="H-R3-J2-P" position="0.000 0.103 0.000" />
+                            <feature name="H-R3-J2-D" position="0.000 -0.273 0.000" />
+                            <feature name="H-R3-B2-U" position="0.330 0.000 -0.257" />
+                            <feature name="H-R3-B2-R" position="0.330 0.000 0.154" />
+                            <feature name="H-R3-B2-P" position="0.330 0.125 0.000" />
+                            <feature name="H-R3-B2-D" position="0.330 -0.262 0.000" />
+                            <joint name="RMF3" position="0.660031 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                              <feature name="H-R3-J3-U" position="0.000 0.000 -0.277" />
+                              <feature name="H-R3-J3-R" position="0.000 0.000 0.167" />
+                              <feature name="H-R3-J3-P" position="0.000 0.104 0.000" />
+                              <feature name="H-R3-J3-D" position="0.000 -0.261 0.000" />
+                              <feature name="H-R3-B3-U" position="0.290 0.000 -0.265" />
+                              <feature name="H-R3-B3-R" position="0.290 0.000 0.148" />
+                              <feature name="H-R3-B3-P" position="0.290 0.121 0.000" />
+                              <feature name="H-R3-B3-D" position="0.290 -0.243 0.000" />
+                              <feature name="H-R3-TIP" position="0.550 0.000 0.000" />
+                              <joint name="EN09" position="0.579945 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                            </joint>
+                          </joint>
+                        </joint>
+                      </joint>
+                      <joint name="RMC4" position="0.499953 -0.034140 -0.189982" rotation="0.002981 0.074194 -0.040040 0.996435">
+                        <joint name="RRF1" position="1.593177 0.000000 0.000000" rotation="0.005439 -0.077993 0.069354 0.994524">
+                          <feature name="H-R4-J1-U" position="0.000 0.000 -0.744" />
+                          <feature name="H-R4-J1-R" position="0.000 0.000 1.298" />
+                          <feature name="H-R4-J1-P" position="0.000 0.334 0.000" />
+                          <feature name="H-R4-J1-D" position="0.000 -0.291 0.000" />
+                          <feature name="H-R4-B1-U" position="0.518 0.000 -0.243" />
+                          <feature name="H-R4-B1-R" position="0.518 0.000 0.205" />
+                          <feature name="H-R4-B1-P" position="0.518 0.233 0.000" />
+                          <feature name="H-R4-B1-D" position="0.518 -0.230 0.000" />
+                          <joint name="RRF2" position="1.035566 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                            <feature name="H-R4-J2-U" position="0.000 0.000 -0.239" />
+                            <feature name="H-R4-J2-R" position="0.000 0.000 0.201" />
+                            <feature name="H-R4-J2-P" position="0.000 0.167 0.000" />
+                            <feature name="H-R4-J2-D" position="0.000 -0.215 0.000" />
+                            <feature name="H-R4-B2-U" position="0.290 0.000 -0.220" />
+                            <feature name="H-R4-B2-R" position="0.290 0.000 0.184" />
+                            <feature name="H-R4-B2-P" position="0.290 0.173 0.000" />
+                            <feature name="H-R4-B2-D" position="0.290 -0.210 0.000" />
+                            <joint name="RRF3" position="0.580372 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                              <feature name="H-R4-J3-U" position="0.000 0.000 -0.228" />
+                              <feature name="H-R4-J3-R" position="0.000 0.000 0.186" />
+                              <feature name="H-R4-J3-P" position="0.000 0.144 0.000" />
+                              <feature name="H-R4-J3-D" position="0.000 -0.220 0.000" />
+                              <feature name="H-R4-B3-U" position="0.222 0.000 -0.187" />
+                              <feature name="H-R4-B3-R" position="0.222 0.000 0.151" />
+                              <feature name="H-R4-B3-P" position="0.222 0.144 0.000" />
+                              <feature name="H-R4-B3-D" position="0.222 -0.193 0.000" />
+                              <feature name="H-R4-TIP" position="0.437 0.000 0.000" />
+                              <joint name="EN10" position="0.443813 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                            </joint>
+                          </joint>
+                        </joint>
+                      </joint>
+                      <joint name="RMC5" position="0.499953 0.045520 -0.509951" rotation="0.002215 0.124745 -0.017613 0.992030">
+                        <joint name="RPF1" position="1.411101 0.000000 0.000000" rotation="0.007245 -0.133790 0.053591 0.989533">
+                          <feature name="H-R5-J1-U" position="0.000 0.000 -0.316" />
+                          <feature name="H-R5-J1-R" position="0.000 0.000 0.202" />
+                          <feature name="H-R5-J1-P" position="0.000 0.371 0.000" />
+                          <feature name="H-R5-J1-D" position="0.000 -0.266 0.000" />
+                          <feature name="H-R5-B1-U" position="0.427 0.000 -0.235" />
+                          <feature name="H-R5-B1-R" position="0.427 0.000 0.186" />
+                          <feature name="H-R5-B1-P" position="0.427 0.241 0.000" />
+                          <feature name="H-R5-B1-D" position="0.427 -0.222 0.000" />
+                          <joint name="RPF2" position="0.853488 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                            <feature name="H-R5-J2-U" position="0.000 0.000 -0.207" />
+                            <feature name="H-R5-J2-R" position="0.000 0.000 0.161" />
+                            <feature name="H-R5-J2-P" position="0.000 0.191 0.000" />
+                            <feature name="H-R5-J2-D" position="0.000 -0.195 0.000" />
+                            <feature name="H-R5-B2-U" position="0.225 0.000 -0.198" />
+                            <feature name="H-R5-B2-R" position="0.225 0.000 0.156" />
+                            <feature name="H-R5-B2-P" position="0.225 0.204 0.000" />
+                            <feature name="H-R5-B2-D" position="0.225 -0.177 0.000" />
+                            <joint name="RPF3" position="0.449504 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000">
+                              <feature name="H-R5-J3-U" position="0.000 0.000 -0.202" />
+                              <feature name="H-R5-J3-R" position="0.000 0.000 0.156" />
+                              <feature name="H-R5-J3-P" position="0.000 0.178 0.000" />
+                              <feature name="H-R5-J3-D" position="0.000 -0.193 0.000" />
+                              <feature name="H-R5-B3-U" position="0.222 0.000 -0.181" />
+                              <feature name="H-R5-B3-R" position="0.222 0.000 0.133" />
+                              <feature name="H-R5-B3-P" position="0.222 0.166 0.000" />
+                              <feature name="H-R5-B3-D" position="0.222 -0.185 0.000" />
+                              <feature name="H-R5-TIP" position="0.431 0.000 0.000" />
+                              <joint name="EN11" position="0.443813 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+                            </joint>
+                          </joint>
+                        </joint>
+                      </joint>
+                    </joint>
+                  </joint>
+                </joint>
+              </joint>
+            </joint>
+          </joint>
+        </joint>
+        <joint name="LTHG" position="-1.799827 -3.099704 0.000000" rotation="0.006622 0.707076 0.707084 -0.005728">
+          <joint name="LCLF" position="12.598800 0.000000 0.000000" rotation="0.000000 0.000000 -0.015707 0.999877">
+            <joint name="LFOT" position="9.999039 0.000000 0.000000" rotation="0.000000 0.000000 0.573576 0.819152">
+              <joint name="EN12" position="4.999523 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+            </joint>
+          </joint>
+        </joint>
+        <joint name="RTHG" position="-1.799827 3.099704 0.000000" rotation="-0.007076 0.707071 -0.707087 -0.005265">
+          <joint name="RCLF" position="12.598800 0.000000 0.000000" rotation="0.000632 0.000010 0.015707 0.999876">
+            <joint name="RFOT" position="9.999039 0.000000 0.000000" rotation="0.000000 0.000000 -0.573576 0.819152">
+              <joint name="EN13" position="4.999523 0.000000 0.000000" rotation="0.000000 0.000000 0.000000 1.000000" />
+            </joint>
+          </joint>
+        </joint>
+      </joint>
+    </skeleton>
+  </avatar>
+</avatarStaticData>

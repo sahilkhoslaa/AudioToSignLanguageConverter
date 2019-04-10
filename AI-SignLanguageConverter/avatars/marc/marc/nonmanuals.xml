@@ -1,0 +1,1710 @@
+<nonmanuals>
+<!--
+Avatar: ARP Marc 10-9-2009 Started new by VJ
+
+
+CHANGE LOG
+
+ARP AVATAR'S MORPHS
+
+As of 2009-09, an ARP avatar has 51 morphs.
+
+    aaa ooo dtnl mbp cgng jsch fv th pout eee 
+    kiss ulpr ulpl ulpr smlo smlc nsfl 
+    llpc ulpu ulpd llpu llpd
+    lbru rbru lbrd rbrd leye reye eywl eywr eylc eyrc eyls eyrs
+    puff pufl lpuf pufr jawd jawl jawr jawf suck 
+    tngl tngr tngo tchn tllp tulp 
+    nswr nsps 
+    [NO h w y r sad fear mclo]
+
+JRK'S DESCRIPTION OF THE DATA FORMAT
+
+This file specifies a mapping of SiGML facial nonmanuals to
+the morphs of the ARPman avatar, as described immediately
+below.
+
+This file also defines the mapping of non-facial nonmanuals
+to pseudo-morphs defined by animgen itself, as described
+immediately before the definitions in question.
+
+The examples below should make most of the syntax clear.
+For each facial nonmanual of SiGML, there is an element
+defining it as a sequence of avatar morphs, or parallel
+combinations of avatar morphs.
+
+The name of the element is the SiGML element type, which is
+one of the following:
+
+    eye_gaze
+    eye_brows
+    eye_lids
+    nose
+    mouth_gesture
+    mouth_picture (SAMPA)
+
+It has an attribute sigmlName, whose value is the SiGML name of
+the nonmanual (e.g. C01, LE, etc.).
+
+For SiGML mouth_picture elements, we define a mapping of SAMPA
+phonemes to sequences of avatar morphs.  For further information
+on the SAMPA mapping, see further down the file.
+
+Each avatar morph is represented by a _morph_ element, whose
+attributes are:
+
+name: The name of the morph (as used to identify it in the avatar
+renderer's API).
+
+amount: a real number specifying the peak amount of this morph.
+This defaults to 1.
+
+startamount: a real number specifying the initial amount of this morph.
+This defaults to 0.
+
+endamount: a real number specifying the final amount of this morph.
+This defaults to 0.
+
+timing: a sequence of seven tokens specifying:
+    whether the morph is anchored to the start of the interval during
+        which it is played
+    the attack time (the time spent ramping up from zero to
+        the full amount)
+    the attack trajectory (the manner in which it approaches
+        the full amount)
+    the sustain time (the time spent holding the morph at its
+        full amount)
+    the release time (the time spent ramping down to zero)
+    the release trajectory (the manner in which it ramps down
+        to zero)
+    whether the morph is anchored to the end of the interval during
+        which it is played
+
+Each anchoring token is either 'x' (anchored) or 'e' (elastic).
+The anchoring tokens can be omitted, and default to 'x' and 'e'
+respectively.
+
+Each time is either a real number of seconds, or one of the
+following tokens:
+    f   fast
+    m   medium speed
+    s   slow
+    -   zero
+The default times for fast, medium, and slow are defined in the
+_morphtimes_ element of config.xml.  Usually, the release time
+of a morph should be the same as the attack time of the next morph.
+
+Each trajectory is one of the tokens "t" (targetted) or "l" (lax).
+The targetted trajectory makes a greater acceleration and
+deceleration towards its endpoint.  Typically one would use "t"
+for everything except the release trajectory of the last morph.
+
+If all the tokens are single-letter tokens, the spaces between
+can be omitted.  Otherwise, all the tokens must be separated by
+spaces.
+
+Anchoring only affects a morph when it is played as the last of
+a sequence of morphs in a sign, and the sign lasts longer than
+the morphing.  The meaning of the anchoring tokens is:
+
+    start   end
+      x      e     Start the morph immediately after the previous
+                   morph, perform it for its specified duration,
+                   then remain at endamount for the remainder of the
+                   sign.
+      e      x     Delay the start of the morph so that when played
+                   at its specified duration, it will end at the end
+                   of the sign.  It will be played at an intensity of
+                   startamount during the period before it starts.
+      x      x     Stretch out the sustain phase so that the morph
+                   fills the available time.  (This gives the same
+                   effect as specifying 'e' for the sustain duration
+                   used to do, but now allows such a morph to also
+                   appear elsewhere than as the last morph of a sign.
+                   When it is not the last morph, it will play with its
+                   specified duration.)
+      e      e     Not valid - this will be interpreted as x e.
+
+
+SAMPA
+[See comment above, dated 2005-05, re ARPMan's SAMPA-related definitions.]
+
+To enable SAMPA strings to be parsed into phonemes without knowledge of
+the language, we require that multi-character phonemes use the '_'
+character to join their components.  For example, write "d_Z", not "dZ",
+for the initial consonant of the English word "jam".  "dZ" will always
+be parsed as a sequence of two phonemes, "d" and "Z".
+
+There are three SAMPA characters that are only used as prefixes or
+suffixes, and do not represent phonemes by themselves.  These do not
+need to be joined to the character they modify by a '_', and should
+not be.  They are:
+
+    =   prefix indicating the phoneme has syllabic value
+    :   suffix indicating lengthening
+    ~   suffix indicating nasalisation
+
+The two stress marks '"' and '%' are ignored.
+
+In the following _sampa_ elements, the "phonemes" attribute contains a
+list of SAMPA phonemes which are all to be given the same animation.
+The animation is specified as a sequence of _morph_ elements, in the
+same way as for the SiGML nonmanuals defined above.
+
+Whenever animgen encounters a _mouth_picture_ element in a sign, it
+will parse its "picture" attribute into phonemes, and replace each one
+by the animation defined below for that phoneme.  Phonemes with no
+defined animation will be ignored.
+
+-->
+<sampa phonemes="{aA">
+    <morph name="aaa" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="a:A:">
+    <morph name="aaa" timing="m t m m t"/>
+</sampa>
+
+<sampa phonemes="A_u">
+    <morph name="aaa" timing="m t f m t"/>
+    <morph name="ooo" timing="m t f m t"/>
+</sampa>
+
+<sampa phonemes="rRV6=6">
+    <morph name="aaa" amount="0.3" timing=" m t - m t "/>
+</sampa>
+
+<sampa phonemes="e:i:E:I:">
+    <morph name="aaa" amount="0.5" timing=" m t m m t "/>
+</sampa>
+
+<sampa phonemes="E_i">
+    <morph name="aaa" amount="0.5" timing="m t f m t"/>
+    <morph name="pout" amount = "0.5" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="@h">
+    <morph name="aaa" amount="0.3" timing=" m t - m t "/>
+</sampa>
+
+<sampa phonemes="o">
+    <morph name="ooo" timing="m t - f t"/>
+</sampa>
+
+<sampa phonemes="QUYy2uO">
+    <morph name="ooo" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="u:3:O:o:2:9:">
+    <morph name="ooo" timing="m t m m t"/>
+</sampa>
+
+<sampa phonemes="@_UU_@">
+    <morph name="ooo" timing="m t m - -"/>
+</sampa>
+
+<sampa phonemes="9_y">
+    <morph name="ooo" timing="m t f m t"/>
+    <morph name="pout" timing="m t m m t"/>
+</sampa>
+
+<sampa phonemes="wH">
+	<morph name="pout" timing=" m t - m t "/>
+</sampa>
+
+<sampa phonemes="ee_II_@e_@">
+    <morph name="eee" timing=" m t - m t"/>
+</sampa>
+
+<sampa phonemes="EIi">
+    <morph name="cgng" amount="0.7" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="sz">
+    <morph name="jsch" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="tdnlJ">
+    <morph name="th" amount="0.7" timing=" m t - m e"/>
+</sampa>
+
+<sampa phonemes="kgNCGx">
+    <morph name="cgng" timing=" m t - m t"/>
+</sampa>
+
+<sampa phonemes="pbmB">
+    <morph name="mbp" amount="0.7" timing=" m t - m t"/>
+</sampa>
+
+<sampa phonemes="SZt_Sd_Z">
+    <morph name="jsch" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="fv">
+    <morph name="fv" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="TD">
+    <morph name="th" amount="0.8" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="jL">
+    <morph name="pout" amount = "0.5" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="a_I">
+    <morph name="aaa" timing="m t - m t"/>
+    <morph name="cgng" amount="0.7" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="a_I:">
+    <morph name="aaa" timing="m t - m t"/>
+    <morph name="cgng" amount="0.7" timing="m t m m t"/>
+</sampa>
+
+<sampa phonemes="O_I">
+    <morph name="ooo" timing="m t - m t"/>
+    <morph name="eee" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="O_I:">
+    <morph name="ooo" timing="m t - m t"/>
+    <morph name="eee" timing="m t m m t"/>
+</sampa>
+
+<sampa phonemes="a_U">
+    <morph name="aaa" timing="m t - m t"/>
+    <morph name="ooo" timing="m t - m t"/>
+</sampa>
+
+<sampa phonemes="a_U:">
+    <morph name="aaa" timing="m t - m t"/>
+    <morph name="ooo" timing="m t m m t"/>
+</sampa>
+<!-- 
+MOUTH GESTURES
+CHEEKS
+(C01-C13)
+-->
+<mouth_gesture sigmlName="C01">
+    <parmorph>
+    	<morph name="lpuf" amount="0.7" timing="m t s m l"/>
+        <morph name="puff" timing="m t s m l"/> 
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="C02">
+    <parmorph>
+        <morph name="lpuf" amount="0.7" timing="m t s m l"/>
+        <morph name="puff" amount="0.4" timing="m t s m l"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="C03">
+    <parmorph>
+        <morph name="puff" amount="0.7" timing="s t s m l"/>
+        <morph name="lpuf" timing="s t s m l"/>
+    </parmorph></mouth_gesture>
+
+<mouth_gesture sigmlName="C04">
+    <parmorph>
+        <morph name="pufr" amount="1.0" timing="m t s m t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="C05">
+	<morph name="pufr" amount="0.7" timing="m t - m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="C06">
+	<morph name="pufr" amount="0.7" timing="m t - m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="C07">
+    <parmorph>
+      <morph name="kiss" amount="1.00" timing="m t m s l" />
+      <morph name="suck" amount="0.79" timing="m t m s l" />
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="C08">
+    <parmorph>
+        <morph name="pout" amount="0.5" timing="m t s m l"/>
+        <morph name="suck" amount="0.8" timing="m t s m l"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="C09">
+    <parmorph>
+        <morph name="chkr" timing="m t m m t"/>
+    </parmorph>
+</mouth_gesture>
+<mouth_gesture sigmlName="C10">
+		<morph name="chkr" timing="m t - m t"/>
+		<morph name="pout"  amount = "0.05" timing="m t - m t"/>
+		<morph name="chkr" timing="m t - m t"/>
+		<morph name="pout"  amount = "0.05" timing="m t - m t"/>
+		<morph name="chkr" timing="m t - m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="C11">
+		<morph name="chkr" timing="f t - f t"/>
+		<morph name="pout"  amount = "0.05" timing="f t - f t"/> 
+		<morph name="chkr" timing="f t - f t"/>
+		<morph name="pout"  amount = "0.05" timing="f t - f t"/> 
+		<morph name="chkr" timing="f t - f t"/>
+		<morph name="pout"  amount = "0.05" timing="f t - f t"/> 
+		<morph name="chkr" timing="f t - f t"/>
+		<morph name="pout"  amount = "0.05" timing="f t - f t"/> 	
+		<morph name="chkr" timing="f t - f t"/>
+		<morph name="pout"  amount = "0.05" timing="f t - f t"/> 
+</mouth_gesture>
+<mouth_gesture sigmlName="C12">
+    <parmorph>
+    	<morph name="mbp" timing="s t s s l"/>
+        <morph name="tchn" timing="s t s s l"/>
+    </parmorph>
+</mouth_gesture>
+<mouth_gesture sigmlName="C13">
+    <parmorph>
+        <morph name="jawd" timing="m t - m t"/>
+        <morph name="llpc" amount="0.25" timing="m t - m t"/>
+    </parmorph>
+    <parmorph>
+        <morph name="jawd" timing="m t - m t"/>
+        <morph name="llpc" amount="0.25" timing="m t - m t"/>
+    </parmorph>
+    <parmorph>
+        <morph name="jawd" timing="m t - m t"/>
+        <morph name="llpc" amount="0.25" timing="m t - m t"/>
+    </parmorph>
+</mouth_gesture>
+
+<!-- 
+TEETH (i.e. DENTAL)
+
+(D01-D09)
+-->
+<mouth_gesture sigmlName="D01">
+    <parmorph>
+        <morph name="eee" amount="0.6" timing="x m t s m l x"/>
+        <morph name="ulpr" amount="0.2" timing="x m t s m l x"/>
+        <morph name="ulpl" amount="0.2" timing="x m t s m l x"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="D02">
+    <morph name="aaa" amount="0.5" timing="f t - f t"/>
+    <morph name="fv" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="D03">
+    <morph name="eee" amount="0.4" timing="m t - f t"/>
+    <morph name="fv" timing="f t s m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="D04">
+    <morph name="aaa" timing="f t - f t"/>
+    <morph name="fv"  timing="f t m m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="D05">
+    <morph name="cgng" amount="0.5" timing="f t - f t"/>
+    <morph name="cgng" amount="0.5" timing="m t - f t"/>
+    <morph name="cgng" amount="0.5" timing="m t - f t"/>
+    <morph name="cgng" amount="0.5" timing="m t - f t"/>
+    <morph name="cgng" amount="0.5" timing="m t - f l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="D06">
+	<parmorph>
+		<morph name = "ulpu" amount = "0.7" timing="x m  t - f  t x"/>
+		<morph name = "llpu" amount = "0.4" timing="x m  t - f  t x"/>
+		<seq_morph>
+                        <morph name="cgng" amount="0.7" timing="m t - f t"/>
+                        <morph name="cgng" amount="0.7" timing="m t - f t"/>
+                        <morph name="cgng" amount="0.7" timing="m t - f t"/>
+                        <morph name="cgng" amount="0.7" timing="m t - f t"/>
+                        <morph name="cgng" amount="0.7" timing="m t - f t"/>
+	    	</seq_morph>		
+	</parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="D07">
+    <morph name="aaa" timing="m t f f t"/>
+    <morph name="mbp" timing="f t m f t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="D08">
+    <morph name="aaa" amount="1.0" timing="m t f m l"/>
+    <par_morph>
+        <morph name="ulpu" amount="1.0" timing="m t s m l"/>
+        <morph name="cgng" amount="0.5" timing="m t s m l"/>
+    </par_morph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="D09">
+    <morph name="fv" timing="f t - f t"/>
+    <morph name="aaa" timing="f t - f t"/>
+    <morph name="th" amount = "0.5" timing="f t s m t"/>
+</mouth_gesture>
+
+<!-- 
+JAW
+
+(J01-J04)
+-->
+<mouth_gesture sigmlName="J01">
+    <morph name="jawl" amount = "0.5" timing="m t - m t"/>
+    <morph name="jawr" amount = "0.5" timing="m t - m t"/>
+    <morph name="jawl" amount = "0.5" timing="m t - m t"/>
+    <morph name="jawr" amount = "0.5" timing="m t - m t"/>
+    <morph name="jawl" amount = "0.5" timing="m t - f t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="J02">
+    <morph name="jawd" timing="m t s m t"/>
+    <morph name="jawd" amount = "0.1" timing="s t - m t"/>
+    <morph name="jawd" timing="m t s m t"/>
+    <morph name="jawd" amount = "0.1" timing="s t - m t"/>
+    <morph name="jawd" timing="m t s m t"/>
+    <morph name="jawd" amount = "0.1" timing="s t - m t"/>
+    <morph name="jawd" timing="m t s m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="J03">
+	<par_morph>
+		<morph name = "aaa" amount = "0.25" timing = "m t s m l"/>
+		<morph name = "llpd" amount = "1.0" timing = "m t s m l"/>
+		<morph name = "jawf" amount = "0.75" timing = "m t s m l"/>
+	</par_morph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="J04">
+        <morph name="aaa" amount="0.75" timing="f t - f t"/>
+        <morph name="aaa" amount="0.2" timing="f t - f t"/>
+        <morph name="aaa" amount="0.75" timing="f t - f t"/>
+        <morph name="aaa" amount="0.2" timing="f t - f t"/>
+        <morph name="aaa" amount="0.75" timing="f t - f t"/>
+        <morph name="aaa" amount="0.2" timing="f t - f t"/>
+        <morph name="aaa" amount="0.75" timing="f t - f t"/>
+        <morph name="aaa" amount="0.2" timing="f t - f t"/>
+        <morph name="aaa" amount="0.75" timing="f t - f t"/>        
+</mouth_gesture>
+
+<!-- 
+LIPS
+
+(L01-L35)
+-->
+            
+<mouth_gesture sigmlName="L01">
+    <parmorph>
+        <morph name="pout" amount="0.75" timing="s t s s t"/>        
+        <morph name="puff" amount="0.3" timing="s t s s t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L02">
+	<parmorph>
+	  <morph name="mbp" amount="0.88" timing="m t f f t" />
+	</parmorph>
+	<parmorph>
+	  <morph name="jsch" amount="0.05" timing="m t - f t" />
+	  <morph name="pout" amount="0.20" timing="m t - f t" />
+	  <morph name="puff" amount="0.33" timing="m t - f t" />
+	</parmorph>
+	<parmorph>
+	  <morph name="jsch" amount="0.05" timing="m t - f t" />
+	  <morph name="pout" amount="0.20" timing="m t - f t" />
+	  <morph name="puff" amount="0.33" timing="m t - f t" />
+	</parmorph>
+	<parmorph>
+	  <morph name="jsch" amount="0.05" timing="m t - f t" />
+	  <morph name="pout" amount="0.20" timing="m t - f t" />
+	  <morph name="puff" amount="0.33" timing="m t - f t" />
+	</parmorph>
+	<parmorph>
+	  <morph name="jsch" amount="0.05" timing="m t - f t" />
+	  <morph name="pout" amount="0.20" timing="m t - f t" />
+	  <morph name="puff" amount="0.33" timing="m t - f t" />
+	</parmorph>
+</mouth_gesture>
+
+
+<mouth_gesture sigmlName="L03">
+    <morph name="mbp" amount="0.5" timing="m t f m t"/>    
+    <par_morph>
+    	<morph name="puff" amount="0.6" timing="m t f m t"/>
+    	<morph name="jsch" amount="0.4" timing="m t f m t"/>
+    </par_morph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L04">
+    <morph name="kiss" amount="1.0" timing="m t s m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L05">
+    <parmorph>
+        <morph name="ooo" amount="0.6" timing="s t s s t"/>
+        <morph name="pout" amount="0.7" timing="s t s s t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L06">
+	<parmorph>
+    		<morph name="llpd" amount = "0.4" timing="s t s s t"/>
+		<morph name="kiss" amount = "1.0" timing="s t s s t"/>
+		<morph name="jawd" amount = "0.6" timing="s t s s t"/>		
+	</parmorph>
+</mouth_gesture>
+
+
+<mouth_gesture sigmlName="L07">
+    <parmorph>
+	<morph name="ulpd" amount="0.4" timing="m t s m t"/>
+         <morph name="ooo" amount="0.9" timing="m t s m t"/>
+	<morph name="llpu" amount="0.5" timing="m t s m t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L08">
+    <morph name="mbp" amount="0.8" timing="m t f f t"/>
+    <morph name="ooo" amount = "0.6" timing="f t - m t"/>
+	<morph name="aaa" amount = "0.3" timing="f t - m t"/>
+    <morph name="mbp" amount="0.8" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L09">
+    <morph name="mbp" amount="1.0" timing="m t f f t"/>
+    <morph name="aaa" amount="0.7" timing="f t - m t"/>
+    <morph name="mbp" amount="1.0" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L10">
+	<parmorph>    
+		<morph name="mbp" amount="0.8" timing="m t - f t"/>
+		<morph name="puff" amount="1.0" timing="m t - f t"/>
+	</parmorph>
+    <morph name="ooo" amount="0.8" timing="f t - m l"/>
+    <morph name="aaa" amount="0.8" timing="f t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L11">
+		<morph name="mbp" amount="0.8" timing="f t - f t"/>
+        <morph name="aaa" amount="0.8" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L12">
+    <morph name="mbp" amount="0.8" timing="f t - f t"/>
+    <morph name="eee" amount="0.5" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L13">
+    <morph name="mbp" amount="1" timing="f t - f t"/>
+    <morph name="aaa" amount="0.8" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L14">
+	<parmorph>
+		<morph name = "lpuf" timing = "m t - f t"/>
+    		<morph name = "mbp"  amount = "0.6" timing = "m t - f t"/>
+    </parmorph>
+    <morph name="pout" amount="0.8" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L15">
+    <morph name="mbp"  timing="m t - f t"/>
+    <parmorph>
+    <morph name="eee" amount="0.4" timing="m t s m l"/>
+    <morph name="ulpu" amount="0.4" timing="m t s m l"/>
+    <morph name="llpd" amount="0.4" timing="m t s m l"/>
+     </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L16">
+    <morph name="mbp" amount="1.0" timing="m t - f t"/>
+    <par_morph>
+        <morph name="fv" amount="0.7" timing="m t s m l"/>
+        <morph name="ulpu" amount="0.5" timing="m t s m l"/>
+        <morph name="llpu" amount="0.6" timing="m t s m l"/>
+    </par_morph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L17">
+	<morph name="mbp" amount="1.0" timing="f t - f t"/>
+	<parmorph>
+		<morph name="lpuf" amount="0.3" timing="m t - f t"/>    		
+		<morph name="pout" amount="0.2" timing="m t - f t"/>
+    	</parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L18">
+    <morph name="mbp"  timing="f t - f t"/>
+    <morph name="eee" amount="0.2" timing="f t - f l"/>
+    <morph name="mbp" amount="0.8" timing="f t - f t"/>
+    <morph name="eee" amount="0.2" timing="f t - f l"/>
+    <morph name="mbp" amount="0.7" timing="f t - f t"/>
+    <morph name="eee" amount="0.2" timing="f t - f l"/>
+    <morph name="mbp" amount="0.7" timing="f t - f t"/>
+    <morph name="eee" amount="0.2" timing="f t - f l"/>
+    <morph name="mbp" amount="0.7" timing="f t - f t"/>
+    <morph name="eee" amount="0.2" timing="f t - f l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L19">
+	<parmorph>
+    	<morph name="kiss" amount="1.0" timing="m t s s t"/>
+    	<morph name="ulpu" amount="0.25" timing="m t s s t"/>
+    	<morph name="llpd" amount="0.25" timing="m t s s t"/>
+   	</parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L20">
+    <parmorph>
+     	<morph name="kiss" amount="1.0" timing="m t s s t"/>
+    	<morph name="ulpu" amount="0.35" timing="m t s s t"/>
+    	<morph name="llpd" amount="0.25" timing="m t s s t"/>
+	<morph name="puff" amount="0.8" timing="m t s s t"/>
+	<morph name="lpuf" amount="0.3" timing="m t s s t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L21">
+	<parmorph>
+    		<morph name="kiss" timing= "m t s m t"/>
+    		<morph name="ulpu" amount = "0.15" timing="m t s m t"/>
+    		<morph name="llpd" amount = "0.15" timing="m t s m t"/>
+    	</parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L22">
+    <parmorph>
+        <morph name="kiss" timing="m t s m t"/>
+        <morph name="ulpu" amount = "0.25" timing="m t s m t"/>
+        <morph name="llpd" amount = "0.25" timing="m t s m t"/>        
+    </parmorph>
+    <parmorph>
+        <morph name="kiss" timing="f t f f t"/>
+        <morph name="puff" amount = "1.0" timing="f t f f t"/>
+        <morph name="ulpu" amount = "0.25" timing="f t f f t"/>
+        <morph name="llpd" amount = "0.25" timing="f t f f t"/>        
+    </parmorph>
+    <parmorph>
+        <morph name="kiss" timing="m t s m l"/>
+        <morph name="ulpu" amount = "0.25" timing="m t s m l"/>
+        <morph name="llpd" amount = "0.25" timing="m t s m l"/>        
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L23">
+    <parmorph>
+        <morph name="mbp" amount="1.0" timing="s t s s t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L24">
+    <morph name="aaa" amount="0.6" timing="m t - m t"/>
+    <morph name="mbp" amount="1.0" timing="m t s m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L25">
+    <par_morph>
+        <morph name="ulpd" amount="0.4" timing=" x m t s m t e"/>
+		<seq_morph>
+		<morph name="aaa" amount="0.5" timing="f t - f t"/>
+		<morph name="aaa" amount="0.01" timing="f t - f t"/>
+		<morph name="aaa" amount="0.5" timing="f t - f t"/>
+		<morph name="aaa" amount="0.01" timing="f t - f t"/>
+		<morph name="aaa" amount="0.5" timing="f t - f t"/>
+		<morph name="aaa" amount="0.01" timing="f t - f t"/>		
+		</seq_morph>
+	</par_morph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L26">
+    <morph name="ulpr" timing="m t s m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L27">
+    <morph name="eee" amount="0.5" timing="f t f m t"/>
+    <morph name="th" amount="1.0" timing="f t f f t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L28">
+	<parmorph>
+	<morph name="llpd" amount="0.5" timing="m t m m t"/>
+    <morph name="tulp" amount="1.0" timing="m t m m t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L29">
+    <par_morph>
+        <morph name="mbp" amount="0.8" timing="m t s m t"/>
+        <morph name="llpc" amount="1" timing="m t s m t"/>
+    </par_morph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L30">
+    <par_morph>
+        <morph name="kiss" amount="0.8" timing="m t s m t"/>
+        <morph name="llpc" amount="1" timing="m t s m t"/>
+    </par_morph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L31">
+    <parmorph>
+      <morph name="llpc" amount="1.00" timing="s l s s t" />
+      <morph name="mbp" amount="0.81" timing="s l s s t" />
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L32">
+    <parmorph>
+        <morph name="mbp" amount="0.3" timing="f t - f t"/>
+    </parmorph>
+    <parmorph>
+        <morph name="aaa" amount="0.25" timing="f t - f t"/>
+        <morph name="mbp" amount="0.3" timing="f t - f t"/>
+    </parmorph>
+    <parmorph>
+        <morph name="aaa" amount="0.01" timing="f t - f t"/>
+        <morph name="mbp" amount="0.3" timing="f t - s t"/>
+    </parmorph>
+    <parmorph>
+        <morph name="aaa" amount="0.25" timing="f t - f t"/>
+        <morph name="mbp" amount="0.3" timing="f t - s t"/>
+    </parmorph> 
+    <parmorph>
+        <morph name="aaa" amount="0.01" timing="f t - f t"/>
+        <morph name="mbp" amount="0.3" timing="f t - s t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L33">
+    <morph name="aaa" amount = "0.5" timing="f t - f t"/>
+    <morph name="pout" amount="0.7" timing="m t s m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L34">
+    <morph name="smlc" amount="0.8" timing="m t s m t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="L35">
+    <parmorph>
+        <morph name="kiss" amount="0.6" timing="f t f f t"/>
+        <morph name="ulpu" amount="0.2" timing="f t f f t"/>
+        <morph name="llpd" amount="0.2" timing="f t f f t"/>
+    </parmorph>
+    <morph name="kiss" amount="0.6" timing="f t f f t"/>
+    <parmorph>
+        <morph name="kiss" amount="0.6" timing="f t f f t"/>
+        <morph name="ulpu" amount="0.2" timing="f t f f t"/>
+        <morph name="llpd" amount="0.2" timing="f t f f t"/>
+    </parmorph>
+    <morph name="kiss" amount="0.6" timing="f t f f t"/>
+</mouth_gesture>
+
+<!-- 
+TONGUE
+
+(T01-T03)
+-->
+<mouth_gesture sigmlName="T01">
+    <parmorph>
+        <morph name="tulp" timing="m t m m t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T02">
+    <parmorph>
+        <morph name="tulp" amount = "0.6" timing="m t m m t"/>
+        <morph name="ooo" amount="0.15" timing="m t m m t"/>
+    </parmorph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T03">
+    <morph name="th" amount="0.8" timing="m l - m l"/>
+    <morph name="aaa" amount="0.6" timing="m l - m l"/>
+    <morph name="th" amount="0.81" timing="m l - m l"/>
+    <morph name="aaa" amount="0.6" timing="m l - m l"/>
+    <morph name="th" amount="0.8" timing="m l - m l"/>
+    <morph name="aaa" amount="0.6" timing="m l - m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T04">
+	<morph name="tllp" timing="f t f f t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T05">
+	<morph name="tllp" timing="s t s s t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T06">
+	<morph name="tllp" amount="0.8" timing="m t f f t"/>
+    	<morph name="tllp" amount="0.8" timing="m t f f t"/>
+    	<morph name="tllp" amount="0.8" timing="m t f f t"/>
+    	<morph name="tllp" amount="0.8" timing="m t f f t"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T07">
+    <morph name="th" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+    <morph name="th" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+    <morph name="th" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+    <morph name="th" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+    <morph name="th" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T08">
+    <morph name="th" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+    <morph name="th" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+    <morph name="th" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T09">
+	<morph name="tngr" amount="1" timing="m t m m l"/>
+	<morph name="jsch" amount="0.5" timing="m t m m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T10">
+    <morph name="dtnl" amount="1" timing="m t m m l"/>
+    <morph name="fv" amount="0.8" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T11">
+    <morph name="dtnl" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="1" timing="m t - m l"/>
+    <morph name="fv" amount="0.7" timing="m t f m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T12">
+	<morph name="tngr" amount="0.8" timing="m t s m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T13">
+    <par_morph>
+        <morph name="tllp" amount="0.6" timing="m t s m l"/>
+        <morph name="puff" amount="0.4" timing="m t s m l"/>
+    </par_morph>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T14">
+    <morph name="tngo"  timing="m t - m l"/>
+    <morph name="tngr"  timing="m t - m l"/>
+    <morph name="tngo"  timing="m t - m l"/>
+</mouth_gesture>
+
+<mouth_gesture sigmlName="T15">
+    <morph name="tngo"  timing="m t - m l"/>
+    <morph name="tngl"  timing="m t - m l"/>
+    <morph name="tngr"  timing="m t - m l"/>
+    <morph name="tngo"  timing="m t - m l"/>
+    <morph name="tngl"  timing="m t - m l"/>
+    <morph name="tngr" timing="m t - m l"/>
+    <morph name="tngo"  timing="m t - m l"/>
+    <morph name="tngl" timing="m t - m l"/>
+    <morph name="tngr" timing="m t - m l"/>
+    <morph name="tngo"  timing="m t - m l"/>
+</mouth_gesture>
+<mouth_gesture sigmlName="T16">
+	<parmorph>
+	<morph name="kiss" amount = "1.0" timing="m t s m l"/>
+	<morph name="ulpd" amount = "0.4" timing="m t s m l"/>
+	<morph name="llpu" amount = "0.7" timing="m t s m l"/>
+	<morph name="tngo" amount = "1.0" timing="m t s m l"/>
+	</parmorph>
+</mouth_gesture>
+<mouth_gesture sigmlName="T17">
+	<morph name="aaa" amount="0.5" timing="m t f m l"/>
+    <morph name="tngo" amount="1" timing="m t - m l"/>
+    <morph name="aaa" amount="0.5" timing="m t m m l"/>
+</mouth_gesture>
+<!-- 
+EXPRESSIONS
+
+(SAD)
+-->
+<mouth_gesture sigmlName="sad">
+	<parmorph>
+   	<morph name="llpc" amount="0.8" timing="m t s m t"/>
+   	<morph name="eylc" amount="0.2" timing="m t s m t"/>
+	<morph name="eyrc" amount="0.2" timing="m t s m t"/>
+   	</parmorph>
+</mouth_gesture>
+
+<!-- 
+NON ORAL NONMANUALS
+EYE BROWS
+(RB,RR,RL,FU)
+-->
+
+<eye_brows sigmlName="RB">
+    <par_morph>
+        <morph name="lbru" amount="1.0" timing="x m t m s l x"/>
+        <morph name="rbru" amount="1.0" timing="x m t m s l x"/>
+    </par_morph>
+</eye_brows>
+
+<eye_brows sigmlName="RR">
+    <morph name="rbru" amount="1.0" timing="x m t m s l x"/>
+</eye_brows>
+
+<eye_brows sigmlName="RL">
+    <morph name="lbru" amount="1.0" timing="x m t m s l x"/>
+</eye_brows>
+
+<eye_brows sigmlName="FU">
+    <par_morph>
+        <morph name="lbrd" amount="0.8" timing="x m t m s l x"/>
+        <morph name="rbrd" amount="0.8" timing="x m t m s l x"/>
+    </par_morph>
+</eye_brows>
+
+<!-- 
+EYE GAZE
+(LE,RI,UP,DN,RU,LU,LD,RD)
+
+-->
+<eye_gaze sigmlName="LE">
+    <par_morph>
+        <morph name="LER" amount="-0.34" timing="x m t m s l x"/>
+        <morph name="RER" amount="-0.34" timing="x m t m s l x"/>
+    </par_morph>
+</eye_gaze>
+
+<eye_gaze sigmlName="RI">
+    <par_morph>
+        <morph name="LER" amount="0.34" timing="x m t m s l x"/>
+        <morph name="RER" amount="0.34" timing="x m t m s l x"/>
+    </par_morph>
+</eye_gaze>
+
+<eye_gaze sigmlName="UP">
+    <par_morph>
+        <morph name="LEU" amount="0.22" timing="x m t m s l x"/>
+        <morph name="REU" amount="0.22" timing="x m t m s l x"/>
+    </par_morph>
+</eye_gaze>
+
+<eye_gaze sigmlName="DN">
+    <par_morph>
+        <morph name="LEU" amount="-0.3" timing="x m t m s l x"/>
+        <morph name="REU" amount="-0.3" timing="x m t m s l x"/>
+    </par_morph>
+</eye_gaze>
+<!-- 
+2004-09-22 RE
+The four items below are not in ViSiCAST D5.1, but have been
+suggested by IZ.
+They are redundant in the sense that the effect of each can be
+achieved with a SiGML eye_par element containing the appropriate
+pair from the four items above.
+-->
+<eye_gaze sigmlName="RU">
+    <par_morph>
+        <morph name="LER" amount="0.34" timing="x m t m s l x"/>
+        <morph name="RER" amount="0.34" timing="x m t m s l x"/>
+        <morph name="LEU" amount="0.22" timing="x m t m s l x"/>
+        <morph name="REU" amount="0.22" timing="x m t m s l x"/>
+    </par_morph>
+</eye_gaze>
+
+<eye_gaze sigmlName="LU">
+    <par_morph>
+        <morph name="LER" amount="-0.34" timing="x m t m s l x"/>
+        <morph name="RER" amount="-0.34" timing="x m t m s l x"/>
+        <morph name="LEU" amount="0.22" timing="x m t m s l x"/>
+        <morph name="REU" amount="0.22" timing="x m t m s l x"/>
+    </par_morph>
+</eye_gaze>
+
+<eye_gaze sigmlName="LD">
+    <par_morph>
+        <morph name="LER" amount="-0.34" timing="x m t m s l x"/>
+        <morph name="RER" amount="-0.34" timing="x m t m s l x"/>
+        <morph name="LEU" amount="-0.3" timing="x m t m s l x"/>
+        <morph name="REU" amount="-0.3" timing="x m t m s l x"/>
+    </par_morph>
+</eye_gaze>
+
+<eye_gaze sigmlName="RD">
+    <par_morph>
+        <morph name="LER" amount="0.34" timing="x m t m s l x"/>
+        <morph name="RER" amount="0.34" timing="x m t m s l x"/>
+        <morph name="LEU" amount="-0.3" timing="x m t m s l x"/>
+        <morph name="REU" amount="-0.3" timing="x m t m s l x"/>
+    </par_morph>
+</eye_gaze>
+
+<!-- 
+EYE LIDS
+
+(WB,WR,WL,SB,SR,SL,CB,CR,CL,TB,TR,TL,BB)
+
+-->
+<!-- 2009-07-27 JB added WB -->
+  <eye_lids sigmlName="WB">
+    <parmorph>
+      	<morph name="eywl" timing="x m t m s l x" />
+	<morph name="eywr" timing="x m t m s l x" />
+    </parmorph>
+  </eye_lids>
+
+<eye_lids sigmlName="WR">
+	<morph name="eywr"  timing="x m t m s l x"/>
+</eye_lids>
+
+<eye_lids sigmlName="WL">
+	<morph name="eywl"  timing="x m t m s l x"/>
+</eye_lids>
+
+<!-- 2009-07-27 JB changed SB from 0.7 to 0.35 -->
+<eye_lids sigmlName="SB">
+	<parmorph>
+    		<morph name="eylc" amount="0.35" timing="x m t m s l x"/>
+		<morph name="eyrc" amount="0.35" timing="x m t m s l x"/>
+	</parmorph>
+</eye_lids>
+
+<eye_lids sigmlName="SR">
+	<morph name="eyrc" amount="0.35" timing="x m t m s l x"/>
+</eye_lids>
+
+<eye_lids sigmlName="SL">
+	<morph name="eylc" amount="0.35" timing="x m t m s l x"/>
+</eye_lids>
+
+<eye_lids sigmlName="CB">
+	<parmorph>
+    		<morph name="eylc" amount="1" timing="x m t m s l x"/>
+		<morph name="eyrc" amount="1" timing="x m t m s l x"/>
+	</parmorph>
+</eye_lids>
+
+<eye_lids sigmlName="CR">
+	<morph name="eyrc" amount="1" timing="x m t m s l x"/>
+</eye_lids>
+
+<eye_lids sigmlName="CL">
+	<morph name="eylc" amount="1" timing="x m t m s l x"/>
+</eye_lids>
+
+<eye_lids sigmlName="TB">
+	<parmorph>
+    		<morph name="eyls" amount="1.0" timing="x m t m s l x"/>
+		<morph name="eyrs" amount="1.0" timing="x m t m s l x"/>
+	</parmorph>
+</eye_lids>
+
+<eye_lids sigmlName="TR">
+	<morph name="eyrs" amount="1.0" timing="x m t m s l x"/>
+</eye_lids>
+
+<eye_lids sigmlName="TL">
+	<morph name="eyls" amount="1.0" timing="x m t m s l x"/>
+</eye_lids>
+
+<eye_lids sigmlName="BB">
+	<parmorph>
+    		<morph name="eylc" amount="1" timing="e m t - m l x"/>
+		<morph name="eyrc" amount="1" timing="e m t - m l x"/>
+	</parmorph>
+</eye_lids>
+
+<!-- 
+NOSE
+
+(WR,TW,WI)
+
+-->
+<nose sigmlName="WR">
+    <par_morph>
+        <morph name="nswr" amount="1" timing="x m t m s l x"/>
+        <morph name="nsfl" amount="0.2" timing="x m t m s l x"/>
+        <morph name="nsps" amount="0.5" timing="x m t m s l x"/>
+    </par_morph>
+</nose>
+
+<nose sigmlName="TW">
+    <morph name="nsps" amount="1.0" timing="m t s m l"/>
+</nose>
+
+<nose sigmlName="WI">
+    <morph name="nsfl" amount="1" timing="x m t m s l x"/>
+</nose>
+
+<!-- 
+EXTRA MOVEMENTS (Giving an "Xnn" non-manual name for each TVL morph.)
+
+(X01-X42,X50,X51-X65, X91-96)
+
+Copied from VGuido's nonmanuals.xml. (2005-02)
+So they need updating to match ARPMan's morph set.
+-->
+<extra_movement sigmlName="X01">
+    <morph name="aaa" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X02">
+    <morph name="ooo" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X03">
+    <morph name="dtnl" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X04">
+    <morph name="mbp" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X05">
+    <morph name="cgng" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X06">
+    <morph name="jsch" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X07">
+    <morph name="fv" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X08">
+    <morph name="th" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X09">
+    <!--<morph name="r" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X10">
+    <morph name="eee" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X11">
+    <!--<morph name="h" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X12">
+    <!--<morph name="w" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X13">
+    <!--<morph name="y" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X14">
+    <morph name="lbru" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X15">
+    <morph name="rbru" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X16">
+    <morph name="leye" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X17">
+    <morph name="reye" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X18">
+    <morph name="puff" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X19">
+    <morph name="pufl" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X20">
+    <morph name="pufr" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X21">
+    <morph name="jawl" amount = "0.5" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X22">
+    <morph name="jawr" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X23">
+    <morph name="suck" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X24">
+	<parmorph>
+    		<morph name="eylc" timing="m t m m t"/>
+		<morph name="eyrc" timing="m t m m t"/>
+	</parmorph>
+</extra_movement>
+
+<extra_movement sigmlName="X25">
+    <!--<morph name="mclo" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X26">
+    <morph name="lpuf" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X27">
+    <!--<morph name="chkr" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X28">
+    <!--<morph name="chkl" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X29">
+    <!--<morph name="tngf" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X30">
+    <morph name="tngr" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X31">
+    <morph name="tngl" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X32">
+    <!--<morph name="tngo" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X33">
+    <morph name="kiss" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X34">
+    <morph name="smlo" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X35">
+    <morph name="smlc" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X36">
+    <morph name="ulpr" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X37">
+    <morph name="ulpl" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X38">
+    <morph name="nsfl" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X39">
+    <!--<morph name="nswr" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X40">
+    <!--<morph name="nsps" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<!--<extra_movement sigmlName="X41">-->
+    <!--<morph name="sad" timing="m t m m t"/> not for ARPMan-->
+<!--</extra_movement>-->
+
+<extra_movement sigmlName="X41">
+
+   <morph name="llpc" timing="m t s m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X42">
+    <!--<morph name="fear" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X43">
+    <!--<morph name="lpfr" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X44">
+    <!--<morph name="llip" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X45">
+    <!--<morph name="lidi" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X46">
+    <!--<morph name="ulir" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X47">
+    <!--<morph name="jdlc" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X48">
+    <!--<morph name="ljpf" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X49">
+    <!--<morph name="tonu" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X50">
+    <!--<morph name="toul" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X51">
+    <!--<morph name="tour" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X52">
+    <!--<morph name="tipr" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X53">
+    <!--<morph name="brfu" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X54">
+    <!--<morph name="lets" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X55">
+    <!--<morph name="rets" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X56">
+    <!--<morph name="eyeu" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<extra_movement sigmlName="X57">
+    <!--<morph name="eyed" timing="m t m m t"/> not for ARPMan-->
+</extra_movement>
+
+<!--
+<extra_movement sigmlName="X50">
+    <morph name="aaa" endamount="1" timing="m t m m t"/>
+    <morph name="leye" timing="m t m m t"/>
+</extra_movement>
+-->
+
+<extra_movement sigmlName="X58">
+    <morph name="llpc" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X59">
+    <morph name="jawd" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X60">
+    <morph name="tchn" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X61">
+    <morph name="tllp" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X62">
+    <morph name="tulp" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X63">
+    <morph name="chkr" timing="m t m m t"/>
+</extra_movement>
+
+<extra_movement sigmlName="X64">
+    <morph name="pout" timing="m t m m t"/>
+</extra_movement>
+
+<!-- 2009-08-10 JB added EXTRA codes OAQ, CAQ, RHQ, PRM, ORD, SUG, EXP for LSE expressions
+
+	OAQ - Open answer questions and emphasis: head pushed forwards (PF), eyebrows raised (RB), wide open eyes (WB).
+	CAQ - Close answer questions: head pushed forwards (PF), eyebrows furrowed (FU), narrowed eyelids (SB).
+	RHQ - Rhetorical questions:  head pushed backwards (PB), eyebrows raised (RB), wide open eyes (WB).
+	PRM - Promises, future actions: head nodding (NO), eyebrows furrowed (FU), kissing-like lips (L06).
+	ORD - Orders: eyebrows furrowed (FU), wide open eyes (WB).
+	SUG - Suggestions: head pushed backward (PB), squinted eyes.
+	EXP - Expressive acts: Unfocussed gaze (NO).
+-->
+
+<extra_movement sigmlName="OAQ">
+   <par_morph>
+    <morph name="HPSF" amount="0.2" timing="x m t m s l x"/>
+    <morph name="lbru" amount="1.0" timing="x m t m s l x"/>
+    <morph name="rbru" amount="1.0" timing="x m t m s l x"/>
+    <morph name="eywl" timing="x m t m s l x"/>
+    <morph name="eywr" timing="x m t m s l x"/>
+   </par_morph>
+</extra_movement>
+
+<extra_movement sigmlName="CAQ">
+   <par_morph>
+    <morph name="HPSF" amount="0.2" timing="x m t m s l x"/>
+    <morph name="lbrd" amount="1.0" timing="x m t m s l x"/>
+    <morph name="rbrd" amount="1.0" timing="x m t m s l x"/>
+    <morph name="eylc" amount="0.35" timing="x m t m s l x"/>
+    <morph name="eyrc" amount="0.35" timing="x m t m s l x"/>
+   </par_morph>
+</extra_movement>
+
+<extra_movement sigmlName="RHQ">
+   <par_morph>
+    <morph name="HPSF" amount="-0.15" timing="x m t m s l x"/>
+    <morph name="lbru" amount="1.0" timing="x m t m s l x"/>
+    <morph name="rbru" amount="1.0" timing="x m t m s l x"/>
+    <morph name="eywl" timing="x m t m s l x"/>
+    <morph name="eywr" timing="x m t m s l x"/>
+   </par_morph>
+</extra_movement>
+
+<extra_movement sigmlName="PRM">
+  <par_morph>
+     <seq_morph>
+    	<morph name="HTLF" amount="0.03" timing="m t - f l"/>
+    	<morph name="HTLF" amount="-0.03" timing="m t - f l"/>
+    	<morph name="HTLF" amount="0.03" timing="m t - f l"/>
+    	<morph name="HTLF" amount="-0.03" timing="m t - f l"/>
+    	<morph name="HTLF" amount="0.03" timing="m t - f l"/>
+    	<morph name="HTLF" amount="-0.03" timing="m t - f l"/>
+    </seq_morph>
+    <morph name="lbrd" amount="1.0" timing="x m t m s l x"/>
+    <morph name="rbrd" amount="1.0" timing="x m t m s l x"/>
+    <morph name="kiss" amount="1.0" timing="x m t m s l x"/>
+   </par_morph>
+</extra_movement>
+
+<extra_movement sigmlName="ORD">
+   <par_morph>
+    <morph name="lbrd" amount="1.0" timing="x m t m s l x"/>
+    <morph name="rbrd" amount="1.0" timing="x m t m s l x"/>
+    <morph name="eywl" timing="x m t m s l x"/>
+    <morph name="eywr" timing="x m t m s l x"/>
+   </par_morph>
+</extra_movement>
+
+<extra_movement sigmlName="SUG">
+   <par_morph>
+    <morph name="HPSF" amount="-0.15" timing="x m t m s l x"/>
+    <morph name="smlc" timing="x m t m m t x"/>
+    <morph name="lbrd" amount="1.0" timing="x m t m s l x"/>
+    <morph name="rbrd" amount="1.0" timing="x m t m s l x"/>
+   </par_morph>
+</extra_movement>
+
+<extra_movement sigmlName="EXP">
+   <par_morph>
+   </par_morph>
+</extra_movement>
+
+<!-- 
+NON-FACIAL NONMANUALS: HEAD, SPINE, AND SHOULDERS.
+
+
+The morphs that these are mapped to are not avatar morphs,
+but pseudo-morphs known to animgen.  Animgen implements these
+by bone rotations.
+
+The three element types, matching the relevant SiGML element types
+are:
+
+    head_movement
+    body_movement
+    shoulder_movement
+
+
+HEAD MOVEMENTS
+
+(NO,SH,SR,SL,TR,TL,NF,NB,PF,PB,LI,NU,ND)
+
+-->
+<head_movement sigmlName="NO">
+    <morph name="HTLF" amount="0.03" timing="m t - f l"/>
+    <morph name="HTLF" amount="-0.03" timing="m t - f l"/>
+    <morph name="HTLF" amount="0.03" timing="m t - f l"/>
+    <morph name="HTLF" amount="-0.03" timing="m t - f l"/>
+    <morph name="HTLF" amount="0.03" timing="m t - f l"/>
+    <morph name="HTLF" amount="-0.03" timing="m t - f l"/>
+</head_movement>
+<!-- 
+
+-->
+<head_movement sigmlName="SH">
+    <morph name="HTRR" amount="0.05" timing="m t - f t"/>
+    <morph name="HTRR" amount="-0.05" timing="m t - f t"/>
+    <morph name="HTRR" amount="0.05" timing="m t - f t"/>
+    <morph name="HTRR" amount="-0.05" timing="m t - f t"/>
+    <morph name="HTRR" amount="0.05" timing="m t - f t"/>
+    <morph name="HTRR" amount="-0.05" timing="m t - f t"/>
+</head_movement>
+
+<head_movement sigmlName="SR">
+    <par_morph>
+        <morph name="HTRR" amount="0.1" timing="x m t m s l x"/>
+        <morph name="leye" amount="0.2" timing="x m t m s l x"/>
+    </par_morph>
+</head_movement>
+
+<head_movement sigmlName="SL">
+    <par_morph>
+        <morph name="HTRR" amount="-0.1" timing="x m t m s l x"/>
+        <morph name="leye" amount="-0.1" timing="x m t m s l x"/>
+    </par_morph>
+</head_movement>
+
+<head_movement sigmlName="TR">
+    <morph name="HTLR" amount="0.1" timing="x m t m s l x"/>
+</head_movement>
+
+<head_movement sigmlName="TL">
+    <morph name="HTLR" amount="-0.1" timing="x m t m s l x"/>
+</head_movement>
+
+<head_movement sigmlName="NF">
+    <morph name="HTLF" amount="0.2" timing="x m t m s l x"/>
+</head_movement>
+
+<head_movement sigmlName="NB">
+    <morph name="HTLF" amount="-0.2" timing="x m t m s l x"/>
+</head_movement>
+
+<head_movement sigmlName="PF">
+    <morph name="HPSF" amount="0.2" timing="e m t m s l x"/>
+</head_movement>
+
+<head_movement sigmlName="PB">
+    <morph name="HPSF" amount="-0.2" timing="x m t m s l x"/>
+</head_movement>
+
+<head_movement sigmlName="LI">
+</head_movement>
+
+<head_movement sigmlName="NU">
+    <morph name="HTLF" amount="-0.1" timing="m t m f t"/>
+</head_movement>
+
+<head_movement sigmlName="ND">
+    <morph name="HTLF" amount="0.1" timing="m t m f t"/>
+</head_movement>
+
+<!-- 
+BODY MOVEMENTS
+(RR,RL,TR,TL,TF,TB,RD,SI)
+-->
+<!-- 2009-07-27 JB changed RR: BTRR from 0.2 to 0.6, HTRR from -0.15 to -0.45 -->
+<body_movement sigmlName="RR">
+    <par_morph>
+        <morph name="BTRR" amount="0.6" timing="x m t m s l x"/>
+        <morph name="HTRR" amount="-0.45" timing="x m t m s l x"/>
+        <morph name="leye" amount="0.2" timing="x m t m s l x"/>
+    </par_morph>
+</body_movement>
+
+<!-- 2009-07-27 JB changed RL: BTRR from -0.2 to -0.6, HTRR from 0.15 to 0.45 -->
+<body_movement sigmlName="RL">
+    <par_morph>
+        <morph name="BTRR" amount="-0.6" timing="x m t m s l x"/>
+        <morph name="HTRR" amount="0.45" timing="x m t m s l x"/>
+        <morph name="reye" amount="0.2" timing="x m t m s l x"/>
+    </par_morph>
+</body_movement>
+
+<body_movement sigmlName="TR">
+    <par_morph>
+        <morph name="BTLR" amount="0.1" timing="x m t m s l x"/>
+        <morph name="HTLR" amount="-0.07" timing="x m t m s l x"/>
+    </par_morph>
+</body_movement>
+
+<body_movement sigmlName="TL">
+    <par_morph>
+        <morph name="BTLR" amount="-0.1" timing="x m t m s l x"/>
+        <morph name="HTLR" amount="0.07" timing="x m t m s l x"/>
+    </par_morph>
+</body_movement>
+
+<body_movement sigmlName="TF">
+    <par_morph>
+        <morph name="BTLF" amount="0.25" timing="x m t m s l x"/>
+        <morph name="HTLF" amount="-0.25" timing="x m t m s l x"/>
+    </par_morph>
+</body_movement>
+
+<body_movement sigmlName="TB">
+    <par_morph>
+        <morph name="BTLF" amount="-0.2" timing="x m t m s l x"/>
+        <morph name="HTLF" amount="0.2" timing="x m t m s l x"/>
+    </par_morph>
+</body_movement>
+
+<body_movement sigmlName="RD">
+    <par_morph>
+        <morph name="BTLF" amount="0.25" timing="x m t m s l x"/>
+        <morph name="HTLF" amount="-0.25" timing="x m t m s l x"/>
+    </par_morph>
+</body_movement>
+
+<body_movement sigmlName="SI">
+    <par_morph>
+        <morph name="BTLF" amount="-0.07" timing="s t s s t"/>
+        <morph name="HTLF" amount="0.06" timing="s t s s t"/>
+    </par_morph>
+</body_movement>
+
+<!-- body_movements not implemented: heave, straight -->
+
+<!-- 
+SHOULDER MOVEMENTS
+(UL,UR,UB,HL,HR,HB,SL,SR,SB)
+-->
+<shoulder_movement sigmlName="UL">
+    <morph name="LSR" amount="0.15" timing="x m t m s l x"/>
+</shoulder_movement>
+
+
+<shoulder_movement sigmlName="UR">
+    <morph name="RSR" amount="0.15" timing="x m t m s l x"/>
+</shoulder_movement>
+
+
+<shoulder_movement sigmlName="UB">
+    <par_morph>
+        <morph name="LSR" amount="0.15" timing="x m t m s l x"/>
+        <morph name="RSR" amount="0.15" timing="x m t m s l x"/>
+    </par_morph>
+</shoulder_movement>
+
+<shoulder_movement sigmlName="HL">
+    <morph name="LSF" amount="0.3" timing="x m t m s l x"/>
+</shoulder_movement>
+
+<shoulder_movement sigmlName="HR">
+    <morph name="RSF" amount="0.3" timing="x m t m s l x"/>
+</shoulder_movement>
+
+<shoulder_movement sigmlName="HB">
+    <par_morph>
+        <morph name="LSF" amount="0.3" timing="x m t m s l x"/>
+        <morph name="RSF" amount="0.3" timing="x m t m s l x"/>
+    </par_morph>
+</shoulder_movement>
+
+<shoulder_movement sigmlName="SL">
+    <morph name="LSR" amount="0.15" timing="m t m s t"/>
+</shoulder_movement>
+
+<shoulder_movement sigmlName="SR">
+    <morph name="RSR" amount="0.15" timing="m t m s t"/>
+</shoulder_movement>
+
+<shoulder_movement sigmlName="SB">
+    <par_morph>
+        <morph name="LSR" amount="0.15" timing="m t m s t"/>
+        <morph name="RSR" amount="0.15" timing="m t m s t"/>
+    </par_morph>
+</shoulder_movement>
+
+</nonmanuals>

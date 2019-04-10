@@ -1,6 +1,7 @@
 
 
 import sys
+import os
 import argparse
 from nltk.parse.stanford import StanfordParser
 from nltk.tag.stanford import StanfordPOSTagger, StanfordNERTagger
@@ -11,13 +12,15 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import nltk
 
+os.environ["CLASSPATH"] = "home/SahilKhosla/Desktop/stanford-parser-full-2018-10-17/stanford-parser.jar:home/SahilKhosla/Desktop/stanford-parser-full-2018-10-17/stanford-parser-3.9.2-models.jar"
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--index", required = True,
 	help = "Path to where the computed index will be stored")
 args = vars(ap.parse_args())
 #s=raw_input("Enter string")
 s=args["index"]
-parser=StanfordParser(model_path="edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
+parser=nltk.parse.stanford.StanfordParser(model_path="/home/SahilKhosla/Desktop/stanford-parser-full-2018-10-17/stanford-parser-3.9.2-models/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
 o=parser.parse(s.split())
 tree1=[tree for tree in parser.parse(s.split())]
 parsetree=tree1[0]

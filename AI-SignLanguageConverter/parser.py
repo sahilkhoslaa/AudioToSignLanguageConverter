@@ -10,7 +10,7 @@ from nltk.stem import WordNetLemmatizer
 
 
 s=raw_input("Enter string")
-parser=StanfordParser(model_path="edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
+parser = StanfordParser(model_path="edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
 o=parser.parse(s.split())
 tree1=[tree for tree in parser.parse(s.split())]
 parsetree=tree1[0]

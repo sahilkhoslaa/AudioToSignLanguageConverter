@@ -1,5 +1,5 @@
 export STANFORDTOOLSDIR=$HOME;
-export CLASSPATH=$STANFORDTOOLSDIR/stanford-postagger-full-2015-04-20/stanford-postagger.jar:$STANFORDTOOLSDIR/stanford-ner-2015-04-20/stanford-ner.jar:$STANFORDTOOLSDIR/stanford-parser-full-2015-04-20/stanford-parser.jar:$STANFORDTOOLSDIR/stanford-parser-full-2015-04-20/stanford-parser-3.5.2-models.jar;
+export CLASSPATH=$STANFORDTOOLSDIR/Desktop/stanford-parser-full-2018-10-17/stanford-parser.jar:$STANFORDTOOLSDIR/stanford-parser-full-2018-10-17/stanford-parser-3.9.2-models.jar;
 export STANFORD_MODELS=$STANFORDTOOLSDIR/stanford-postagger-full-2015-04-20/models:$STANFORDTOOLSDIR/stanford-ner-2015-04-20/classifiers;
 #ls -la;
 z="";

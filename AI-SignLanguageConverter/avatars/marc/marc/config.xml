@@ -1,0 +1,156 @@
+<!--
+	animgen configuration file: Marc - updated 24_5_2006
+
+	This file need only contain the data that are specific to one
+	particular avatar.
+
+	Common data will be read from the config.xml contained in the
+	COMMON directory.
+-->
+<config>
+  <!--
+forearmTwistRatio:
+The proportion of the wrist rotation about its Y axis that is
+transferred to the elbow.
+-->
+  <bodyconstraints forearmTwistRatio="0.0" />
+  <signingspace horiz_spacing="0.8" vert_spacing="0.25" inout_spacing="0.15" signspacesitesize="1.2" fan="0.6" curve="1" nearbelly="0.450" torsositesize="0.10" neckheight="0.02" />
+  <avatargeometry thumbratio="0.55" thumbjointsangle="0.8" thumbbasebendangle="0.2" thumbbasedirection="1.1" leftThumbTwist="1.57" rightThumbTwist="1.57" forearmthickness="0.082" upperarmthickness="0.110" knucklethickness="0.127" wristsize="0.054" wristeccentricity="1.3">
+    <!--
+In handshapeclasses, the effects are defined of the finger and thumb
+bending modifiers.  These all correspond to the HamNoSys modifiers,
+except for thumbbent, which represents the effect of the finger-bent
+modifier in those classes of handshape where it affects the thumb as
+well.  Because the articulation of the thumb differs from that of the
+fingers, different bend values are required.
+-->
+    <!-- 24_5_2006 VJ. Changes to hand shapes to match vGuido
+	Common settings:
+	<handshapes>
+	     <pinchall specialbends="2.5 2 1 0" ordinarybends="4440" extendedfingers="12345" class="pinchall"/>  *****Changed****
+         <pinch12 specialbends="2.5 2 1 0" ordinarybends="4440" extendedfingers="12" class="pinch12"/> *****Changed****
+         <pinch12open specialbends="2.5 2 1 0" ordinarybends="0 1 0.4 4" extendedfingers="12" class="pinch12"/> *****Changed****
+         <ceeall specialbends="0.8 1.8 1.8 0" ordinarybends="4440" extendedfingers="12345" class="ceeall"/> *****Changed****
+         <cee12 specialbends="0.8 1.8 1.8 0" ordinarybends="4440" extendedfingers="12" class="cee12"/> *****Changed****
+         <cee12open specialbends="0.8 1.8 1.8 0" ordinarybends="0 1 0.4 0" extendedfingers="12" class="cee12"/> *****Changed****
+    </handshapes>
+         -->
+    <handshapes>
+      <pinchall specialbends="3 2 1 0" ordinarybends="4440" extendedfingers="12345" class="pinchall" />
+      <pinch12 specialbends="3 2 1 0" ordinarybends="4440" extendedfingers="12" class="pinch12" />
+      <pinch12open specialbends="3 2 1 0" ordinarybends="0 1 0.4 4" extendedfingers="12" class="pinch12" />
+      <ceeall specialbends="1.2 1.8 1.8 0" ordinarybends="4440" extendedfingers="12345" class="ceeall" />
+      <cee12 specialbends="1.5 1.8 1.8 0" ordinarybends="4440" extendedfingers="12" class="cee12" />
+      <cee12open specialbends="1.6 1.8 1.8 0" ordinarybends="0 1 0.4 0" extendedfingers="12" class="cee12" />
+    </handshapes>
+    <!-- 24_5_2006 VJ. Changes to hand shapes to match vGuido
+		Common settings
+		<handshapeclasses>
+			<fist
+			straight="000"
+			bent="400"
+			round="222"
+			hooked="044"
+			dblbent="440"
+			dblhooked="444"
+			halfbent="200"
+
+			alongside="-1.2 1.8 3   2   0" *****Changed****
+			out=      "-0.4 2.6 2.4 -0.0 0.3"
+			across=   " 3.5 1.5 0.8 1.8 1.6"
+			opposed=  " 4.4 2.0 2.5 -0.8 -0.4"
+		/>
+		<flat
+			straight="000"
+			bent="400"
+			round="222"
+			hooked="044"
+			dblbent="440"
+			dblhooked="444"
+			halfbent="200"
+
+			alongside="-0.7 1.3 3   1.3  -0.2" *****Changed****
+			out=      "-0.4 2.6 2.4 -0.0 0.3"
+			across=   " 2.8 0.7 1.8 1.7  1.6"
+			opposed=  " 4.4 2.0 2.5 -0.8 -0.4"
+		/>
+		<pinchall
+			straight="0000"
+			bent="3.7 0 0 0"
+			round="3 3 3 0"
+			hooked="3 4 3 0"
+			dblbent="4 3 2 0"
+			dblhooked="4 3 3 0"
+			halfbent="3 2.5 2.5 0"
+
+			alongside= "4   3   3.7 1.1  1.9" *****Changed****
+			out=       "4   3   3.7 1.1  1.9" *****Changed****
+			across=    "4   3   3.7 1.1  1.9" *****Changed****
+			opposed=   "4   3   3.7 1.1  1.9" *****Changed****
+			thumbbent= "4.3 1.7 3.7 0   -1"
+		/>
+		<pinch12
+			straight="0000"
+			bent="3.7 0 0 0" *****Changed****
+			round="3 3 3 0"
+			hooked="3 4 3 0"
+			dblbent="4 3 2 0"
+			dblhooked="4 3 3 0"
+			halfbent="3 2.5 2.5 0"
+
+			alongside= "4   3   3.7 1.1  1.9" *****Changed****
+			out=       "4   3   3.7 1.1  1.9" *****Changed****
+			across=    "4   3   3.7 1.1  1.9" *****Changed****
+			opposed=   "4   3   3.7 1.1  1.9" *****Changed****
+			thumbbent= "4.3 1.7 3.7 0   -1" *****Changed****
+		/>
+		<ceeall
+			straight="0000"
+			bent="3000" *****Changed****
+			round="1330"
+			hooked="2440"
+			dblbent="2320"
+			dblhooked="2330"
+			halfbent="1 2.5 2.5 0"
+
+			alongside= "3.8 2.0 3.8 0.6  0.6"
+			out=       "3.8 2.0 3.8 0.6  0.6"
+			across=    "3.8 2.0 3.8 0.6  0.6"
+			opposed=   "3.8 2.0 3.8 0.6  0.6"
+			thumbbent= "4.3 1.7 3.7 0   -0.5"
+		/>
+		<cee12
+			straight="0000"
+			bent="3000" *****Changed****
+			round="1330"
+			hooked="2440"
+			dblbent="2320"
+			dblhooked="2330"
+			halfbent="1 2.5 2.5 0"
+
+			alongside= "3.8 2.0 3.8 0.6  0.6"
+			out=       "3.8 2.0 3.8 0.6  0.6"
+			across=    "3.8 2.0 3.8 0.6  0.6"
+			opposed=   "3.8 2.0 3.8 0.6  0.6"
+			thumbbent= "4.3 1.7 3.7 0   -0.5"
+		/>
+	</handshapeclasses>
+		-->
+    <handshapeclasses>
+      <fist straight="000" bent="400" round="222" hooked="044" dblbent="440" dblhooked="444" halfbent="200" alongside=" -0.7 0.75 3   0.5  0.2" out="-0.4 2 2.4 -0.0 -0.3" across=" 3.5 1.5 0.8 1.8 1.6" opposed=" 4.4 2.0 2.5 -0.8 -0.8" />
+      <flat straight="000" bent="400" round="222" hooked="044" dblbent="440" dblhooked="444" halfbent="200" alongside=" -0.7 1.3 3   1.3  0.2" out="-0.4 2.6 2.4 -0.0 0.3" across=" 2.8 0.7 1.8 1.7  1.6" opposed=" 4.4 2.0 2.5 -0.8 -0.4" />
+      <pinchall straight="0000" bent="3.7 0 0 0" round="3 3 3 0" hooked="3 4 3 0" dblbent="4 3 2 0" dblhooked="4 3 3 0" halfbent="3 2.5 2.5 0" alongside="4   3   3.7 1.1  1.9" out="4   3   3.7 1.1  1.9" across="4   3   3.7 1.1  1.9" opposed="4   3   3.7 1.1  1.9" thumbbent="4.3 1.7 3.7 0   -1" />
+      <pinch12 straight="0000" bent="3.8 0 0 0" round="3 3.5 3 0" hooked="3 4 3 0" dblbent="4 3 2 0" dblhooked="4 3 3 0" halfbent="3 2.5 2.5 0" alongside="4   3   3.7 1.1  1.9" out="4   3   3.7 1.1  1.9" across="4   3   3.7 1.1  1.9" opposed="4   3   3.7 1.1  1.9" thumbbent="4.3 1.7 3.7 0   -1" />
+      <ceeall straight="0000" bent="3.25 0 0 0" round="1330" hooked="2440" dblbent="2320" dblhooked="2330" halfbent="1 2.5 2.5 0" alongside="3.8 2.0 3.8 0.6  0.6" out="3.8 2.0 3.8 0.6  0.6" across="3.8 2.0 3.8 0.6  0.6" opposed="3.8 2.0 3.8 0.6  0.6" thumbbent="4.3 1.7 3.7 0   -0.5" />
+      <cee12 straight="0000" bent="3 0 0 0" round="1330" hooked="2440" dblbent="2320" dblhooked="2330" halfbent="1 2.5 2.5 0" alongside="3.8 2.0 3.8 0.6  0.6" out="3.8 2.0 3.8 0.6  0.6" across="3.8 2.0 3.8 0.6  0.6" opposed="3.8 2.0 3.8 0.6  0.6" thumbbent="4.3 1.7 3.7 0   -0.5" />
+    </handshapeclasses>
+    <!-- ceefingers represents the additional bending at the base of each finger
+when the cee is slack or tight, measured in fingerbending units (i.e.
+min to max is 4 units).
+-->
+    <ceefingers slack="-0.8" tight="0.6" />
+  </avatargeometry>
+</config>
+<!--
+Nothing should appear here.
+-->
