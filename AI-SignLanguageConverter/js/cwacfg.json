@@ -9,7 +9,7 @@
   "avJSONBase"      : "avjson",
   "useAvatarJARs"   : true,
 
-  "animgenFPS"      : 50,
+  "animgenFPS"      : 120,
   "animgenServer"   : "http://vhg.cmp.uea.ac.uk/cgi-bin/animgen/animgenserver.pl",
 
   "avs" : [
