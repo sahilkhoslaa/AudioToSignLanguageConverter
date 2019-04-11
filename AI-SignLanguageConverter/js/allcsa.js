@@ -7751,9 +7751,6 @@ wrapping each application in a "location_hand" element.
     }
 
     if (theURI.endsWith(".sigml")) {
-        console.log("testtttttttttttt");
-        var test = theURI.substring(theURI.lastIndexOf('/') + 1, theURI.lastIndexOf('.'));
-        console.log(test);
         currentWord = theURI.substring(0, theURI.lastIndexOf('.') + 1) + 'txt';
         currentWord = currentWord.replace('SignFiles', 'hamnosysData');
     }
@@ -7776,7 +7773,7 @@ wrapping each application in a "location_hand" element.
             if (xhrok) {
                 console.log("fetchURI fetched:  " + theURI + " Status=" + myXHR.status);
                 console.log("#$%^&^%$%^&*" + rqstData);
-                console.log(myXHR.responseText);
+                // console.log(myXHR.responseText);
                 // if (theURI === "http://vhg.cmp.uea.ac.uk/cgi-bin/animgen/animgenserver.pl?avatar=marc"){
                 //     console.log("caching: " + JSON.parse(myXHR.responseText)[0]['gloss']);
                 //     window.localStorage.setItem(JSON.parse(myXHR.responseText)[0]['gloss'].toString(), myXHR.responseText);

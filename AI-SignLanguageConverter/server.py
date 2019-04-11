@@ -86,7 +86,7 @@ def modify_tree_structure(parent_tree):
 
 def convert_eng_to_isl(input_string):
     # Initializing stanford parser
-    parser = StanfordParser(model_path=os.environ.get('STANFORD_MODELS'))
+    parser = StanfordParser()
 
     # Generates all possible parse trees sort by probability for the sentence
     possible_parse_tree_list = [tree for tree in parser.parse(input_string.split())]
@@ -206,7 +206,7 @@ def parseit():
     if request.method == "POST":
         input_string = request.form['text']
     else:
-        input_string = "As an accountant I am making a payment"
+        input_string = request.args.get('speech')
 
     # input_string = input_string.lower()
     isl_parsed_token_list = convert_eng_to_isl(input_string)
