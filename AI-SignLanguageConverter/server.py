@@ -199,7 +199,7 @@ def pre_process(sentence):
         else:
             final_string += " " + word
 
-        return final_string
+    return final_string
 
 @app.route('/parser', methods=['GET', 'POST'])
 def parseit():
