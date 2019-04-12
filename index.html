@@ -82,17 +82,38 @@
     </script>
 
     <script language="javascript" src="js/animationPlayer.js"></script>
-
+    <style type="text/css">
+        body {
+            overflow-y: hidden !important;
+            overflow-x: hidden !important;
+        }
+    </style>
 </head>
 <body onload="CWASA.init(initCfg);" >
-
+    <nav  style="margin-top: -9%; height: 20%;">
+        <div class="nav-wrapper" id="navbar">
+            <a href="#" class="brand-logo"><img src="images/peclogo.png" style="margin-top: 2%; padding:2%; width: 30%; height:80%;"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-right: 5%;">
+                <li>
+                    <div class="switch text-center">
+                        <label>
+                          <font size="2">Basic Theme</font>
+                          <input id="theme" type="checkbox">
+                          <span class="lever"></span>
+                          <font size="2">Dark Theme</font>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+    </div>
+  </nav>
     <div id="loading" class="container">
-    <div class="row text-center"><span style="background-color:#ebf8a4; padding: 8px 20px;">Loading ... Please wait...</span></div>
-</div>
-
+        <div class="row text-center"><span style="background-color:#ebf8a4; padding: 8px 20px;">Loading ... Please wait...</span></div>
+    </div>
+    
     <!-- left side division starts here -->
 
-    <div style="box-sizing: border-box; width: 30%; height: 60%; padding: 15px; float:right; margin-right:14%;" >
+    <div style="box-sizing: border-box; width: 30%; height: 80%; padding: 15px; float:right; margin-right:14%;" >
         <table align="center" style="width:100%; height:100%;" >
             <tr align="center">
                 <!--================================================================-->
@@ -133,23 +154,24 @@
             </tr>
         </table>
     </div>
-    <div style="width:20%; padding:15px; margin-left:14%;float:left">
+    <div style="width:20%; padding:15px; margin-top:10%; margin-left:20%;float:left">
 
         <form id="inputText">
             <input id="dom-target" type="text" name="firstname" hidden><br>
         </form>
 
-        <div class="row center">
-            <a onclick="startDictation()" class="btn-floating btn-large waves-effect red"><i class="large material-icons">mic</i></a>
+        <div class="row center" >
+            <a id="speech_recognizer" onclick="startDictation()" style="height: 50%;" class="btn-floating btn-large waves-effect red"><i class="large material-icons">mic</i></a>
+            <img src="images/speechrecognizer.gif" id="speech_loader" style="width: 80%; height:80%;">
         </div>
 
         <div id="speech" style="margin-top:10px; border-top:3px solid black;">
-            <br><strong>Speech</strong></br>
-            <div id="speech_">test</div>
+            <br><strong><span id="speech_text">Speech</span></strong></br>
+            <div><span id="speech_"></span></div>
         </div>
 
         <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;">
-            <br><strong>Debugger</strong></br>
+            <br><strong><span id="debugger_text">Debugger</span></strong></br>
             <div id="debugger"></div>
         </div>
     </div> <!-- left side division ends here -->

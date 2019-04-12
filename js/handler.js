@@ -1,6 +1,21 @@
 /*
         Load json file for sigml available for easy searching
     */
+    $("#speech_loader").hide();
+
+    $("#theme").change(function() {
+    
+        if(document.getElementById("theme").checked) {
+            
+            document.body.style.backgroundColor = "black";
+            document.getElementById("navbar").style.backgroundColor = "#212121";
+        }
+        else{
+            document.body.style.backgroundColor = "white";
+            document.getElementById("navbar").style.backgroundColor = "white";
+        }
+    });
+
     $.getJSON("js/sigmlFiles.json", function(json){
         sigmlList = json;
     });
@@ -63,7 +78,8 @@
     }
     activateTab("menu1-h", "menu1"); // activate first menu by default
     function startDictation() {
-
+        $('#speech_recognizer').hide();
+        $("#speech_loader").show();
         console.log('Speech recognition started...');
 
         if (window.hasOwnProperty('webkitSpeechRecognition')) {
@@ -73,21 +89,24 @@
             recognition.continuous = false;
             recognition.interimResults = false;
 
-            recognition.lang = "en-US";
+            recognition.lang = "hi-IN";
             recognition.start();
 
             recognition.onresult = function(e) {
                 // document.getElementById('transcript').value = e.results[0][0].transcript;
+                $('#speech_recognizer').show();
+                $("#speech_loader").hide();
+
                 console.log('Speech: ' + e.results[0][0].transcript);
 
                 let speech = e.results[0][0].transcript;
 
                 let parsedSpeech = getParsedText(speech);
 
-                document.getElementById('dom-target').value = parsedSpeech;
-                clickme();
+                clickme(parsedSpeech);
 
                 recognition.stop();
+                
                 console.log('Speech recognition stopped...');
 
             };
@@ -131,30 +150,9 @@
         recognition.start();
     }
 
-    function clickme() {
-        // read the input paragraph from the text box
-        // trim it to remove any spaces from sides
+    function clickme(speech) {
 
-        //inputText = $("#inputText").val().trim();
-
-
-        //document.getElementById('foo').value = 'bar';
-        //console.log("reading input");
-
-        //var x = document.getElementById("inputText").value;
-
-        //inputText = $("#inputText").val().trim();
-        //inputText = <?php echo $varrr;?>;
-
-        //var valll = "<?php echo $ff ?>";
-        //console.log(valll);
-
-
-
-        var div = document.getElementById("dom-target");
-        var myData = document.getElementById('dom-target').value;
-
-        inputText = myData;
+        inputText = speech;
         // read the language that has been set
         lang = "English"; // using english for default
         tokens = [];
@@ -248,30 +246,6 @@
                 if(t!="EOL"){
                     console.log("k is : "+k);
                     var obj = {"sid": max,"name": t,"fileName": t+".sigml"};
-                    /*// sigmlList.push(obj);
-               file="sigmlFiles.json";
-              //$json = json_decode(file_get_contents($file),true);
-
-              //$json[$countit] = array("sid" => $max, "name" => $t, "fileName" => $t+".sigml");
-
-
-                // file_put_contents($file, json_encode($json));*/
-                    /*
-                    $json = file_get_contents('sigmlFiles.json');
-                    $data = json_decode($json);
-                    $data[] = $_POST[obj];
-                    file_put_contents('sigmlFiles.json', json_encode($data));*/
-                    /*
-                    <?php
-                    $data[] = $_POST['{"sid": max,"name": t,"fileName": t+".sigml"}'];
-
-                    $inp = file_get_contents('sigmlFiles.json');
-                    $tempArray = json_decode($inp);
-                    array_push($tempArray, $data);
-                    $jsonData = json_encode($tempArray);
-                    file_put_contents('sigmlFiles.json', $jsonData);
-                    ?>
-                    */
 
                     var newdata = JSON.stringify(sigmlList);
                     console.log(newdata);
