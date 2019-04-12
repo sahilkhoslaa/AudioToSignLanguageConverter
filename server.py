@@ -87,6 +87,9 @@ def modify_tree_structure(parent_tree):
 
 def convert_eng_to_isl(input_string):
     # Initializing stanford parser
+    if len(list(input_string.split(' '))) is 1:
+        return list(input_string.split(' '))
+
     parser = StanfordParser()
 
     # Generates all possible parse trees sort by probability for the sentence
