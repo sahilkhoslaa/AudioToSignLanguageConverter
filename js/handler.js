@@ -89,7 +89,7 @@
             recognition.continuous = false;
             recognition.interimResults = false;
 
-            recognition.lang = "hi-IN";
+            recognition.lang = "en-US";
             recognition.start();
 
             recognition.onresult = function(e) {
