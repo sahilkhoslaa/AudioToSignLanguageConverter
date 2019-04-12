@@ -36,7 +36,7 @@
     }
 
     function getParsedText(speech) {
-        console.log("$$ 1");
+        // console.log("$$ 1");
 
         var HttpClient = function() {
             this.get = function(aUrl, aCallback) {
@@ -56,7 +56,7 @@
             console.log(response);
             final_response = JSON.parse(response);
         });
-        console.log("$$ 4");
+        // console.log("$$ 4");
 
         document.getElementById('speech_').innerHTML = final_response['isl_text_string'];
         return final_response['pre_process_string'];
@@ -215,7 +215,7 @@
             t = tokens[x];
             for(y = 0; y < sigmlList.length; y++) {
                 if(sigmlList[y].name == t) {
-                    console.log(sigmlList[y].sid);
+                    // console.log(sigmlList[y].sid);
                     wordArray[arrayCounter++] = new FinalText(t, sigmlList[y].fileName);
                     wordfoundflag = true;
                     break;

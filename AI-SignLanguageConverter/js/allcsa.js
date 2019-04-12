@@ -3778,17 +3778,17 @@ return theCB(null, 1, msg, myXHR.responseText);
 };
 })(this);
 } else {
-    console.log("1");
+    // console.log("1");
     myXHR = new XMLHttpRequest;
-    console.log("2");
+    // console.log("2");
     myXHR.open(rqstType, theURI, true);
-    console.log("3");
+    // console.log("3");
     myXHR.overrideMimeType("text/plain; charset=x-user-defined");
-    console.log("4");
+    // console.log("4");
 
 
     if (theURI === "http://vhg.cmp.uea.ac.uk/tech/jas/vhg2017/cwa/cwacfg.json") {
-        console.log('4.1');
+        // console.log('4.1');
 
         var jj = {
             "description"     : "========  CWASA installation configuration data  ========",
@@ -3836,7 +3836,7 @@ return theCB(null, 1, msg, myXHR.responseText);
     }
 
     if (theURI === "http://vhg.cmp.uea.ac.uk/tech/jas/vhg2017/cwa/shaders/qskin.vert") {
-        console.log('4.2');
+        // console.log('4.2');
 
         var jj = `// qskin.vert
 // Vertex shader. Does skinning, with morph adjustments, and arm-twisting.
@@ -4325,7 +4325,7 @@ vec4 tdb = BoneTwistData[b] contains the following data for bone b
     // }
 
     if (theURI === "http://vhg.cmp.uea.ac.uk/tech/jas/vhg2017/cwa/h2s.xsl"){
-        console.log('4.7');
+        // console.log('4.7');
         var jj = `<xsl:transform version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -7763,16 +7763,16 @@ wrapping each application in a "location_hand" element.
 
     
     myXHR.onloadend = (function(_this) {
-        console.log('4.5');
+        // console.log('4.5');
         return function() {
-            console.log("5");
+            // console.log("5");
             var msg, xhrok;
-            console.log("6");
+            // console.log("6");
             xhrok = (myXHR.status === 0) || (myXHR.status === 200);
-            console.log("7");
+            // console.log("7");
             if (xhrok) {
                 console.log("fetchURI fetched:  " + theURI + " Status=" + myXHR.status);
-                console.log("#$%^&^%$%^&*" + rqstData);
+                // console.log("#$%^&^%$%^&*" + rqstData);
                 // console.log(myXHR.responseText);
                 // if (theURI === "http://vhg.cmp.uea.ac.uk/cgi-bin/animgen/animgenserver.pl?avatar=marc"){
                 //     console.log("caching: " + JSON.parse(myXHR.responseText)[0]['gloss']);
