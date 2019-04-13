@@ -1,4 +1,4 @@
-# AI-SignLanguageConverter
+# AudioToSignLanguageConverter
 <p>A web based application for translating audio to ISL (Indian Sign Language) to aid deaf people implemented using NLTK Stanford parser 
  <h3>Installation Guide</h3>
  <p>1. Install pyaudio module</p>
