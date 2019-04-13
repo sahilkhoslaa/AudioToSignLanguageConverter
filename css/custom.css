@@ -12,13 +12,6 @@ nav #navbar {
     border:none!important;
     padding: 15px 0;
     }
-img .brand-logo{
-    margin-left: 5%;
-    position:absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
 .icon-bar {
     background-color:white!important;}
 /* nav css ends here*/
