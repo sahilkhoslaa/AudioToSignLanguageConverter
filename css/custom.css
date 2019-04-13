@@ -5,12 +5,12 @@ nav {
     border:none!important;
     -webkit-box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);
-    padding: 15px 0;
     }
 nav .container{
     padding-top:15px!important;}
 nav #navbar {
     border:none!important;
+    padding: 15px 0;
     }
 img .brand-logo{
     margin-left: 5%;
