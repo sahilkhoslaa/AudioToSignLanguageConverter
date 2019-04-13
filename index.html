@@ -99,98 +99,101 @@
     	</div>
     	
  	</nav>
-    <div id="loading" class="container">
-        <div class="row text-center"><span style="background-color:#ebf8a4; padding: 8px 20px;">Loading ... Please wait...</span></div>
-    </div>
-    
-    
 
-    <!-- left side division starts here -->
-    <div style="width:10%; padding:15px; margin-left: 5%; margin-top:10%;float:left">
+    <div class="outer-container" style="position: relative; height: 100%; width: 100%;">
+        <div id="loading" class="container">
+            <div class="row text-center"><span style="background-color:#ebf8a4; padding: 8px 20px;">Loading ... Please wait...</span></div>
+        </div>
 
-        <form id="inputText">
-            <input id="dom-target" type="text" name="firstname" hidden><br>
-        </form>
 
-        <div class="row center" >
-        	<div id="speech_recognizer">
-            	<a id="speech_recognizer" onclick="startDictation()" style="height: 50%;" class="btn-floating btn-large waves-effect red"><i class="large material-icons">mic</i></a>
-        		<p class="text-center">Click to Speak</p>
-        	</div>
-            <div id="speech_loader">
-            	<img src="images/speechloader.gif"  style="width: 80%; height:80%;">
-        		<p class="text-center">Listening...</p>
-        	</div>
-            <div id="loader">
-                <img src="images/loader.gif" class="text-center" style="width: 100%; height: 100%;">
-                <p class="text-center">Processing...</p>
+
+        <!-- left side division starts here -->
+        <div style="position: absolute;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);width: 20%;padding:15px;">
+
+            <form id="inputText">
+                <input id="dom-target" type="text" name="firstname" hidden><br>
+            </form>
+
+            <div class="row center" >
+                <div id="speech_recognizer">
+                    <a id="speech_recognizer" onclick="startDictation()" style="height: 45%;" class="btn-floating btn-large waves-effect red"><i class="large material-icons">mic</i></a>
+                    <p class="text-center" style="margin-top: 15px; font-size: 20px;">Click to Speak</p>
+                </div>
+                <div id="speech_loader">
+                    <img src="images/speechloader.gif"  style="width: 80%; height:80%;">
+                    <p class="text-center"  style=" font-size: 18px;">Listening...</p>
+                </div>
+                <div id="loader">
+                    <img src="images/loader.gif" class="text-center" style="width: 100%; height: 100%;">
+                    <p class="text-center"  style=" font-size: 18px;">Processing...</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div style="box-sizing: border-box; width: 50%; height: 85%; padding: 15px; float:left; margin-left: 10%;" >
-        <table align="center" style="width:100%; height:100%;" >
-            <tr align="center">
-                <!--================================================================-->
-                <!-- CWA signing avatar panel 0 -->
-                <!--================================================================-->
-                <!-- Replaced by an avatar panel -->
-                <!--================================================================-->
-                <td width="100%" height="90%" >
-                    <div class="CWASAAvatar av0" align="center" ></div>
-                </td>
-                <!--================================================================-->
-            </tr>
-            <tr>
-                <td>
-                    <p class="alert-warning text-center" style="padding:5px; font-size:20px; font-weight:bold;" id="textHint"></p>
-                </td>
-            </tr>
-            <tr style="display:none;">
-                <td align="center">
-                    <span class="CWASAAvMenu av0" ></span>
-                    <input type="button" value="Sign" class="bttnPlaySiGMLURL av0" />
-                    <input type="button" value="Stop" class="bttnStop av0" />
-                    <span class="CWASASpeed av0" ></span>
-                    <br/>
-                    <span style="font-size: 90%;" >
-                                Sign/Frame:
-                                <input class="txtSF av0" value="0/0" type="text">
-                                Gloss:
-                                <input class="txtGloss av0" value="[none]" type="text">
-                            </span>
-                    <!--  CachedSiGML URL  -->
-                    <input type="text" id="URLText" class="txtSiGMLURL av0 undisplayed" value="" />
-                    <script language="text/javascript">
-                        // Set default sign
-                        setSiGMLURL("SignFiles/hello.sigml");
-                    </script>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div style="width:15%; padding:15px;margin-top: 10%; margin-left: 5%;float:left">
-        <div id="speech" style="margin-top:10px; border-top:3px solid black;">
-            <br><strong><span id="speech_text">Speech</span></strong></br>
-            <div><span id="speech_"></span></div>
+        <div style="position: absolute;top: 50%;left: 0;right: 0;margin: auto;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);box-sizing: border-box;width: 50%;height: 85%;padding: 15px;" >
+            <table align="center" style="width:100%; height:100%;" >
+                <tr align="center">
+                    <!--================================================================-->
+                    <!-- CWA signing avatar panel 0 -->
+                    <!--================================================================-->
+                    <!-- Replaced by an avatar panel -->
+                    <!--================================================================-->
+                    <td width="100%" height="90%" >
+                        <div class="CWASAAvatar av0" align="center" ></div>
+                    </td>
+                    <!--================================================================-->
+                </tr>
+                <tr>
+                    <td>
+                        <p class="alert-warning text-center" style="padding:5px; font-size:20px; font-weight:bold;" id="textHint"></p>
+                    </td>
+                </tr>
+                <tr style="display:none;">
+                    <td align="center">
+                        <span class="CWASAAvMenu av0" ></span>
+                        <input type="button" value="Sign" class="bttnPlaySiGMLURL av0" />
+                        <input type="button" value="Stop" class="bttnStop av0" />
+                        <span class="CWASASpeed av0" ></span>
+                        <br/>
+                        <span style="font-size: 90%;" >
+                                    Sign/Frame:
+                                    <input class="txtSF av0" value="0/0" type="text">
+                                    Gloss:
+                                    <input class="txtGloss av0" value="[none]" type="text">
+                                </span>
+                        <!--  CachedSiGML URL  -->
+                        <input type="text" id="URLText" class="txtSiGMLURL av0 undisplayed" value="" />
+                        <script language="text/javascript">
+                            // Set default sign
+                            setSiGMLURL("SignFiles/hello.sigml");
+                        </script>
+                    </td>
+                </tr>
+            </table>
         </div>
-        <div class="row">
-        </div>
-        <br/>
+        <div style="width: 20%;right: 3%;position: absolute;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);">
+            <div id="speech" style="margin-top:10px; border-top:3px solid black;">
+                <br><strong><span id="speech_text" style="font-size: 18px;">Speech</span></strong></br>
+                <div><span id="speech_"></span></div>
+            </div>
+            <div class="row">
+            </div>
+            <br/>
 
-        <div style="margin-top:10px; border-top:3px solid black;">
-        	<br><strong><span id="isl_text">Indian Sign Language</span></strong></br>
-        	<div id="isl"></div>
+            <div style="margin-top:10px; border-top:3px solid black;">
+                <br><strong><span id="isl_text" style="font-size: 18px;">Indian Sign Language</span></strong></br>
+                <div id="isl"></div>
+            </div>
+            <br/>
+            <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;" hidden>
+                <br><strong><span id="debugger_text">Debugger</span></strong></br>
+                <div id="debugger"></div>
+            </div>
         </div>
-        <br/>
-        <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;" hidden>
-            <br><strong><span id="debugger_text">Debugger</span></strong></br>
-            <div id="debugger"></div>
-        </div>
-    </div> 
-    <!-- left side division ends here -->
+        <!-- left side division ends here -->
 
-<script type="text/javascript" src="js/player.js"></script>
-<script type="text/javascript" src="js/handler.js"></script>
+        <script type="text/javascript" src="js/player.js"></script>
+        <script type="text/javascript" src="js/handler.js"></script>
+    </div>
 </body>
 
 
