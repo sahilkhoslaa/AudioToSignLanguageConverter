@@ -6,6 +6,10 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tree import *
 import os
 import json
+import urllib.request
+import zipfile
+import sys
+import time
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
@@ -14,8 +18,63 @@ CORS(app, supports_credentials=True)
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 # Download zip file from https://nlp.stanford.edu/software/stanford-parser-full-2015-04-20.zip and extract in stanford-parser-full-2015-04-20 folder in higher directory
 os.environ['CLASSPATH'] = os.path.join(BASE_DIR, 'stanford-parser-full-2018-10-17')
-os.environ['STANFORD_MODELS'] = os.path.join(BASE_DIR, 'stanford-parser-full-2018-10-17/stanford-parser-3.9.2-models/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz')
+os.environ['STANFORD_MODELS'] = os.path.join(BASE_DIR,
+                                             'stanford-parser-full-2018-10-17/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz')
 os.environ['NLTK_DATA'] = '/usr/local/share/nltk_data/'
+
+
+def is_parser_jar_file_present():
+    stanford_parser_zip_file_path = os.environ.get('CLASSPATH') + ".jar"
+    return os.path.exists(stanford_parser_zip_file_path)
+
+
+def reporthook(count, block_size, total_size):
+    global start_time
+    if count == 0:
+        start_time = time.time()
+        return
+    duration = time.time() - start_time
+    progress_size = int(count * block_size)
+    speed = int(progress_size / (1024 * duration))
+    percent = min(int(count*block_size*100/total_size),100)
+    sys.stdout.write("\r...%d%%, %d MB, %d KB/s, %d seconds passed" %
+                    (percent, progress_size / (1024 * 1024), speed, duration))
+    sys.stdout.flush()
+
+
+def download_parser_jar_file():
+    stanford_parser_zip_file_path = os.environ.get('CLASSPATH') + ".jar"
+    url = "https://nlp.stanford.edu/software/stanford-parser-full-2018-10-17.zip"
+    urllib.request.urlretrieve(url, stanford_parser_zip_file_path, reporthook)
+
+def extract_parser_jar_file():
+    stanford_parser_zip_file_path = os.environ.get('CLASSPATH') + ".jar"
+    try:
+        with zipfile.ZipFile(stanford_parser_zip_file_path) as z:
+            z.extractall(path=BASE_DIR)
+    except Exception:
+        os.remove(stanford_parser_zip_file_path)
+        download_parser_jar_file()
+        extract_parser_jar_file()
+
+
+def extract_models_jar_file():
+    stanford_models_zip_file_path = os.path.join(os.environ.get('CLASSPATH'), 'stanford-parser-3.9.2-models.jar')
+    stanford_models_dir = os.environ.get('CLASSPATH')
+    with zipfile.ZipFile(stanford_models_zip_file_path) as z:
+        z.extractall(path=stanford_models_dir)
+
+
+def download_required_packages():
+    if not os.path.exists(os.environ.get('CLASSPATH')):
+        if is_parser_jar_file_present():
+           pass
+        else:
+            download_parser_jar_file()
+        extract_parser_jar_file()
+
+    if not os.path.exists(os.environ.get('STANFORD_MODELS')):
+        extract_models_jar_file()
 
 
 def filter_stop_words(words):
@@ -86,10 +145,13 @@ def modify_tree_structure(parent_tree):
 
 
 def convert_eng_to_isl(input_string):
-    # Initializing stanford parser
+    # get all required packages
+    download_required_packages()
+
     if len(list(input_string.split(' '))) is 1:
         return list(input_string.split(' '))
 
+    # Initializing stanford parser
     parser = StanfordParser()
 
     # Generates all possible parse trees sort by probability for the sentence
