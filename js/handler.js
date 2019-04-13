@@ -59,7 +59,7 @@
             final_response = JSON.parse(response);
         });
         // console.log("$$ 4");
-
+        
         document.getElementById('isl').innerHTML = final_response['isl_text_string'];
         document.getElementById('speech_').innerHTML = speech; 
         return final_response['pre_process_string'];
