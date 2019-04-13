@@ -1,8 +1,6 @@
-body {
-	margin-top:110px!important;
-}
+
 /* nav css start here */
-nav {min-height:80px!important;background:white!important;border:none!important;-webkit-box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);
+nav {min-height:100px!important;background:white!important;border:none!important;-webkit-box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);
 box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);}
 nav .container{padding-top:15px!important;}
 nav #navbar {border:none!important;}
