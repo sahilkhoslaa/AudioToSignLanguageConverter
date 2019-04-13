@@ -90,30 +90,36 @@
     </style>
 </head>
 <body onload="CWASA.init(initCfg);" >
-    <nav  style="margin-top: -9%; height: 20%;">
+    <nav  style="margin-top: -9%; height: 10%;">
         <div class="nav-wrapper" id="navbar">
-            <a href="#" class="brand-logo"><img src="images/peclogo.png" style="margin-top: 2%; padding:2%; width: 30%; height:80%;"></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-right: 5%;">
-                <li>
-                    <div class="switch text-center">
-                        <label>
-                          <font size="2">Basic Theme</font>
-                          <input id="theme" type="checkbox">
-                          <span class="lever"></span>
-                          <font size="2">Dark Theme</font>
-                        </label>
-                    </div>
-                </li>
-            </ul>
-    </div>
-  </nav>
+            <a href="#" class="brand-logo"><img src="images/peclogo.png" style="margin-top: 10%; padding: 2%; width: 70%; height:100%;"></a>
+    	</div>
+ 	</nav>
     <div id="loading" class="container">
         <div class="row text-center"><span style="background-color:#ebf8a4; padding: 8px 20px;">Loading ... Please wait...</span></div>
     </div>
     
-    <!-- left side division starts here -->
+    
 
-    <div style="box-sizing: border-box; width: 30%; height: 80%; padding: 15px; float:right; margin-right:14%;" >
+    <!-- left side division starts here -->
+    <div style="width:10%; padding:15px; margin-left: 5%; margin-top:10%;float:left">
+
+        <form id="inputText">
+            <input id="dom-target" type="text" name="firstname" hidden><br>
+        </form>
+
+        <div class="row center" >
+        	<div id="speech_recognizer">
+            	<a id="speech_recognizer" onclick="startDictation()" style="height: 50%;" class="btn-floating btn-large waves-effect red"><i class="large material-icons">mic</i></a>
+        		<p class="text-center">Click to Speak</p>
+        	</div>
+            <div id="speech_loader">
+            	<img src="images/speechloader.gif"  style="width: 80%; height:80%;">
+        		<p class="text-center">Listening...</p>
+        	</div>
+        </div>
+    </div>
+    <div style="box-sizing: border-box; width: 50%; height: 85%; padding: 15px; float:left; margin-left: 10%;" >
         <table align="center" style="width:100%; height:100%;" >
             <tr align="center">
                 <!--================================================================-->
@@ -154,27 +160,25 @@
             </tr>
         </table>
     </div>
-    <div style="width:20%; padding:15px; margin-top:10%; margin-left:20%;float:left">
-
-        <form id="inputText">
-            <input id="dom-target" type="text" name="firstname" hidden><br>
-        </form>
-
-        <div class="row center" >
-            <a id="speech_recognizer" onclick="startDictation()" style="height: 50%;" class="btn-floating btn-large waves-effect red"><i class="large material-icons">mic</i></a>
-            <img src="images/speechrecognizer.gif" id="speech_loader" style="width: 80%; height:80%;">
-        </div>
-
+    <div style="width:15%; padding:15px;margin-top: 10%; margin-left: 5%;float:left">
         <div id="speech" style="margin-top:10px; border-top:3px solid black;">
             <br><strong><span id="speech_text">Speech</span></strong></br>
             <div><span id="speech_"></span></div>
         </div>
+        <div class="row">
+        </div>
+        <br/>
 
-        <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;">
+        <div style="margin-top:10px; border-top:3px solid black;">
+        	<br><strong><span id="isl">Indian Sign Language</span></strong></br>
+        </div>
+        <br/>
+        <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;" hidden>
             <br><strong><span id="debugger_text">Debugger</span></strong></br>
             <div id="debugger"></div>
         </div>
-    </div> <!-- left side division ends here -->
+    </div> 
+    <!-- left side division ends here -->
 
 <script type="text/javascript" src="js/player.js"></script>
 <script type="text/javascript" src="js/handler.js"></script>

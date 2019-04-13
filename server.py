@@ -220,7 +220,6 @@ def parseit():
         'pre_process_string': pre_process(isl_text_string)
     }
     return json.dumps(data)
-    # return isl_text_string + "$" + pre_process(isl_text_string)
 
 
 if __name__ == "__main__":

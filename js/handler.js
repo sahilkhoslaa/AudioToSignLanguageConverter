@@ -3,19 +3,6 @@
     */
     $("#speech_loader").hide();
 
-    $("#theme").change(function() {
-    
-        if(document.getElementById("theme").checked) {
-            
-            document.body.style.backgroundColor = "black";
-            document.getElementById("navbar").style.backgroundColor = "#212121";
-        }
-        else{
-            document.body.style.backgroundColor = "white";
-            document.getElementById("navbar").style.backgroundColor = "white";
-        }
-    });
-
     $.getJSON("js/sigmlFiles.json", function(json){
         sigmlList = json;
     });
@@ -73,7 +60,8 @@
         });
         // console.log("$$ 4");
 
-        document.getElementById('speech_').innerHTML = final_response['isl_text_string'];
+        document.getElementById('isl').innerHTML = final_response['isl_text_string'];
+        document.getElementById('speech_').innerHTML = speech; 
         return final_response['pre_process_string'];
     }
     activateTab("menu1-h", "menu1"); // activate first menu by default
