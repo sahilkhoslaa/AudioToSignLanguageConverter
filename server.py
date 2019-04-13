@@ -1,6 +1,6 @@
 from flask import Flask, request
 from flask_cors import CORS
-from nltk.corpus import stopwords
+# from nltk.corpus import stopwords
 from nltk.parse.stanford import StanfordParser
 from nltk.stem import WordNetLemmatizer
 from nltk.tree import *
@@ -78,7 +78,8 @@ def download_required_packages():
 
 
 def filter_stop_words(words):
-    stopwords_set = set(stopwords.words("english"))
+    stopwords_set = set(['a', 'an', 'the', 'is'])
+    # stopwords_set = set(stopwords.words("english"))
     words = list(filter(lambda x: x not in stopwords_set, words))
     return words
 
@@ -200,26 +201,26 @@ def parseit():
     else:
         input_string = request.args.get('speech')
 
-    print("input_string: " + input_string)
+    # print("input_string: " + input_string)
 
     # input_string = input_string.lower()
     isl_parsed_token_list = convert_eng_to_isl(input_string)
-    print("isl_parsed_token_list: " + ' '.join(isl_parsed_token_list))
-
-
-    # remove stop words
-    filtered_isl_token_list = filter_stop_words(isl_parsed_token_list)
-    print("filtered_isl_token_list: " + ' '.join(filtered_isl_token_list))
-
+    # print("isl_parsed_token_list: " + ' '.join(isl_parsed_token_list))
 
     # lemmatize tokens
-    lemmatized_isl_token_list = lemmatize_tokens(filtered_isl_token_list)
-    print("lemmatized_isl_token_list: " + ' '.join(lemmatized_isl_token_list))
+    lemmatized_isl_token_list = lemmatize_tokens(isl_parsed_token_list)
+    # print("lemmatized_isl_token_list: " + ' '.join(lemmatized_isl_token_list))
+
+    # remove stop words
+    filtered_isl_token_list = filter_stop_words(lemmatized_isl_token_list)
+    # print("filtered_isl_token_list: " + ' '.join(filtered_isl_token_list))
+
+
 
 
     isl_text_string = ""
 
-    for token in lemmatized_isl_token_list:
+    for token in filtered_isl_token_list:
         isl_text_string += token
         isl_text_string += " "
 
