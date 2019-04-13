@@ -2,6 +2,7 @@
         Load json file for sigml available for easy searching
     */
     $("#speech_loader").hide();
+    $('#loader').hide();
 
     $.getJSON("js/sigmlFiles.json", function(json){
         sigmlList = json;
@@ -84,6 +85,7 @@
                 // document.getElementById('transcript').value = e.results[0][0].transcript;
                 $('#speech_recognizer').show();
                 $("#speech_loader").hide();
+                $('#loader').show();
 
                 console.log('Speech: ' + e.results[0][0].transcript);
 
@@ -92,6 +94,8 @@
                 let parsedSpeech = getParsedText(speech);
 
                 clickme(parsedSpeech);
+
+                $('#loader').hide();
 
                 recognition.stop();
                 
