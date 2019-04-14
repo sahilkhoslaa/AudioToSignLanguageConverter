@@ -202,7 +202,7 @@ def parseit():
         input_string = request.args.get('speech')
 
     # print("input_string: " + input_string)
-
+    input_string = input_string.capitalize()
     # input_string = input_string.lower()
     isl_parsed_token_list = convert_eng_to_isl(input_string)
     # print("isl_parsed_token_list: " + ' '.join(isl_parsed_token_list))
