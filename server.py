@@ -224,6 +224,8 @@ def parseit():
         isl_text_string += token
         isl_text_string += " "
 
+    isl_text_string = isl_text_string.lower()
+
     data = {
         'isl_text_string': isl_text_string,
         'pre_process_string': pre_process(isl_text_string)
