@@ -6,7 +6,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tree import *
 import os
 import json
-import urllib.request
+# import urllib.request
 import zipfile
 import sys
 import time
@@ -45,7 +45,7 @@ def reporthook(count, block_size, total_size):
 def download_parser_jar_file():
     stanford_parser_zip_file_path = os.environ.get('CLASSPATH') + ".jar"
     url = "https://nlp.stanford.edu/software/stanford-parser-full-2018-10-17.zip"
-    urllib.request.urlretrieve(url, stanford_parser_zip_file_path, reporthook)
+    # urllib.request.urlretrieve(url, stanford_parser_zip_file_path, reporthook)
 
 def extract_parser_jar_file():
     stanford_parser_zip_file_path = os.environ.get('CLASSPATH') + ".jar"
