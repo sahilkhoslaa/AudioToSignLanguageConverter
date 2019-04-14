@@ -55,7 +55,7 @@
         };
         var final_response = "";
         var client = new HttpClient();
-        client.get('http://localhost:5000/parser' + '?speech=' + speech, function(response) {
+        client.get('http://18.188.151.103:5001/parser' + '?speech=' + speech, function(response) {
             console.log(response);
             final_response = JSON.parse(response);
         });
