@@ -21,7 +21,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Running the code
 * Run flask application server.py in localhost or server. Running server.py first time takes too long as it downloads 
 Stanford-Parser over HTTP. Make sure you are connected to internet.
-* Run index.hml in browsers
+* Run index.html in browsers
 
 Say something!! (The code will parse your speech and avatar will enact your phrase. To watch the live play visit the link given below)
  For more info, go to [Enchuletta](http://18.188.151.103/AudioToSignLanguageConverter/)
