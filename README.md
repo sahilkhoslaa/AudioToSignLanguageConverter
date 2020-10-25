@@ -23,8 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 Stanford-Parser over HTTP. Make sure you are connected to internet.
 * Run index.html in browsers
 
-Say something!! (The code will parse your speech and avatar will enact your phrase. To watch the live play visit the link given below)
- For more info, go to [Enchuletta](https://18.188.151.103/AudioToSignLanguageConverter/) .Enable load Unsafe scripts else Avatar may not be loaded.
+Say something!! (The code will parse your speech and avatar will enact your phrase.)
  
 ## Authors
 See the list of [contributors](https://github.com/sahilkhoslaa/AudioToSignLanguageConverter/contributors) who participated in this project.
