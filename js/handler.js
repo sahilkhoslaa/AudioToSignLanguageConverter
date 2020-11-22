@@ -4,10 +4,9 @@
     $("#speech_loader").hide();
     $('#loader').hide();
 
-    $.getJSON("js/sigmlFiles.json", function(json){
-        sigmlList = json;
-    });
-
+    // $.getJSON("js/sigmlFiles.json", function(json){
+    //     sigmlList = json;
+    // });
     // code for clear button in input box for words
     $("#btnClear").click(function() {
         $("#inputText").val("");
@@ -55,7 +54,7 @@
         };
         var final_response = "";
         var client = new HttpClient();
-        client.get('http://18.218.132.32:5001/parser' + '?speech=' + speech, function(response) {
+        client.get('http://localhost:5001/parser' + '?speech=' + speech, function(response) {
             console.log(response);
             final_response = JSON.parse(response);
         });

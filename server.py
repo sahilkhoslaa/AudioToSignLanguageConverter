@@ -10,6 +10,9 @@ from six.moves import urllib
 import zipfile
 import sys
 import time
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)

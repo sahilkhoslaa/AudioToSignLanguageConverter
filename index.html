@@ -56,30 +56,7 @@
     </script>
 
     <script src="https://www.google.com/jsapi" type="text/javascript"></script>
-    <script type="text/javascript">
-        google.load("elements", "1", {
-            packages: "transliteration"
-        });
-        function onLoad(){
-            var options = {
-                sourceLanguage: google.elements.transliteration.LanguageCode.ENGLISH,
-                destinationLanguage: [google.elements.transliteration.LanguageCode.HINDI],
-                shortcutKey: 'ctrl+g',
-                transliterationEnabled: true
-            };
-            var control = new google.elements.transliteration.TransliterationControl(options);
-            // control.makeTransliteratable(['transliterateTextarea']);
-
-        }
-        google.setOnLoadCallback(onLoad);
-        function myread(){
-            var text=document.conversion.transliterateTextarea;
-            var tcontent=text.value;
-            window.alert(tcontent);
-            return tcontent;
-        }
-
-    </script>
+    
 
     <script language="javascript" src="js/animationPlayer.js"></script>
     <style type="text/css">
@@ -192,6 +169,8 @@
         <!-- left side division ends here -->
 
         <script type="text/javascript" src="js/player.js"></script>
+
+        <script type="text/javascript" src="js/sigmlFiles.json"></script>>
         <script type="text/javascript" src="js/handler.js"></script>
     </div>
 </body>
