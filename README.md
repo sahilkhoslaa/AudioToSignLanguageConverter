@@ -17,6 +17,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 * Git clone repository
 * Download all required packages for running python script server.py
+* Download the zip : [Stanford Parser](https://nlp.stanford.edu/software/stanford-parser-full-2018-10-17.zip)
+* Extract the zip file into a Directory. Don't rename it and place the directory inside 'AudioToSignLanguageConverter' directory where all files like server.py etc are present.
+* Host the index.html in localhost or your own server to see avatar in action as it requires calls over http to download meta data else you may encouter some issue which can be inspected through console log.
+* Make sure you are using Google Chrome.
 
 ### Running the code
 * Run flask application server.py in localhost or server. Running server.py first time takes too long as it downloads 

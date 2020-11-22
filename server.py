@@ -19,6 +19,7 @@ app.secret_key = os.urandom(24)
 CORS(app, supports_credentials=True)
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
+print(BASE_DIR)
 # Download zip file from https://nlp.stanford.edu/software/stanford-parser-full-2015-04-20.zip and extract in stanford-parser-full-2015-04-20 folder in higher directory
 os.environ['CLASSPATH'] = os.path.join(BASE_DIR, 'stanford-parser-full-2018-10-17')
 os.environ['STANFORD_MODELS'] = os.path.join(BASE_DIR,
